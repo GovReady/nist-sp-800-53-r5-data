@@ -64,7 +64,19 @@ while True:
       name += " " + lines.pop(0).lstrip()
 
     # Control enhancements have all-capital names, which is not very legible.
-    
+    if name == name.upper():
+      # Turn into title case.
+      name = name.title()
+
+      # Now force some small words to lowercase.
+      force_lower = ("at", "by", "in", "no", "of", "on", "or", "to", "and", "any", "for", "the")
+      name = " ".join(
+        word
+         if word.lower() not in force_lower
+         else
+        word.lower()
+        for word in name.split(" ")
+      )
 
     # The LOW/MOD/HIGH columns are all marked with x's. Since HIGH implies MOD
     # which implies LOW, just count the number of x's at the end and strip them
@@ -126,3 +138,4 @@ with open("control-metadata.yaml", "w") as f:
   f.write("# extracted by GovReady PBC.\n")
   f.write("# =======================================================\n")
   rtyaml.dump(control_metadata, f)
+

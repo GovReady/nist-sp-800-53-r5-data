@@ -31,7 +31,7 @@
   family: AC
   number: 2
   enhancement: 1
-  name: AUTOMATED SYSTEM ACCOUNT MANAGEMENT
+  name: Automated System Account Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -44,7 +44,7 @@
   family: AC
   number: 2
   enhancement: 2
-  name: REMOVAL OF TEMPORARY AND EMERGENCY ACCOUNTS
+  name: Removal of Temporary and Emergency Accounts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -57,7 +57,7 @@
   family: AC
   number: 2
   enhancement: 3
-  name: DISABLE ACCOUNTS
+  name: Disable Accounts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -70,7 +70,7 @@
   family: AC
   number: 2
   enhancement: 4
-  name: AUTOMATED AUDIT ACTIONS
+  name: Automated Audit Actions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -83,7 +83,7 @@
   family: AC
   number: 2
   enhancement: 5
-  name: INACTIVITY LOGOUT
+  name: Inactivity Logout
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -96,7 +96,7 @@
   family: AC
   number: 2
   enhancement: 6
-  name: DYNAMIC PRIVILEGE MANAGEMENT
+  name: Dynamic Privilege Management
   attributes:
     privacy-related: false
     implemented-by: system
@@ -109,7 +109,7 @@
   family: AC
   number: 2
   enhancement: 7
-  name: ROLE-BASED SCHEMES
+  name: Role-Based Schemes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -122,7 +122,7 @@
   family: AC
   number: 2
   enhancement: 8
-  name: DYNAMIC ACCOUNT MANAGEMENT
+  name: Dynamic Account Management
   attributes:
     privacy-related: false
     implemented-by: system
@@ -135,7 +135,7 @@
   family: AC
   number: 2
   enhancement: 9
-  name: RESTRICTIONS ON USE OF SHARED AND GROUP ACCOUNTS
+  name: Restrictions on Use of Shared and Group Accounts
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -148,7 +148,7 @@
   family: AC
   number: 2
   enhancement: 10
-  name: SHARED AND GROUP ACCOUNT CREDENTIAL CHANGE
+  name: Shared and Group Account Credential Change
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -161,7 +161,7 @@
   family: AC
   number: 2
   enhancement: 11
-  name: USAGE CONDITIONS
+  name: Usage Conditions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -174,7 +174,7 @@
   family: AC
   number: 2
   enhancement: 12
-  name: ACCOUNT MONITORING FOR ATYPICAL USAGE
+  name: Account Monitoring for Atypical Usage
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -187,7 +187,7 @@
   family: AC
   number: 2
   enhancement: 13
-  name: DISABLE ACCOUNTS FOR HIGH-RISK INDIVIDUALS
+  name: Disable Accounts for High-Risk Individuals
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -200,7 +200,7 @@
   family: AC
   number: 2
   enhancement: 14
-  name: PROHIBIT SPECIFIC ACCOUNT TYPES
+  name: Prohibit Specific Account Types
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -213,7 +213,7 @@
   family: AC
   number: 2
   enhancement: 15
-  name: ATTRIBUTE-BASED SCHEMES
+  name: Attribute-Based Schemes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -239,7 +239,7 @@
   family: AC
   number: 3
   enhancement: 2
-  name: DUAL AUTHORIZATION
+  name: Dual Authorization
   attributes:
     privacy-related: false
     implemented-by: system
@@ -252,7 +252,7 @@
   family: AC
   number: 3
   enhancement: 3
-  name: MANDATORY ACCESS CONTROL
+  name: Mandatory Access Control
   attributes:
     privacy-related: false
     implemented-by: system
@@ -265,7 +265,7 @@
   family: AC
   number: 3
   enhancement: 4
-  name: DISCRETIONARY ACCESS CONTROL
+  name: Discretionary Access Control
   attributes:
     privacy-related: false
     implemented-by: system
@@ -278,7 +278,7 @@
   family: AC
   number: 3
   enhancement: 5
-  name: SECURITY-RELEVANT INFORMATION
+  name: Security-Relevant Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -291,7 +291,7 @@
   family: AC
   number: 3
   enhancement: 7
-  name: ROLE-BASED ACCESS CONTROL
+  name: Role-Based Access Control
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -304,7 +304,7 @@
   family: AC
   number: 3
   enhancement: 8
-  name: REVOCATION OF ACCESS AUTHORIZATIONS
+  name: Revocation of Access Authorizations
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -317,7 +317,7 @@
   family: AC
   number: 3
   enhancement: 9
-  name: CONTROLLED RELEASE
+  name: Controlled Release
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -330,7 +330,7 @@
   family: AC
   number: 3
   enhancement: 10
-  name: AUDITED OVERRIDE OF ACCESS CONTROL MECHANISMS
+  name: Audited Override of Access Control Mechanisms
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -343,7 +343,7 @@
   family: AC
   number: 3
   enhancement: 11
-  name: RESTRICT ACCESS TO SPECIFIC INFORMATION
+  name: Restrict Access to Specific Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -356,7 +356,7 @@
   family: AC
   number: 3
   enhancement: 12
-  name: ASSERT AND ENFORCE APPLICATION ACCESS
+  name: Assert and Enforce Application Access
   attributes:
     privacy-related: false
     implemented-by: system
@@ -369,7 +369,7 @@
   family: AC
   number: 3
   enhancement: 13
-  name: ATTRIBUTE-BASED ACCESS CONTROL
+  name: Attribute-Based Access Control
   attributes:
     privacy-related: false
     implemented-by: system
@@ -395,7 +395,7 @@
   family: AC
   number: 4
   enhancement: 1
-  name: OBJECT SECURITY ATTRIBUTES
+  name: Object Security Attributes
   attributes:
     privacy-related: false
     implemented-by: system
@@ -408,7 +408,7 @@
   family: AC
   number: 4
   enhancement: 2
-  name: PROCESSING DOMAINS
+  name: Processing Domains
   attributes:
     privacy-related: false
     implemented-by: system
@@ -421,7 +421,7 @@
   family: AC
   number: 4
   enhancement: 3
-  name: DYNAMIC INFORMATION FLOW CONTROL
+  name: Dynamic Information Flow Control
   attributes:
     privacy-related: false
     implemented-by: system
@@ -434,7 +434,7 @@
   family: AC
   number: 4
   enhancement: 4
-  name: FLOW CONTROL OF ENCRYPTED INFORMATION
+  name: Flow Control of Encrypted Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -447,7 +447,7 @@
   family: AC
   number: 4
   enhancement: 5
-  name: EMBEDDED DATA TYPES
+  name: Embedded Data Types
   attributes:
     privacy-related: false
     implemented-by: system
@@ -460,7 +460,7 @@
   family: AC
   number: 4
   enhancement: 6
-  name: METADATA
+  name: Metadata
   attributes:
     privacy-related: false
     implemented-by: system
@@ -473,7 +473,7 @@
   family: AC
   number: 4
   enhancement: 7
-  name: ONE-WAY FLOW MECHANISMS
+  name: One-Way Flow Mechanisms
   attributes:
     privacy-related: false
     implemented-by: system
@@ -486,7 +486,7 @@
   family: AC
   number: 4
   enhancement: 8
-  name: SECURITY POLICY FILTERS
+  name: Security Policy Filters
   attributes:
     privacy-related: false
     implemented-by: system
@@ -499,7 +499,7 @@
   family: AC
   number: 4
   enhancement: 9
-  name: HUMAN REVIEWS
+  name: Human Reviews
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -512,7 +512,7 @@
   family: AC
   number: 4
   enhancement: 10
-  name: ENABLE AND DISABLE SECURITY POLICY FILTERS
+  name: Enable and Disable Security Policy Filters
   attributes:
     privacy-related: false
     implemented-by: system
@@ -525,7 +525,7 @@
   family: AC
   number: 4
   enhancement: 11
-  name: CONFIGURATION OF SECURITY POLICY FILTERS
+  name: Configuration of Security Policy Filters
   attributes:
     privacy-related: false
     implemented-by: system
@@ -538,7 +538,7 @@
   family: AC
   number: 4
   enhancement: 12
-  name: DATA TYPE IDENTIFIERS
+  name: Data Type Identifiers
   attributes:
     privacy-related: false
     implemented-by: system
@@ -551,7 +551,7 @@
   family: AC
   number: 4
   enhancement: 13
-  name: DECOMPOSITION INTO POLICY-RELEVANT SUBCOMPONENTS
+  name: Decomposition Into Policy-Relevant Subcomponents
   attributes:
     privacy-related: false
     implemented-by: system
@@ -564,7 +564,7 @@
   family: AC
   number: 4
   enhancement: 14
-  name: SECURITY POLICY FILTER CONSTRAINTS
+  name: Security Policy Filter Constraints
   attributes:
     privacy-related: false
     implemented-by: system
@@ -577,7 +577,7 @@
   family: AC
   number: 4
   enhancement: 15
-  name: DETECTION OF UNSANCTIONED INFORMATION
+  name: Detection of Unsanctioned Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -590,7 +590,7 @@
   family: AC
   number: 4
   enhancement: 17
-  name: DOMAIN AUTHENTICATION
+  name: Domain Authentication
   attributes:
     privacy-related: false
     implemented-by: system
@@ -603,7 +603,7 @@
   family: AC
   number: 4
   enhancement: 19
-  name: VALIDATION OF METADATA
+  name: Validation of Metadata
   attributes:
     privacy-related: false
     implemented-by: system
@@ -616,7 +616,7 @@
   family: AC
   number: 4
   enhancement: 20
-  name: APPROVED SOLUTIONS
+  name: Approved Solutions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -629,7 +629,7 @@
   family: AC
   number: 4
   enhancement: 21
-  name: PHYSICAL AND LOGICAL SEPARATION OF INFORMATION FLOWS
+  name: Physical and Logical Separation of Information Flows
   attributes:
     privacy-related: false
     implemented-by: system
@@ -642,7 +642,7 @@
   family: AC
   number: 4
   enhancement: 22
-  name: ACCESS ONLY
+  name: Access Only
   attributes:
     privacy-related: false
     implemented-by: system
@@ -681,7 +681,7 @@
   family: AC
   number: 6
   enhancement: 1
-  name: AUTHORIZE ACCESS TO SECURITY FUNCTIONS
+  name: Authorize Access to Security Functions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -694,7 +694,7 @@
   family: AC
   number: 6
   enhancement: 2
-  name: NON-PRIVILEGED ACCESS FOR NONSECURITY FUNCTIONS
+  name: Non-Privileged Access for Nonsecurity Functions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -707,7 +707,7 @@
   family: AC
   number: 6
   enhancement: 3
-  name: NETWORK ACCESS TO PRIVILEGED COMMANDS
+  name: Network Access to Privileged Commands
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -720,7 +720,7 @@
   family: AC
   number: 6
   enhancement: 4
-  name: SEPARATE PROCESSING DOMAINS
+  name: Separate Processing Domains
   attributes:
     privacy-related: false
     implemented-by: system
@@ -733,7 +733,7 @@
   family: AC
   number: 6
   enhancement: 5
-  name: PRIVILEGED ACCOUNTS
+  name: Privileged Accounts
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -746,7 +746,7 @@
   family: AC
   number: 6
   enhancement: 6
-  name: PRIVILEGED ACCESS BY NON-ORGANIZATIONAL USERS
+  name: Privileged Access by Non-Organizational Users
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -759,7 +759,7 @@
   family: AC
   number: 6
   enhancement: 7
-  name: REVIEW OF USER PRIVILEGES
+  name: Review of User Privileges
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -772,7 +772,7 @@
   family: AC
   number: 6
   enhancement: 8
-  name: PRIVILEGE LEVELS FOR CODE EXECUTION
+  name: Privilege Levels for Code Execution
   attributes:
     privacy-related: false
     implemented-by: system
@@ -785,7 +785,7 @@
   family: AC
   number: 6
   enhancement: 9
-  name: AUDITING USE OF PRIVILEGED FUNCTIONS
+  name: Auditing Use of Privileged Functions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -798,7 +798,7 @@
   family: AC
   number: 6
   enhancement: 10
-  name: PROHIBIT NON-PRIVILEGED USERS FROM EXECUTING PRIVILEGED FUNCTIONS
+  name: Prohibit Non-Privileged Users From Executing Privileged Functions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -824,7 +824,7 @@
   family: AC
   number: 7
   enhancement: 2
-  name: PURGE OR WIPE MOBILE DEVICE
+  name: Purge or Wipe Mobile Device
   attributes:
     privacy-related: false
     implemented-by: system
@@ -837,7 +837,7 @@
   family: AC
   number: 7
   enhancement: 3
-  name: BIOMETRIC ATTEMPT LIMITING
+  name: Biometric Attempt Limiting
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -850,7 +850,7 @@
   family: AC
   number: 7
   enhancement: 4
-  name: USE OF ALTERNATE FACTOR
+  name: Use of Alternate Factor
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -889,7 +889,7 @@
   family: AC
   number: 9
   enhancement: 1
-  name: UNSUCCESSFUL LOGONS
+  name: Unsuccessful Logons
   attributes:
     privacy-related: false
     implemented-by: system
@@ -902,7 +902,7 @@
   family: AC
   number: 9
   enhancement: 2
-  name: SUCCESSFUL AND UNSUCCESSFUL LOGONS
+  name: Successful and Unsuccessful Logons
   attributes:
     privacy-related: false
     implemented-by: system
@@ -915,7 +915,7 @@
   family: AC
   number: 9
   enhancement: 3
-  name: NOTIFICATION OF ACCOUNT CHANGES
+  name: Notification of Account Changes
   attributes:
     privacy-related: false
     implemented-by: system
@@ -928,7 +928,7 @@
   family: AC
   number: 9
   enhancement: 4
-  name: ADDITIONAL LOGON INFORMATION
+  name: Additional Logon Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -967,7 +967,7 @@
   family: AC
   number: 11
   enhancement: 1
-  name: PATTERN-HIDING DISPLAYS
+  name: Pattern-Hiding Displays
   attributes:
     privacy-related: false
     implemented-by: system
@@ -980,7 +980,7 @@
   family: AC
   number: 11
   enhancement: 2
-  name: REQUIRE USER-INITIATED LOCK
+  name: Require User-Initiated Lock
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1006,7 +1006,7 @@
   family: AC
   number: 12
   enhancement: 1
-  name: USER-INITIATED LOGOUTS
+  name: User-Initiated Logouts
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1019,7 +1019,7 @@
   family: AC
   number: 12
   enhancement: 2
-  name: TERMINATION MESSAGE
+  name: Termination Message
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1032,7 +1032,7 @@
   family: AC
   number: 12
   enhancement: 3
-  name: TIMEOUT WARNING MESSAGE
+  name: Timeout Warning Message
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1068,7 +1068,7 @@
   family: AC
   number: 16
   enhancement: 1
-  name: DYNAMIC ATTRIBUTE ASSOCIATION
+  name: Dynamic Attribute Association
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1078,7 +1078,7 @@
   family: AC
   number: 16
   enhancement: 2
-  name: ATTRIBUTE VALUE CHANGES BY AUTHORIZED INDIVIDUALS
+  name: Attribute Value Changes by Authorized Individuals
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1088,7 +1088,7 @@
   family: AC
   number: 16
   enhancement: 3
-  name: MAINTENANCE OF ATTRIBUTE ASSOCIATIONS BY SYSTEM
+  name: Maintenance of Attribute Associations by System
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1098,7 +1098,7 @@
   family: AC
   number: 16
   enhancement: 4
-  name: ASSOCIATION OF ATTRIBUTES BY AUTHORIZED INDIVIDUALS
+  name: Association of Attributes by Authorized Individuals
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1108,7 +1108,7 @@
   family: AC
   number: 16
   enhancement: 5
-  name: ATTRIBUTE DISPLAYS FOR OUTPUT DEVICES
+  name: Attribute Displays for Output Devices
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1118,7 +1118,7 @@
   family: AC
   number: 16
   enhancement: 6
-  name: MAINTENANCE OF ATTRIBUTE ASSOCIATION BY ORGANIZATION
+  name: Maintenance of Attribute Association by Organization
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -1128,7 +1128,7 @@
   family: AC
   number: 16
   enhancement: 7
-  name: CONSISTENT ATTRIBUTE INTERPRETATION
+  name: Consistent Attribute Interpretation
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -1138,7 +1138,7 @@
   family: AC
   number: 16
   enhancement: 8
-  name: ASSOCIATION TECHNIQUES AND TECHNOLOGIES
+  name: Association Techniques and Technologies
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1148,7 +1148,7 @@
   family: AC
   number: 16
   enhancement: 9
-  name: ATTRIBUTE REASSIGNMENT
+  name: Attribute Reassignment
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -1158,7 +1158,7 @@
   family: AC
   number: 16
   enhancement: 10
-  name: ATTRIBUTE CONFIGURATION BY AUTHORIZED INDIVIDUALS
+  name: Attribute Configuration by Authorized Individuals
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -1168,7 +1168,7 @@
   family: AC
   number: 16
   enhancement: 11
-  name: AUDIT CHANGES
+  name: Audit Changes
   attributes:
     privacy-related: true
     implemented-by: system
@@ -1191,7 +1191,7 @@
   family: AC
   number: 17
   enhancement: 1
-  name: AUTOMATED MONITORING AND CONTROL
+  name: Automated Monitoring and Control
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1204,7 +1204,7 @@
   family: AC
   number: 17
   enhancement: 2
-  name: PROTECTION OF CONFIDENTIALITY AND INTEGRITY USING ENCRYPTION
+  name: Protection of Confidentiality and Integrity Using Encryption
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1217,7 +1217,7 @@
   family: AC
   number: 17
   enhancement: 3
-  name: MANAGED ACCESS CONTROL POINTS
+  name: Managed Access Control Points
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1230,7 +1230,7 @@
   family: AC
   number: 17
   enhancement: 4
-  name: PRIVILEGED COMMANDS AND ACCESS
+  name: Privileged Commands and Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1243,7 +1243,7 @@
   family: AC
   number: 17
   enhancement: 6
-  name: PROTECTION OF INFORMATION
+  name: Protection of Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1256,7 +1256,7 @@
   family: AC
   number: 17
   enhancement: 9
-  name: DISCONNECT OR DISABLE ACCESS
+  name: Disconnect or Disable Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1282,7 +1282,7 @@
   family: AC
   number: 18
   enhancement: 1
-  name: AUTHENTICATION AND ENCRYPTION
+  name: Authentication and Encryption
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1295,7 +1295,7 @@
   family: AC
   number: 18
   enhancement: 3
-  name: DISABLE WIRELESS NETWORKING
+  name: Disable Wireless Networking
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -1308,7 +1308,7 @@
   family: AC
   number: 18
   enhancement: 4
-  name: RESTRICT CONFIGURATIONS BY USERS
+  name: Restrict Configurations by Users
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1321,7 +1321,7 @@
   family: AC
   number: 18
   enhancement: 5
-  name: ANTENNAS AND TRANSMISSION POWER LEVELS
+  name: Antennas and Transmission Power Levels
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1347,7 +1347,7 @@
   family: AC
   number: 19
   enhancement: 4
-  name: RESTRICTIONS FOR CLASSIFIED INFORMATION
+  name: Restrictions for Classified Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1360,7 +1360,7 @@
   family: AC
   number: 19
   enhancement: 5
-  name: FULL DEVICE AND CONTAINER-BASED ENCRYPTION
+  name: Full Device and Container-Based Encryption
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1386,7 +1386,7 @@
   family: AC
   number: 20
   enhancement: 1
-  name: LIMITS ON AUTHORIZED USE
+  name: Limits on Authorized Use
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1399,7 +1399,7 @@
   family: AC
   number: 20
   enhancement: 2
-  name: PORTABLE STORAGE DEVICES
+  name: Portable Storage Devices
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1412,7 +1412,7 @@
   family: AC
   number: 20
   enhancement: 3
-  name: NON-ORGANIZATIONALLY OWNED SYSTEMS AND COMPONENTS
+  name: Non-Organizationally Owned Systems and Components
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1425,7 +1425,7 @@
   family: AC
   number: 20
   enhancement: 4
-  name: NETWORK ACCESSIBLE STORAGE DEVICES
+  name: Network Accessible Storage Devices
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1451,7 +1451,7 @@
   family: AC
   number: 21
   enhancement: 1
-  name: AUTOMATED DECISION SUPPORT
+  name: Automated Decision Support
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1464,7 +1464,7 @@
   family: AC
   number: 21
   enhancement: 2
-  name: INFORMATION SEARCH AND RETRIEVAL
+  name: Information Search and Retrieval
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1513,7 +1513,7 @@
   family: AC
   number: 24
   enhancement: 1
-  name: TRANSMIT ACCESS AUTHORIZATION INFORMATION
+  name: Transmit Access Authorization Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1526,7 +1526,7 @@
   family: AC
   number: 24
   enhancement: 2
-  name: NO USER OR PROCESS IDENTITY
+  name: no User or Process Identity
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1578,7 +1578,7 @@
   family: AU
   number: 2
   enhancement: 3
-  name: REVIEWS AND UPDATES
+  name: Reviews and Updates
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1604,7 +1604,7 @@
   family: AU
   number: 3
   enhancement: 1
-  name: ADDITIONAL AUDIT INFORMATION
+  name: Additional Audit Information
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1617,7 +1617,7 @@
   family: AU
   number: 3
   enhancement: 2
-  name: CENTRALIZED MANAGEMENT OF PLANNED AUDIT RECORD CONTENT
+  name: Centralized Management of Planned Audit Record Content
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1630,7 +1630,7 @@
   family: AU
   number: 3
   enhancement: 3
-  name: LIMIT PERSONALLY IDENTIFIABLE INFORMATION ELEMENTS
+  name: Limit Personally Identifiable Information Elements
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -1653,7 +1653,7 @@
   family: AU
   number: 4
   enhancement: 1
-  name: TRANSFER TO ALTERNATE STORAGE
+  name: Transfer to Alternate Storage
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1679,7 +1679,7 @@
   family: AU
   number: 5
   enhancement: 1
-  name: AUDIT STORAGE CAPACITY
+  name: Audit Storage Capacity
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1692,7 +1692,7 @@
   family: AU
   number: 5
   enhancement: 2
-  name: REAL-TIME ALERTS
+  name: Real-Time Alerts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1705,7 +1705,7 @@
   family: AU
   number: 5
   enhancement: 3
-  name: CONFIGURABLE TRAFFIC VOLUME THRESHOLDS
+  name: Configurable Traffic Volume Thresholds
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1718,7 +1718,7 @@
   family: AU
   number: 5
   enhancement: 4
-  name: SHUTDOWN ON FAILURE
+  name: Shutdown on Failure
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1744,7 +1744,7 @@
   family: AU
   number: 6
   enhancement: 1
-  name: AUTOMATED PROCESS INTEGRATION
+  name: Automated Process Integration
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1757,7 +1757,7 @@
   family: AU
   number: 6
   enhancement: 3
-  name: CORRELATE AUDIT REPOSITORIES
+  name: Correlate Audit Repositories
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1770,7 +1770,7 @@
   family: AU
   number: 6
   enhancement: 4
-  name: CENTRAL REVIEW AND ANALYSIS
+  name: Central Review and Analysis
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1783,7 +1783,7 @@
   family: AU
   number: 6
   enhancement: 5
-  name: INTEGRATED ANALYSIS OF AUDIT RECORDS
+  name: Integrated Analysis of Audit Records
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1796,7 +1796,7 @@
   family: AU
   number: 6
   enhancement: 6
-  name: CORRELATION WITH PHYSICAL MONITORING
+  name: Correlation With Physical Monitoring
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1809,7 +1809,7 @@
   family: AU
   number: 6
   enhancement: 7
-  name: PERMITTED ACTIONS
+  name: Permitted Actions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1822,7 +1822,7 @@
   family: AU
   number: 6
   enhancement: 8
-  name: FULL TEXT ANALYSIS OF PRIVILEGED COMMANDS
+  name: Full Text Analysis of Privileged Commands
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1835,7 +1835,7 @@
   family: AU
   number: 6
   enhancement: 9
-  name: CORRELATION WITH INFORMATION FROM NONTECHNICAL SOURCES
+  name: Correlation With Information From Nontechnical Sources
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1861,7 +1861,7 @@
   family: AU
   number: 7
   enhancement: 1
-  name: AUTOMATIC PROCESSING
+  name: Automatic Processing
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1874,7 +1874,7 @@
   family: AU
   number: 7
   enhancement: 2
-  name: AUTOMATIC SORT AND SEARCH
+  name: Automatic Sort and Search
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1900,7 +1900,7 @@
   family: AU
   number: 8
   enhancement: 1
-  name: SYNCHRONIZATION WITH AUTHORITATIVE TIME SOURCE
+  name: Synchronization With Authoritative Time Source
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1913,7 +1913,7 @@
   family: AU
   number: 8
   enhancement: 2
-  name: SECONDARY AUTHORITATIVE TIME SOURCE
+  name: Secondary Authoritative Time Source
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1939,7 +1939,7 @@
   family: AU
   number: 9
   enhancement: 1
-  name: HARDWARE WRITE-ONCE MEDIA
+  name: Hardware Write-Once Media
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1952,7 +1952,7 @@
   family: AU
   number: 9
   enhancement: 2
-  name: STORE ON SEPARATE PHYSICAL SYSTEMS OR COMPONENTS
+  name: Store on Separate Physical Systems or Components
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1965,7 +1965,7 @@
   family: AU
   number: 9
   enhancement: 3
-  name: CRYPTOGRAPHIC PROTECTION
+  name: Cryptographic Protection
   attributes:
     privacy-related: false
     implemented-by: system
@@ -1978,7 +1978,7 @@
   family: AU
   number: 9
   enhancement: 4
-  name: ACCESS BY SUBSET OF PRIVILEGED USERS
+  name: Access by Subset of Privileged Users
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -1991,7 +1991,7 @@
   family: AU
   number: 9
   enhancement: 5
-  name: DUAL AUTHORIZATION
+  name: Dual Authorization
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -2004,7 +2004,7 @@
   family: AU
   number: 9
   enhancement: 6
-  name: READ-ONLY ACCESS
+  name: Read-Only Access
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -2017,7 +2017,7 @@
   family: AU
   number: 9
   enhancement: 7
-  name: STORE ON COMPONENT WITH DIFFERENT OPERATING SYSTEM
+  name: Store on Component With Different Operating System
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2043,7 +2043,7 @@
   family: AU
   number: 10
   enhancement: 1
-  name: ASSOCIATION OF IDENTITIES
+  name: Association of Identities
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2056,7 +2056,7 @@
   family: AU
   number: 10
   enhancement: 2
-  name: VALIDATE BINDING OF INFORMATION PRODUCER IDENTITY
+  name: Validate Binding of Information Producer Identity
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2069,7 +2069,7 @@
   family: AU
   number: 10
   enhancement: 3
-  name: CHAIN OF CUSTODY
+  name: Chain of Custody
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -2082,7 +2082,7 @@
   family: AU
   number: 10
   enhancement: 4
-  name: VALIDATE BINDING OF INFORMATION REVIEWER IDENTITY
+  name: Validate Binding of Information Reviewer Identity
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2108,7 +2108,7 @@
   family: AU
   number: 11
   enhancement: 1
-  name: LONG-TERM RETRIEVAL CAPABILITY
+  name: Long-Term Retrieval Capability
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2134,7 +2134,7 @@
   family: AU
   number: 12
   enhancement: 1
-  name: SYSTEM-WIDE AND TIME-CORRELATED AUDIT TRAIL
+  name: System-Wide and Time-Correlated Audit Trail
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2147,7 +2147,7 @@
   family: AU
   number: 12
   enhancement: 2
-  name: STANDARDIZED FORMATS
+  name: Standardized Formats
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2160,7 +2160,7 @@
   family: AU
   number: 12
   enhancement: 3
-  name: CHANGES BY AUTHORIZED INDIVIDUALS
+  name: Changes by Authorized Individuals
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2173,7 +2173,7 @@
   family: AU
   number: 12
   enhancement: 4
-  name: QUERY PARAMETER AUDITS OF PERSONALLY IDENTIFIABLE INFORMATION
+  name: Query Parameter Audits of Personally Identifiable Information
   attributes:
     privacy-related: true
     implemented-by: system
@@ -2196,7 +2196,7 @@
   family: AU
   number: 13
   enhancement: 1
-  name: USE OF AUTOMATED TOOLS
+  name: Use of Automated Tools
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -2209,7 +2209,7 @@
   family: AU
   number: 13
   enhancement: 2
-  name: REVIEW OF MONITORED SITES
+  name: Review of Monitored Sites
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2235,7 +2235,7 @@
   family: AU
   number: 14
   enhancement: 1
-  name: SYSTEM START-UP
+  name: System Start-Up
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2248,7 +2248,7 @@
   family: AU
   number: 14
   enhancement: 2
-  name: CAPTURE AND RECORD CONTENT
+  name: Capture and Record Content
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2261,7 +2261,7 @@
   family: AU
   number: 14
   enhancement: 3
-  name: REMOTE VIEWING AND LISTENING
+  name: Remote Viewing and Listening
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2297,7 +2297,7 @@
   family: AU
   number: 16
   enhancement: 1
-  name: IDENTITY PRESERVATION
+  name: Identity Preservation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2310,7 +2310,7 @@
   family: AU
   number: 16
   enhancement: 2
-  name: SHARING OF AUDIT INFORMATION
+  name: Sharing of Audit Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2349,7 +2349,7 @@
   family: CA
   number: 2
   enhancement: 1
-  name: INDEPENDENT ASSESSORS
+  name: Independent Assessors
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -2362,7 +2362,7 @@
   family: CA
   number: 2
   enhancement: 2
-  name: SPECIALIZED ASSESSMENTS
+  name: Specialized Assessments
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2375,7 +2375,7 @@
   family: CA
   number: 2
   enhancement: 3
-  name: EXTERNAL ORGANIZATIONS
+  name: External Organizations
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -2398,7 +2398,7 @@
   family: CA
   number: 3
   enhancement: 1
-  name: UNCLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS
+  name: Unclassified National Security System Connections
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2411,7 +2411,7 @@
   family: CA
   number: 3
   enhancement: 2
-  name: CLASSIFIED NATIONAL SECURITY SYSTEM CONNECTIONS
+  name: Classified National Security System Connections
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2424,7 +2424,7 @@
   family: CA
   number: 3
   enhancement: 3
-  name: UNCLASSIFIED NON-NATIONAL SECURITY SYSTEM CONNECTIONS
+  name: Unclassified Non-National Security System Connections
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2437,7 +2437,7 @@
   family: CA
   number: 3
   enhancement: 4
-  name: CONNECTIONS TO PUBLIC NETWORKS
+  name: Connections to Public Networks
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2450,7 +2450,7 @@
   family: CA
   number: 3
   enhancement: 5
-  name: RESTRICTIONS ON EXTERNAL SYSTEM CONNECTIONS
+  name: Restrictions on External System Connections
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2463,7 +2463,7 @@
   family: CA
   number: 3
   enhancement: 6
-  name: SECONDARY AND TERTIARY CONNECTIONS
+  name: Secondary and Tertiary Connections
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2489,7 +2489,7 @@
   family: CA
   number: 5
   enhancement: 1
-  name: AUTOMATION SUPPORT FOR ACCURACY AND CURRENCY
+  name: Automation Support for Accuracy and Currency
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2515,7 +2515,7 @@
   family: CA
   number: 6
   enhancement: 1
-  name: JOINT AUTHORIZATION — SAME ORGANIZATION
+  name: Joint Authorization — Same Organization
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2528,7 +2528,7 @@
   family: CA
   number: 6
   enhancement: 2
-  name: JOINT AUTHORIZATION — DIFFERENT ORGANIZATIONS
+  name: Joint Authorization — Different Organizations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2554,7 +2554,7 @@
   family: CA
   number: 7
   enhancement: 1
-  name: INDEPENDENT ASSESSMENT
+  name: Independent Assessment
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -2567,7 +2567,7 @@
   family: CA
   number: 7
   enhancement: 3
-  name: TREND ANALYSES
+  name: Trend Analyses
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2580,7 +2580,7 @@
   family: CA
   number: 7
   enhancement: 4
-  name: RISK MONITORING
+  name: Risk Monitoring
   attributes:
     privacy-related: false
     implemented-by: ~
@@ -2606,7 +2606,7 @@
   family: CA
   number: 8
   enhancement: 1
-  name: INDEPENDENT PENETRATION AGENT OR TEAM
+  name: Independent Penetration Agent or Team
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2619,7 +2619,7 @@
   family: CA
   number: 8
   enhancement: 2
-  name: RED TEAM EXERCISES
+  name: Red Team Exercises
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2632,7 +2632,7 @@
   family: CA
   number: 8
   enhancement: 3
-  name: FACILITY PENETRATION TESTING
+  name: Facility Penetration Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2658,7 +2658,7 @@
   family: CA
   number: 9
   enhancement: 1
-  name: COMPLIANCE CHECKS
+  name: Compliance Checks
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2697,7 +2697,7 @@
   family: CM
   number: 2
   enhancement: 2
-  name: AUTOMATION SUPPORT FOR ACCURACY AND CURRENCY
+  name: Automation Support for Accuracy and Currency
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2710,7 +2710,7 @@
   family: CM
   number: 2
   enhancement: 3
-  name: RETENTION OF PREVIOUS CONFIGURATIONS
+  name: Retention of Previous Configurations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2723,7 +2723,7 @@
   family: CM
   number: 2
   enhancement: 6
-  name: DEVELOPMENT AND TEST ENVIRONMENTS
+  name: Development and Test Environments
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2736,7 +2736,7 @@
   family: CM
   number: 2
   enhancement: 7
-  name: CONFIGURE SYSTEMS AND COMPONENTS FOR HIGH-RISK AREAS
+  name: Configure Systems and Components for High-Risk Areas
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2762,7 +2762,7 @@
   family: CM
   number: 3
   enhancement: 1
-  name: AUTOMATED DOCUMENTATION, NOTIFICATION, AND PROHIBITION OF CHANGES
+  name: Automated Documentation, Notification, and Prohibition of Changes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2775,7 +2775,7 @@
   family: CM
   number: 3
   enhancement: 2
-  name: TESTING, VALIDATION, AND DOCUMENTATION OF CHANGES
+  name: Testing, Validation, and Documentation of Changes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2788,7 +2788,7 @@
   family: CM
   number: 3
   enhancement: 3
-  name: AUTOMATED CHANGE IMPLEMENTATION
+  name: Automated Change Implementation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2801,7 +2801,7 @@
   family: CM
   number: 3
   enhancement: 4
-  name: SECURITY REPRESENTATIVE
+  name: Security Representative
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2814,7 +2814,7 @@
   family: CM
   number: 3
   enhancement: 5
-  name: AUTOMATED SECURITY RESPONSE
+  name: Automated Security Response
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2827,7 +2827,7 @@
   family: CM
   number: 3
   enhancement: 6
-  name: CRYPTOGRAPHY MANAGEMENT
+  name: Cryptography Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2853,7 +2853,7 @@
   family: CM
   number: 4
   enhancement: 1
-  name: SEPARATE TEST ENVIRONMENTS
+  name: Separate Test Environments
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2866,7 +2866,7 @@
   family: CM
   number: 4
   enhancement: 2
-  name: VERIFICATION OF SECURITY AND PRIVACY FUNCTIONS
+  name: Verification of Security and Privacy Functions
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -2892,7 +2892,7 @@
   family: CM
   number: 5
   enhancement: 1
-  name: AUTOMATED ACCESS ENFORCEMENT AND AUDITING
+  name: Automated Access Enforcement and Auditing
   attributes:
     privacy-related: false
     implemented-by: system
@@ -2905,7 +2905,7 @@
   family: CM
   number: 5
   enhancement: 2
-  name: REVIEW SYSTEM CHANGES
+  name: Review System Changes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2918,7 +2918,7 @@
   family: CM
   number: 5
   enhancement: 3
-  name: SIGNED COMPONENTS
+  name: Signed Components
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -2931,7 +2931,7 @@
   family: CM
   number: 5
   enhancement: 4
-  name: DUAL AUTHORIZATION
+  name: Dual Authorization
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -2944,7 +2944,7 @@
   family: CM
   number: 5
   enhancement: 5
-  name: PRIVILEGE LIMITATION FOR PRODUCTION AND OPERATION
+  name: Privilege Limitation for Production and Operation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2957,7 +2957,7 @@
   family: CM
   number: 5
   enhancement: 6
-  name: LIMIT LIBRARY PRIVILEGES
+  name: Limit Library Privileges
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2983,7 +2983,7 @@
   family: CM
   number: 6
   enhancement: 1
-  name: AUTOMATED MANAGEMENT, APPLICATION, AND VERIFICATION
+  name: Automated Management, Application, and Verification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -2996,7 +2996,7 @@
   family: CM
   number: 6
   enhancement: 2
-  name: RESPOND TO UNAUTHORIZED CHANGES
+  name: Respond to Unauthorized Changes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3022,7 +3022,7 @@
   family: CM
   number: 7
   enhancement: 1
-  name: PERIODIC REVIEW
+  name: Periodic Review
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3035,7 +3035,7 @@
   family: CM
   number: 7
   enhancement: 2
-  name: PREVENT PROGRAM EXECUTION
+  name: Prevent Program Execution
   attributes:
     privacy-related: false
     implemented-by: system
@@ -3048,7 +3048,7 @@
   family: CM
   number: 7
   enhancement: 3
-  name: REGISTRATION COMPLIANCE
+  name: Registration Compliance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3061,7 +3061,7 @@
   family: CM
   number: 7
   enhancement: 4
-  name: UNAUTHORIZED SOFTWARE — BLACKLISTING
+  name: Unauthorized Software — Blacklisting
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3074,7 +3074,7 @@
   family: CM
   number: 7
   enhancement: 5
-  name: AUTHORIZED SOFTWARE — WHITELISTING
+  name: Authorized Software — Whitelisting
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3100,7 +3100,7 @@
   family: CM
   number: 8
   enhancement: 1
-  name: UPDATES DURING INSTALLATION AND REMOVAL
+  name: Updates During Installation and Removal
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3113,7 +3113,7 @@
   family: CM
   number: 8
   enhancement: 2
-  name: AUTOMATED MAINTENANCE
+  name: Automated Maintenance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3126,7 +3126,7 @@
   family: CM
   number: 8
   enhancement: 3
-  name: AUTOMATED UNAUTHORIZED COMPONENT DETECTION
+  name: Automated Unauthorized Component Detection
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3139,7 +3139,7 @@
   family: CM
   number: 8
   enhancement: 4
-  name: ACCOUNTABILITY INFORMATION
+  name: Accountability Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3152,7 +3152,7 @@
   family: CM
   number: 8
   enhancement: 5
-  name: NO DUPLICATE ACCOUNTING OF COMPONENTS
+  name: no Duplicate Accounting of Components
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3165,7 +3165,7 @@
   family: CM
   number: 8
   enhancement: 6
-  name: ASSESSED CONFIGURATIONS AND APPROVED DEVIATIONS
+  name: Assessed Configurations and Approved Deviations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3178,7 +3178,7 @@
   family: CM
   number: 8
   enhancement: 7
-  name: CENTRALIZED REPOSITORY
+  name: Centralized Repository
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3191,7 +3191,7 @@
   family: CM
   number: 8
   enhancement: 8
-  name: AUTOMATED LOCATION TRACKING
+  name: Automated Location Tracking
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3204,7 +3204,7 @@
   family: CM
   number: 8
   enhancement: 9
-  name: ASSIGNMENT OF COMPONENTS TO SYSTEMS
+  name: Assignment of Components to Systems
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3217,7 +3217,7 @@
   family: CM
   number: 8
   enhancement: 10
-  name: DATA ACTION MAPPING
+  name: Data Action Mapping
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3240,7 +3240,7 @@
   family: CM
   number: 9
   enhancement: 1
-  name: ASSIGNMENT OF RESPONSIBILITY
+  name: Assignment of Responsibility
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3266,7 +3266,7 @@
   family: CM
   number: 10
   enhancement: 1
-  name: OPEN SOURCE SOFTWARE
+  name: Open Source Software
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3292,7 +3292,7 @@
   family: CM
   number: 11
   enhancement: 2
-  name: SOFTWARE INSTALLATION WITH PRIVILEGED STATUS
+  name: Software Installation With Privileged Status
   attributes:
     privacy-related: false
     implemented-by: system
@@ -3318,7 +3318,7 @@
   family: CM
   number: 12
   enhancement: 1
-  name: AUTOMATED TOOLS TO SUPPORT INFORMATION LOCATION
+  name: Automated Tools to Support Information Location
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3357,7 +3357,7 @@
   family: CP
   number: 2
   enhancement: 1
-  name: COORDINATE WITH RELATED PLANS
+  name: Coordinate With Related Plans
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3370,7 +3370,7 @@
   family: CP
   number: 2
   enhancement: 2
-  name: CAPACITY PLANNING
+  name: Capacity Planning
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3383,7 +3383,7 @@
   family: CP
   number: 2
   enhancement: 3
-  name: RESUME ESSENTIAL MISSIONS AND BUSINESS FUNCTIONS
+  name: Resume Essential Missions and Business Functions
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3396,7 +3396,7 @@
   family: CP
   number: 2
   enhancement: 4
-  name: RESUME ALL MISSIONS AND BUSINESS FUNCTIONS
+  name: Resume All Missions and Business Functions
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3409,7 +3409,7 @@
   family: CP
   number: 2
   enhancement: 5
-  name: CONTINUE ESSENTIAL MISSIONS AND BUSINESS FUNCTIONS
+  name: Continue Essential Missions and Business Functions
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3422,7 +3422,7 @@
   family: CP
   number: 2
   enhancement: 6
-  name: ALTERNATE PROCESSING AND STORAGE SITES
+  name: Alternate Processing and Storage Sites
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3435,7 +3435,7 @@
   family: CP
   number: 2
   enhancement: 7
-  name: COORDINATE WITH EXTERNAL SERVICE PROVIDERS
+  name: Coordinate With External Service Providers
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3445,7 +3445,7 @@
   family: CP
   number: 2
   enhancement: 8
-  name: IDENTIFY CRITICAL ASSETS
+  name: Identify Critical Assets
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3471,7 +3471,7 @@
   family: CP
   number: 3
   enhancement: 1
-  name: SIMULATED EVENTS
+  name: Simulated Events
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3484,7 +3484,7 @@
   family: CP
   number: 3
   enhancement: 2
-  name: AUTOMATED TRAINING ENVIRONMENTS
+  name: Automated Training Environments
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3507,7 +3507,7 @@
   family: CP
   number: 4
   enhancement: 1
-  name: COORDINATE WITH RELATED PLANS
+  name: Coordinate With Related Plans
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -3520,7 +3520,7 @@
   family: CP
   number: 4
   enhancement: 2
-  name: ALTERNATE PROCESSING SITE
+  name: Alternate Processing Site
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3533,7 +3533,7 @@
   family: CP
   number: 4
   enhancement: 3
-  name: AUTOMATED TESTING
+  name: Automated Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3546,7 +3546,7 @@
   family: CP
   number: 4
   enhancement: 4
-  name: FULL RECOVERY AND RECONSTITUTION
+  name: Full Recovery and Reconstitution
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3572,7 +3572,7 @@
   family: CP
   number: 6
   enhancement: 1
-  name: SEPARATION FROM PRIMARY SITE
+  name: Separation From Primary Site
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3585,7 +3585,7 @@
   family: CP
   number: 6
   enhancement: 2
-  name: RECOVERY TIME AND RECOVERY POINT OBJECTIVES
+  name: Recovery Time and Recovery Point Objectives
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3598,7 +3598,7 @@
   family: CP
   number: 6
   enhancement: 3
-  name: ACCESSIBILITY
+  name: Accessibility
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3624,7 +3624,7 @@
   family: CP
   number: 7
   enhancement: 1
-  name: SEPARATION FROM PRIMARY SITE
+  name: Separation From Primary Site
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3637,7 +3637,7 @@
   family: CP
   number: 7
   enhancement: 2
-  name: ACCESSIBILITY
+  name: Accessibility
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3650,7 +3650,7 @@
   family: CP
   number: 7
   enhancement: 3
-  name: PRIORITY OF SERVICE
+  name: Priority of Service
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3663,7 +3663,7 @@
   family: CP
   number: 7
   enhancement: 4
-  name: PREPARATION FOR USE
+  name: Preparation for Use
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3676,7 +3676,7 @@
   family: CP
   number: 7
   enhancement: 6
-  name: INABILITY TO RETURN TO PRIMARY SITE
+  name: Inability to Return to Primary Site
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3702,7 +3702,7 @@
   family: CP
   number: 8
   enhancement: 1
-  name: PRIORITY OF SERVICE PROVISIONS
+  name: Priority of Service Provisions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3715,7 +3715,7 @@
   family: CP
   number: 8
   enhancement: 2
-  name: SINGLE POINTS OF FAILURE
+  name: Single Points of Failure
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3728,7 +3728,7 @@
   family: CP
   number: 8
   enhancement: 3
-  name: SEPARATION OF PRIMARY AND ALTERNATE PROVIDERS
+  name: Separation of Primary and Alternate Providers
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3741,7 +3741,7 @@
   family: CP
   number: 8
   enhancement: 4
-  name: PROVIDER CONTINGENCY PLAN
+  name: Provider Contingency Plan
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3754,7 +3754,7 @@
   family: CP
   number: 8
   enhancement: 5
-  name: ALTERNATE TELECOMMUNICATION SERVICE TESTING
+  name: Alternate Telecommunication Service Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3780,7 +3780,7 @@
   family: CP
   number: 9
   enhancement: 1
-  name: TESTING FOR RELIABILITY AND INTEGRITY
+  name: Testing for Reliability and Integrity
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3793,7 +3793,7 @@
   family: CP
   number: 9
   enhancement: 2
-  name: TEST RESTORATION USING SAMPLING
+  name: Test Restoration Using Sampling
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3806,7 +3806,7 @@
   family: CP
   number: 9
   enhancement: 3
-  name: SEPARATE STORAGE FOR CRITICAL INFORMATION
+  name: Separate Storage for Critical Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3819,7 +3819,7 @@
   family: CP
   number: 9
   enhancement: 5
-  name: TRANSFER TO ALTERNATE STORAGE SITE
+  name: Transfer to Alternate Storage Site
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3832,7 +3832,7 @@
   family: CP
   number: 9
   enhancement: 6
-  name: REDUNDANT SECONDARY SYSTEM
+  name: Redundant Secondary System
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3845,7 +3845,7 @@
   family: CP
   number: 9
   enhancement: 7
-  name: DUAL AUTHORIZATION
+  name: Dual Authorization
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3858,7 +3858,7 @@
   family: CP
   number: 9
   enhancement: 8
-  name: CRYPTOGRAPHIC PROTECTION
+  name: Cryptographic Protection
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3884,7 +3884,7 @@
   family: CP
   number: 10
   enhancement: 2
-  name: TRANSACTION RECOVERY
+  name: Transaction Recovery
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3897,7 +3897,7 @@
   family: CP
   number: 10
   enhancement: 4
-  name: RESTORE WITHIN TIME-PERIOD
+  name: Restore Within Time-Period
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3910,7 +3910,7 @@
   family: CP
   number: 10
   enhancement: 6
-  name: COMPONENT PROTECTION
+  name: Component Protection
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -3988,7 +3988,7 @@
   family: IA
   number: 2
   enhancement: 1
-  name: MULTIFACTOR AUTHENTICATION TO PRIVILEGED ACCOUNTS
+  name: Multifactor Authentication to Privileged Accounts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4001,7 +4001,7 @@
   family: IA
   number: 2
   enhancement: 2
-  name: MULTIFACTOR AUTHENTICATION TO NON-PRIVILEGED ACCOUNTS
+  name: Multifactor Authentication to Non-Privileged Accounts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4014,7 +4014,7 @@
   family: IA
   number: 2
   enhancement: 5
-  name: INDIVIDUAL AUTHENTICATION WITH GROUP AUTHENTICATION
+  name: Individual Authentication With Group Authentication
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4027,7 +4027,7 @@
   family: IA
   number: 2
   enhancement: 8
-  name: ACCESS TO ACCOUNTS — REPLAY RESISTANT
+  name: Access to Accounts — Replay Resistant
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4040,7 +4040,7 @@
   family: IA
   number: 2
   enhancement: 10
-  name: SINGLE SIGN-ON
+  name: Single Sign-On
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4053,7 +4053,7 @@
   family: IA
   number: 2
   enhancement: 12
-  name: ACCEPTANCE OF PIV CREDENTIALS
+  name: Acceptance of Piv Credentials
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4079,7 +4079,7 @@
   family: IA
   number: 3
   enhancement: 1
-  name: CRYPTOGRAPHIC BIDIRECTIONAL AUTHENTICATION
+  name: Cryptographic Bidirectional Authentication
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4092,7 +4092,7 @@
   family: IA
   number: 3
   enhancement: 3
-  name: DYNAMIC ADDRESS ALLOCATION
+  name: Dynamic Address Allocation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4105,7 +4105,7 @@
   family: IA
   number: 3
   enhancement: 4
-  name: DEVICE ATTESTATION
+  name: Device Attestation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4131,7 +4131,7 @@
   family: IA
   number: 4
   enhancement: 1
-  name: PROHIBIT ACCOUNT IDENTIFIERS AS PUBLIC IDENTIFIERS
+  name: Prohibit Account Identifiers As Public Identifiers
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4144,7 +4144,7 @@
   family: IA
   number: 4
   enhancement: 4
-  name: IDENTIFY USER STATUS
+  name: Identify User Status
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4157,7 +4157,7 @@
   family: IA
   number: 4
   enhancement: 5
-  name: DYNAMIC MANAGEMENT
+  name: Dynamic Management
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4170,7 +4170,7 @@
   family: IA
   number: 4
   enhancement: 6
-  name: CROSS-ORGANIZATION MANAGEMENT
+  name: Cross-Organization Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4183,7 +4183,7 @@
   family: IA
   number: 4
   enhancement: 8
-  name: PAIRWISE PSEUDONYMOUS IDENTIFIERS
+  name: Pairwise Pseudonymous Identifiers
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4206,7 +4206,7 @@
   family: IA
   number: 5
   enhancement: 1
-  name: PASSWORD-BASED AUTHENTICATION
+  name: Password-Based Authentication
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -4219,7 +4219,7 @@
   family: IA
   number: 5
   enhancement: 2
-  name: PUBLIC KEY-BASED AUTHENTICATION
+  name: Public Key-Based Authentication
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4232,7 +4232,7 @@
   family: IA
   number: 5
   enhancement: 5
-  name: CHANGE AUTHENTICATORS PRIOR TO DELIVERY
+  name: Change Authenticators Prior to Delivery
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4245,7 +4245,7 @@
   family: IA
   number: 5
   enhancement: 6
-  name: PROTECTION OF AUTHENTICATORS
+  name: Protection of Authenticators
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4258,7 +4258,7 @@
   family: IA
   number: 5
   enhancement: 7
-  name: NO EMBEDDED UNENCRYPTED STATIC AUTHENTICATORS
+  name: no Embedded Unencrypted Static Authenticators
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4271,7 +4271,7 @@
   family: IA
   number: 5
   enhancement: 8
-  name: MULTIPLE SYSTEM ACCOUNTS
+  name: Multiple System Accounts
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4284,7 +4284,7 @@
   family: IA
   number: 5
   enhancement: 9
-  name: FEDERATED CREDENTIAL MANAGEMENT
+  name: Federated Credential Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4297,7 +4297,7 @@
   family: IA
   number: 5
   enhancement: 10
-  name: DYNAMIC CREDENTIAL BINDING
+  name: Dynamic Credential Binding
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4310,7 +4310,7 @@
   family: IA
   number: 5
   enhancement: 12
-  name: BIOMETRIC AUTHENTICATION PERFORMANCE
+  name: Biometric Authentication Performance
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4323,7 +4323,7 @@
   family: IA
   number: 5
   enhancement: 13
-  name: EXPIRATION OF CACHED AUTHENTICATORS
+  name: Expiration of Cached Authenticators
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4336,7 +4336,7 @@
   family: IA
   number: 5
   enhancement: 14
-  name: MANAGING CONTENT OF PKI TRUST STORES
+  name: Managing Content of Pki Trust Stores
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4349,7 +4349,7 @@
   family: IA
   number: 5
   enhancement: 15
-  name: GSA-APPROVED PRODUCTS AND SERVICES
+  name: Gsa-Approved Products and Services
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4362,7 +4362,7 @@
   family: IA
   number: 5
   enhancement: 16
-  name: IN-PERSON OR TRUSTED EXTERNAL PARTY AUTHENTICATOR ISSUANCE
+  name: In-Person or Trusted External Party Authenticator Issuance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4375,7 +4375,7 @@
   family: IA
   number: 5
   enhancement: 17
-  name: PRESENTATION ATTACK DETECTION FOR BIOMETRIC AUTHENTICATORS
+  name: Presentation Attack Detection for Biometric Authenticators
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4427,7 +4427,7 @@
   family: IA
   number: 8
   enhancement: 1
-  name: ACCEPTANCE OF PIV CREDENTIALS FROM OTHER AGENCIES
+  name: Acceptance of Piv Credentials From Other Agencies
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4440,7 +4440,7 @@
   family: IA
   number: 8
   enhancement: 2
-  name: ACCEPTANCE OF EXTERNAL PARTY CREDENTIALS
+  name: Acceptance of External Party Credentials
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4453,7 +4453,7 @@
   family: IA
   number: 8
   enhancement: 4
-  name: USE OF NIST-ISSUED PROFILES
+  name: Use of Nist-Issued Profiles
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4466,7 +4466,7 @@
   family: IA
   number: 8
   enhancement: 5
-  name: ACCEPTANCE OF PIV-I CREDENTIALS
+  name: Acceptance of Piv-I Credentials
   attributes:
     privacy-related: false
     implemented-by: system
@@ -4479,7 +4479,7 @@
   family: IA
   number: 8
   enhancement: 6
-  name: DISASSOCIABILITY
+  name: Disassociability
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4502,7 +4502,7 @@
   family: IA
   number: 9
   enhancement: 1
-  name: INFORMATION EXCHANGE
+  name: Information Exchange
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4515,7 +4515,7 @@
   family: IA
   number: 9
   enhancement: 2
-  name: TRANSMISSION OF DECISIONS
+  name: Transmission of Decisions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4567,7 +4567,7 @@
   family: IA
   number: 12
   enhancement: 1
-  name: SUPERVISOR AUTHORIZATION
+  name: Supervisor Authorization
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4580,7 +4580,7 @@
   family: IA
   number: 12
   enhancement: 2
-  name: IDENTITY EVIDENCE
+  name: Identity Evidence
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4593,7 +4593,7 @@
   family: IA
   number: 12
   enhancement: 3
-  name: IDENTITY EVIDENCE VALIDATION AND VERIFICATION
+  name: Identity Evidence Validation and Verification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4606,7 +4606,7 @@
   family: IA
   number: 12
   enhancement: 4
-  name: IN-PERSON VALIDATION AND VERIFICATION
+  name: In-Person Validation and Verification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4619,7 +4619,7 @@
   family: IA
   number: 12
   enhancement: 5
-  name: ADDRESS CONFIRMATION
+  name: Address Confirmation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4632,7 +4632,7 @@
   family: IA
   number: 12
   enhancement: 6
-  name: ACCEPT EXTERNALLY-PROOFED IDENTITIES
+  name: Accept Externally-Proofed Identities
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4665,7 +4665,7 @@
   family: IP
   number: 2
   enhancement: 1
-  name: ATTRIBUTE MANAGEMENT
+  name: Attribute Management
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4675,7 +4675,7 @@
   family: IP
   number: 2
   enhancement: 2
-  name: JUST-IN-TIME NOTICE OF CONSENT
+  name: Just-In-Time Notice of Consent
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4695,7 +4695,7 @@
   family: IP
   number: 3
   enhancement: 1
-  name: NOTICE OF CORRECTION OR AMENDMENT
+  name: Notice of Correction or Amendment
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4705,7 +4705,7 @@
   family: IP
   number: 3
   enhancement: 2
-  name: APPEAL
+  name: Appeal
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4725,7 +4725,7 @@
   family: IP
   number: 4
   enhancement: 1
-  name: JUST-IN-TIME NOTICE OF PRIVACY AUTHORIZATION
+  name: Just-In-Time Notice of Privacy Authorization
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4781,7 +4781,7 @@
   family: IR
   number: 2
   enhancement: 1
-  name: SIMULATED EVENTS
+  name: Simulated Events
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4794,7 +4794,7 @@
   family: IR
   number: 2
   enhancement: 2
-  name: AUTOMATED TRAINING ENVIRONMENTS
+  name: Automated Training Environments
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4820,7 +4820,7 @@
   family: IR
   number: 3
   enhancement: 1
-  name: AUTOMATED TESTING
+  name: Automated Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4833,7 +4833,7 @@
   family: IR
   number: 3
   enhancement: 2
-  name: COORDINATION WITH RELATED PLANS
+  name: Coordination With Related Plans
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -4846,7 +4846,7 @@
   family: IR
   number: 3
   enhancement: 3
-  name: CONTINUOUS IMPROVEMENT
+  name: Continuous Improvement
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4872,7 +4872,7 @@
   family: IR
   number: 4
   enhancement: 1
-  name: AUTOMATED INCIDENT HANDLING PROCESSES
+  name: Automated Incident Handling Processes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4885,7 +4885,7 @@
   family: IR
   number: 4
   enhancement: 2
-  name: DYNAMIC RECONFIGURATION
+  name: Dynamic Reconfiguration
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4898,7 +4898,7 @@
   family: IR
   number: 4
   enhancement: 3
-  name: CONTINUITY OF OPERATIONS
+  name: Continuity of Operations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4911,7 +4911,7 @@
   family: IR
   number: 4
   enhancement: 4
-  name: INFORMATION CORRELATION
+  name: Information Correlation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4924,7 +4924,7 @@
   family: IR
   number: 4
   enhancement: 5
-  name: AUTOMATIC DISABLING OF SYSTEM
+  name: Automatic Disabling of System
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -4937,7 +4937,7 @@
   family: IR
   number: 4
   enhancement: 6
-  name: INSIDER THREATS — SPECIFIC CAPABILITIES
+  name: Insider Threats — Specific Capabilities
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4950,7 +4950,7 @@
   family: IR
   number: 4
   enhancement: 7
-  name: INSIDER THREATS — INTRA-ORGANIZATION COORDINATION
+  name: Insider Threats — Intra-Organization Coordination
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4963,7 +4963,7 @@
   family: IR
   number: 4
   enhancement: 8
-  name: CORRELATION WITH EXTERNAL ORGANIZATIONS
+  name: Correlation With External Organizations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4976,7 +4976,7 @@
   family: IR
   number: 4
   enhancement: 9
-  name: DYNAMIC RESPONSE CAPABILITY
+  name: Dynamic Response Capability
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -4989,7 +4989,7 @@
   family: IR
   number: 4
   enhancement: 10
-  name: SUPPLY CHAIN COORDINATION
+  name: Supply Chain Coordination
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5015,7 +5015,7 @@
   family: IR
   number: 5
   enhancement: 1
-  name: AUTOMATED TRACKING, DATA COLLECTION, AND ANALYSIS
+  name: Automated Tracking, Data Collection, and Analysis
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -5041,7 +5041,7 @@
   family: IR
   number: 6
   enhancement: 1
-  name: AUTOMATED REPORTING
+  name: Automated Reporting
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5054,7 +5054,7 @@
   family: IR
   number: 6
   enhancement: 2
-  name: VULNERABILITIES RELATED TO INCIDENTS
+  name: Vulnerabilities Related to Incidents
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5067,7 +5067,7 @@
   family: IR
   number: 6
   enhancement: 3
-  name: SUPPLY CHAIN COORDINATION
+  name: Supply Chain Coordination
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5093,7 +5093,7 @@
   family: IR
   number: 7
   enhancement: 1
-  name: AUTOMATION SUPPORT FOR AVAILABILITY OF INFORMATION AND SUPPORT
+  name: Automation Support for Availability of Information and Support
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5106,7 +5106,7 @@
   family: IR
   number: 7
   enhancement: 2
-  name: COORDINATION WITH EXTERNAL PROVIDERS
+  name: Coordination With External Providers
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5132,7 +5132,7 @@
   family: IR
   number: 8
   enhancement: 1
-  name: PERSONALLY IDENTIFIABLE INFORMATION PROCESSES
+  name: Personally Identifiable Information Processes
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -5152,7 +5152,7 @@
   family: IR
   number: 9
   enhancement: 1
-  name: RESPONSIBLE PERSONNEL
+  name: Responsible Personnel
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5165,7 +5165,7 @@
   family: IR
   number: 9
   enhancement: 2
-  name: TRAINING
+  name: Training
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5178,7 +5178,7 @@
   family: IR
   number: 9
   enhancement: 3
-  name: POST-SPILL OPERATIONS
+  name: Post-Spill Operations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5191,7 +5191,7 @@
   family: IR
   number: 9
   enhancement: 4
-  name: EXPOSURE TO UNAUTHORIZED PERSONNEL
+  name: Exposure to Unauthorized Personnel
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5243,7 +5243,7 @@
   family: MA
   number: 2
   enhancement: 2
-  name: AUTOMATED MAINTENANCE ACTIVITIES
+  name: Automated Maintenance Activities
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5269,7 +5269,7 @@
   family: MA
   number: 3
   enhancement: 1
-  name: INSPECT TOOLS
+  name: Inspect Tools
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5282,7 +5282,7 @@
   family: MA
   number: 3
   enhancement: 2
-  name: INSPECT MEDIA
+  name: Inspect Media
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5295,7 +5295,7 @@
   family: MA
   number: 3
   enhancement: 3
-  name: PREVENT UNAUTHORIZED REMOVAL
+  name: Prevent Unauthorized Removal
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5308,7 +5308,7 @@
   family: MA
   number: 3
   enhancement: 4
-  name: RESTRICTED TOOL USE
+  name: Restricted Tool Use
   attributes:
     privacy-related: false
     implemented-by: system
@@ -5334,7 +5334,7 @@
   family: MA
   number: 4
   enhancement: 1
-  name: AUDITING AND REVIEW
+  name: Auditing and Review
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5347,7 +5347,7 @@
   family: MA
   number: 4
   enhancement: 3
-  name: COMPARABLE SECURITY AND SANITIZATION
+  name: Comparable Security and Sanitization
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5360,7 +5360,7 @@
   family: MA
   number: 4
   enhancement: 4
-  name: AUTHENTICATION AND SEPARATION OF MAINTENANCE SESSIONS
+  name: Authentication and Separation of Maintenance Sessions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5373,7 +5373,7 @@
   family: MA
   number: 4
   enhancement: 5
-  name: APPROVALS AND NOTIFICATIONS
+  name: Approvals and Notifications
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5386,7 +5386,7 @@
   family: MA
   number: 4
   enhancement: 6
-  name: CRYPTOGRAPHIC PROTECTION
+  name: Cryptographic Protection
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -5399,7 +5399,7 @@
   family: MA
   number: 4
   enhancement: 7
-  name: REMOTE DISCONNECT VERIFICATION
+  name: Remote Disconnect Verification
   attributes:
     privacy-related: false
     implemented-by: system
@@ -5425,7 +5425,7 @@
   family: MA
   number: 5
   enhancement: 1
-  name: INDIVIDUALS WITHOUT APPROPRIATE ACCESS
+  name: Individuals Without Appropriate Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5438,7 +5438,7 @@
   family: MA
   number: 5
   enhancement: 2
-  name: SECURITY CLEARANCES FOR CLASSIFIED SYSTEMS
+  name: Security Clearances for Classified Systems
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5451,7 +5451,7 @@
   family: MA
   number: 5
   enhancement: 3
-  name: CITIZENSHIP REQUIREMENTS FOR CLASSIFIED SYSTEMS
+  name: Citizenship Requirements for Classified Systems
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5464,7 +5464,7 @@
   family: MA
   number: 5
   enhancement: 4
-  name: FOREIGN NATIONALS
+  name: Foreign Nationals
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5477,7 +5477,7 @@
   family: MA
   number: 5
   enhancement: 5
-  name: NON-SYSTEM MAINTENANCE
+  name: Non-System Maintenance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5503,7 +5503,7 @@
   family: MA
   number: 6
   enhancement: 1
-  name: PREVENTIVE MAINTENANCE
+  name: Preventive Maintenance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5516,7 +5516,7 @@
   family: MA
   number: 6
   enhancement: 2
-  name: PREDICTIVE MAINTENANCE
+  name: Predictive Maintenance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5529,7 +5529,7 @@
   family: MA
   number: 6
   enhancement: 3
-  name: AUTOMATED SUPPORT FOR PREDICTIVE MAINTENANCE
+  name: Automated Support for Predictive Maintenance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5542,7 +5542,7 @@
   family: MA
   number: 6
   enhancement: 4
-  name: ADEQUATE SUPPLY
+  name: Adequate Supply
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5607,7 +5607,7 @@
   family: MP
   number: 4
   enhancement: 2
-  name: AUTOMATED RESTRICTED ACCESS
+  name: Automated Restricted Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5633,7 +5633,7 @@
   family: MP
   number: 5
   enhancement: 3
-  name: CUSTODIANS
+  name: Custodians
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5659,7 +5659,7 @@
   family: MP
   number: 6
   enhancement: 1
-  name: REVIEW, APPROVE, TRACK, DOCUMENT, VERIFY
+  name: Review, Approve, Track, Document, Verify
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5672,7 +5672,7 @@
   family: MP
   number: 6
   enhancement: 2
-  name: EQUIPMENT TESTING
+  name: Equipment Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5685,7 +5685,7 @@
   family: MP
   number: 6
   enhancement: 3
-  name: NONDESTRUCTIVE TECHNIQUES
+  name: Nondestructive Techniques
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5698,7 +5698,7 @@
   family: MP
   number: 6
   enhancement: 7
-  name: DUAL AUTHORIZATION
+  name: Dual Authorization
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5711,7 +5711,7 @@
   family: MP
   number: 6
   enhancement: 8
-  name: REMOTE PURGING OR WIPING OF INFORMATION
+  name: Remote Purging or Wiping of Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5724,7 +5724,7 @@
   family: MP
   number: 6
   enhancement: 9
-  name: DESTRUCTION OF PERSONALLY IDENTIFIABLE INFORMATION
+  name: Destruction of Personally Identifiable Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5750,7 +5750,7 @@
   family: MP
   number: 7
   enhancement: 2
-  name: PROHIBIT USE OF SANITIZATION-RESISTANT MEDIA
+  name: Prohibit Use of Sanitization-Resistant Media
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5776,7 +5776,7 @@
   family: MP
   number: 8
   enhancement: 1
-  name: DOCUMENTATION OF PROCESS
+  name: Documentation of Process
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5789,7 +5789,7 @@
   family: MP
   number: 8
   enhancement: 2
-  name: EQUIPMENT TESTING
+  name: Equipment Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5802,7 +5802,7 @@
   family: MP
   number: 8
   enhancement: 3
-  name: CONTROLLED UNCLASSIFIED INFORMATION
+  name: Controlled Unclassified Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5815,7 +5815,7 @@
   family: MP
   number: 8
   enhancement: 4
-  name: CLASSIFIED INFORMATION
+  name: Classified Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5858,7 +5858,7 @@
   family: PA
   number: 3
   enhancement: 1
-  name: USAGE RESTRICTIONS OF PERSONALLY IDENTIFIABLE INFORMATION
+  name: Usage Restrictions of Personally Identifiable Information
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -5868,7 +5868,7 @@
   family: PA
   number: 3
   enhancement: 2
-  name: AUTOMATION
+  name: Automation
   attributes:
     privacy-related: true
     implemented-by: system
@@ -5914,7 +5914,7 @@
   family: PE
   number: 2
   enhancement: 1
-  name: ACCESS BY POSITION AND ROLE
+  name: Access by Position and Role
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5927,7 +5927,7 @@
   family: PE
   number: 2
   enhancement: 2
-  name: TWO FORMS OF IDENTIFICATION
+  name: Two Forms of Identification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5940,7 +5940,7 @@
   family: PE
   number: 2
   enhancement: 3
-  name: RESTRICT UNESCORTED ACCESS
+  name: Restrict Unescorted Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5966,7 +5966,7 @@
   family: PE
   number: 3
   enhancement: 1
-  name: SYSTEM ACCESS
+  name: System Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5979,7 +5979,7 @@
   family: PE
   number: 3
   enhancement: 2
-  name: FACILITY AND SYSTEM BOUNDARIES
+  name: Facility and System Boundaries
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -5992,7 +5992,7 @@
   family: PE
   number: 3
   enhancement: 3
-  name: CONTINUOUS GUARDS
+  name: Continuous Guards
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6005,7 +6005,7 @@
   family: PE
   number: 3
   enhancement: 4
-  name: LOCKABLE CASINGS
+  name: Lockable Casings
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6018,7 +6018,7 @@
   family: PE
   number: 3
   enhancement: 5
-  name: TAMPER PROTECTION
+  name: Tamper Protection
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6031,7 +6031,7 @@
   family: PE
   number: 3
   enhancement: 7
-  name: PHYSICAL BARRIERS
+  name: Physical Barriers
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6070,7 +6070,7 @@
   family: PE
   number: 5
   enhancement: 1
-  name: ACCESS TO OUTPUT BY AUTHORIZED INDIVIDUALS
+  name: Access to Output by Authorized Individuals
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6083,7 +6083,7 @@
   family: PE
   number: 5
   enhancement: 2
-  name: ACCESS TO OUTPUT BY INDIVIDUAL IDENTITY
+  name: Access to Output by Individual Identity
   attributes:
     privacy-related: false
     implemented-by: system
@@ -6096,7 +6096,7 @@
   family: PE
   number: 5
   enhancement: 3
-  name: MARKING OUTPUT DEVICES
+  name: Marking Output Devices
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6122,7 +6122,7 @@
   family: PE
   number: 6
   enhancement: 1
-  name: INTRUSION ALARMS AND SURVEILLANCE EQUIPMENT
+  name: Intrusion Alarms and Surveillance Equipment
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6135,7 +6135,7 @@
   family: PE
   number: 6
   enhancement: 2
-  name: AUTOMATED INTRUSION RECOGNITION AND RESPONSES
+  name: Automated Intrusion Recognition and Responses
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6148,7 +6148,7 @@
   family: PE
   number: 6
   enhancement: 3
-  name: VIDEO SURVEILLANCE
+  name: Video Surveillance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6161,7 +6161,7 @@
   family: PE
   number: 6
   enhancement: 4
-  name: MONITORING PHYSICAL ACCESS TO SYSTEMS
+  name: Monitoring Physical Access to Systems
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6187,7 +6187,7 @@
   family: PE
   number: 8
   enhancement: 1
-  name: AUTOMATED RECORDS MAINTENANCE AND REVIEW
+  name: Automated Records Maintenance and Review
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6213,7 +6213,7 @@
   family: PE
   number: 9
   enhancement: 1
-  name: REDUNDANT CABLING
+  name: Redundant Cabling
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6226,7 +6226,7 @@
   family: PE
   number: 9
   enhancement: 2
-  name: AUTOMATIC VOLTAGE CONTROLS
+  name: Automatic Voltage Controls
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6265,7 +6265,7 @@
   family: PE
   number: 11
   enhancement: 1
-  name: LONG-TERM ALTERNATE POWER SUPPLY — MINIMAL OPERATIONAL CAPABILITY
+  name: Long-Term Alternate Power Supply — Minimal Operational Capability
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6278,7 +6278,7 @@
   family: PE
   number: 11
   enhancement: 2
-  name: LONG-TERM ALTERNATE POWER SUPPLY — SELF- CONTAINED
+  name: Long-Term Alternate Power Supply — Self- Contained
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6304,7 +6304,7 @@
   family: PE
   number: 12
   enhancement: 1
-  name: ESSENTIAL MISSIONS AND BUSINESS FUNCTIONS
+  name: Essential Missions and Business Functions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6330,7 +6330,7 @@
   family: PE
   number: 13
   enhancement: 1
-  name: DETECTION DEVICES AND SYSTEMS
+  name: Detection Devices and Systems
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6343,7 +6343,7 @@
   family: PE
   number: 13
   enhancement: 2
-  name: AUTOMATIC SUPPRESSION DEVICES AND SYSTEMS
+  name: Automatic Suppression Devices and Systems
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6356,7 +6356,7 @@
   family: PE
   number: 13
   enhancement: 4
-  name: INSPECTIONS
+  name: Inspections
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6382,7 +6382,7 @@
   family: PE
   number: 14
   enhancement: 1
-  name: AUTOMATIC CONTROLS
+  name: Automatic Controls
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6395,7 +6395,7 @@
   family: PE
   number: 14
   enhancement: 2
-  name: MONITORING WITH ALARMS AND NOTIFICATIONS
+  name: Monitoring With Alarms and Notifications
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6421,7 +6421,7 @@
   family: PE
   number: 15
   enhancement: 1
-  name: AUTOMATION SUPPORT
+  name: Automation Support
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6473,7 +6473,7 @@
   family: PE
   number: 18
   enhancement: 1
-  name: FACILITY SITE
+  name: Facility Site
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6499,7 +6499,7 @@
   family: PE
   number: 19
   enhancement: 1
-  name: NATIONAL EMISSIONS AND TEMPEST POLICIES AND PROCEDURES
+  name: National Emissions and Tempest Policies and Procedures
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6577,7 +6577,7 @@
   family: PL
   number: 2
   enhancement: 3
-  name: PLAN AND COORDINATE WITH OTHER ORGANIZATIONAL ENTITIES
+  name: Plan and Coordinate With Other Organizational Entities
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -6603,7 +6603,7 @@
   family: PL
   number: 4
   enhancement: 1
-  name: SOCIAL MEDIA AND NETWORKING RESTRICTIONS
+  name: Social Media and Networking Restrictions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6639,7 +6639,7 @@
   family: PL
   number: 8
   enhancement: 1
-  name: DEFENSE-IN-DEPTH
+  name: Defense-In-Depth
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6652,7 +6652,7 @@
   family: PL
   number: 8
   enhancement: 2
-  name: SUPPLIER DIVERSITY
+  name: Supplier Diversity
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -6858,7 +6858,7 @@
   family: PM
   number: 16
   enhancement: 1
-  name: AUTOMATED MEANS FOR SHARING THREAT INTELLIGENCE
+  name: Automated Means for Sharing Threat Intelligence
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -6948,7 +6948,7 @@
   family: PM
   number: 23
   enhancement: 2
-  name: DATA TAGGING
+  name: Data Tagging
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -7039,7 +7039,7 @@
   family: PM
   number: 29
   enhancement: 1
-  name: AUTOMATION SUPPORT
+  name: Automation Support
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -7118,7 +7118,7 @@
   family: PS
   number: 3
   enhancement: 1
-  name: CLASSIFIED INFORMATION
+  name: Classified Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7131,7 +7131,7 @@
   family: PS
   number: 3
   enhancement: 2
-  name: FORMAL INDOCTRINATION
+  name: Formal Indoctrination
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7144,7 +7144,7 @@
   family: PS
   number: 3
   enhancement: 3
-  name: INFORMATION WITH SPECIAL PROTECTION MEASURES
+  name: Information With Special Protection Measures
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7157,7 +7157,7 @@
   family: PS
   number: 3
   enhancement: 4
-  name: CITIZENSHIP REQUIREMENTS
+  name: Citizenship Requirements
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7183,7 +7183,7 @@
   family: PS
   number: 4
   enhancement: 1
-  name: POST-EMPLOYMENT REQUIREMENTS
+  name: Post-Employment Requirements
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7196,7 +7196,7 @@
   family: PS
   number: 4
   enhancement: 2
-  name: AUTOMATED NOTIFICATION
+  name: Automated Notification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7235,7 +7235,7 @@
   family: PS
   number: 6
   enhancement: 2
-  name: CLASSIFIED INFORMATION REQUIRING SPECIAL PROTECTION
+  name: Classified Information Requiring Special Protection
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7248,7 +7248,7 @@
   family: PS
   number: 6
   enhancement: 3
-  name: POST-EMPLOYMENT REQUIREMENTS
+  name: Post-Employment Requirements
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7313,7 +7313,7 @@
   family: RA
   number: 2
   enhancement: 1
-  name: SECOND-LEVEL CATEGORIZATION
+  name: Second-Level Categorization
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7339,7 +7339,7 @@
   family: RA
   number: 3
   enhancement: 1
-  name: SUPPLY CHAIN RISK ASSESSMENT
+  name: Supply Chain Risk Assessment
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7365,7 +7365,7 @@
   family: RA
   number: 5
   enhancement: 2
-  name: UPDATE BY FREQUENCY, PRIOR TO NEW SCAN, OR WHEN IDENTIFIED
+  name: Update by Frequency, Prior to New Scan, or When Identified
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7378,7 +7378,7 @@
   family: RA
   number: 5
   enhancement: 3
-  name: BREADTH AND DEPTH OF COVERAGE
+  name: Breadth and Depth of Coverage
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7391,7 +7391,7 @@
   family: RA
   number: 5
   enhancement: 4
-  name: DISCOVERABLE INFORMATION
+  name: Discoverable Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7404,7 +7404,7 @@
   family: RA
   number: 5
   enhancement: 5
-  name: PRIVILEGED ACCESS
+  name: Privileged Access
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7417,7 +7417,7 @@
   family: RA
   number: 5
   enhancement: 6
-  name: AUTOMATED TREND ANALYSES
+  name: Automated Trend Analyses
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7430,7 +7430,7 @@
   family: RA
   number: 5
   enhancement: 8
-  name: REVIEW HISTORIC AUDIT LOGS
+  name: Review Historic Audit Logs
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7443,7 +7443,7 @@
   family: RA
   number: 5
   enhancement: 10
-  name: CORRELATE SCANNING INFORMATION
+  name: Correlate Scanning Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7547,7 +7547,7 @@
   family: SA
   number: 3
   enhancement: 1
-  name: MANAGE DEVELOPMENT ENVIRONMENT
+  name: Manage Development Environment
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7560,7 +7560,7 @@
   family: SA
   number: 3
   enhancement: 2
-  name: USE OF LIVE DATA
+  name: Use of Live Data
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7573,7 +7573,7 @@
   family: SA
   number: 3
   enhancement: 3
-  name: TECHNOLOGY REFRESH
+  name: Technology Refresh
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7599,7 +7599,7 @@
   family: SA
   number: 4
   enhancement: 1
-  name: FUNCTIONAL PROPERTIES OF CONTROLS
+  name: Functional Properties of Controls
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7612,7 +7612,7 @@
   family: SA
   number: 4
   enhancement: 2
-  name: DESIGN AND IMPLEMENTATION INFORMATION FOR CONTROLS
+  name: Design and Implementation Information for Controls
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7625,7 +7625,7 @@
   family: SA
   number: 4
   enhancement: 3
-  name: DEVELOPMENT METHODS, TECHNIQUES, AND PRACTICES
+  name: Development Methods, Techniques, and Practices
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7638,7 +7638,7 @@
   family: SA
   number: 4
   enhancement: 5
-  name: SYSTEM, COMPONENT, AND SERVICE CONFIGURATIONS
+  name: System, Component, and Service Configurations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7651,7 +7651,7 @@
   family: SA
   number: 4
   enhancement: 6
-  name: USE OF INFORMATION ASSURANCE PRODUCTS
+  name: Use of Information Assurance Products
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7664,7 +7664,7 @@
   family: SA
   number: 4
   enhancement: 7
-  name: NIAP-APPROVED PROTECTION PROFILES
+  name: Niap-Approved Protection Profiles
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7677,7 +7677,7 @@
   family: SA
   number: 4
   enhancement: 8
-  name: CONTINUOUS MONITORING PLAN FOR CONTROLS
+  name: Continuous Monitoring Plan for Controls
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7690,7 +7690,7 @@
   family: SA
   number: 4
   enhancement: 9
-  name: FUNCTIONS, PORTS, PROTOCOLS, AND SERVICES IN USE
+  name: Functions, Ports, Protocols, and Services in Use
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7703,7 +7703,7 @@
   family: SA
   number: 4
   enhancement: 10
-  name: USE OF APPROVED PIV PRODUCTS
+  name: Use of Approved Piv Products
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7755,7 +7755,7 @@
   family: SA
   number: 9
   enhancement: 1
-  name: RISK ASSESSMENTS AND ORGANIZATIONAL APPROVALS
+  name: Risk Assessments and Organizational Approvals
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7768,7 +7768,7 @@
   family: SA
   number: 9
   enhancement: 2
-  name: IDENTIFICATION OF FUNCTIONS, PORTS, PROTOCOLS, AND SERVICES
+  name: Identification of Functions, Ports, Protocols, and Services
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7781,7 +7781,7 @@
   family: SA
   number: 9
   enhancement: 3
-  name: ESTABLISH AND MAINTAIN TRUST RELATIONSHIP WITH PROVIDERS
+  name: Establish and Maintain Trust Relationship With Providers
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -7791,7 +7791,7 @@
   family: SA
   number: 9
   enhancement: 4
-  name: CONSISTENT INTERESTS OF CONSUMERS AND PROVIDERS
+  name: Consistent Interests of Consumers and Providers
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7804,7 +7804,7 @@
   family: SA
   number: 9
   enhancement: 5
-  name: PROCESSING, STORAGE, AND SERVICE LOCATION
+  name: Processing, Storage, and Service Location
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -7814,7 +7814,7 @@
   family: SA
   number: 9
   enhancement: 6
-  name: ORGANIZATION-CONTROLLED CRYPTOGRAPHIC KEYS
+  name: Organization-Controlled Cryptographic Keys
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7827,7 +7827,7 @@
   family: SA
   number: 9
   enhancement: 7
-  name: ORGANIZATION-CONTROLLED INTEGRITY CHECKING
+  name: Organization-Controlled Integrity Checking
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7853,7 +7853,7 @@
   family: SA
   number: 10
   enhancement: 1
-  name: SOFTWARE AND FIRMWARE INTEGRITY VERIFICATION
+  name: Software and Firmware Integrity Verification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7866,7 +7866,7 @@
   family: SA
   number: 10
   enhancement: 2
-  name: ALTERNATIVE CONFIGURATION MANAGEMENT PROCESSES
+  name: Alternative Configuration Management Processes
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7879,7 +7879,7 @@
   family: SA
   number: 10
   enhancement: 3
-  name: HARDWARE INTEGRITY VERIFICATION
+  name: Hardware Integrity Verification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7892,7 +7892,7 @@
   family: SA
   number: 10
   enhancement: 4
-  name: TRUSTED GENERATION
+  name: Trusted Generation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7905,7 +7905,7 @@
   family: SA
   number: 10
   enhancement: 5
-  name: MAPPING INTEGRITY FOR VERSION CONTROL
+  name: Mapping Integrity for Version Control
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7918,7 +7918,7 @@
   family: SA
   number: 10
   enhancement: 6
-  name: TRUSTED DISTRIBUTION
+  name: Trusted Distribution
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7944,7 +7944,7 @@
   family: SA
   number: 11
   enhancement: 1
-  name: STATIC CODE ANALYSIS
+  name: Static Code Analysis
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7957,7 +7957,7 @@
   family: SA
   number: 11
   enhancement: 2
-  name: THREAT MODELING AND VULNERABILITY ANALYSES
+  name: Threat Modeling and Vulnerability Analyses
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7970,7 +7970,7 @@
   family: SA
   number: 11
   enhancement: 3
-  name: INDEPENDENT VERIFICATION OF ASSESSMENT PLANS AND EVIDENCE
+  name: Independent Verification of Assessment Plans and Evidence
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7983,7 +7983,7 @@
   family: SA
   number: 11
   enhancement: 4
-  name: MANUAL CODE REVIEWS
+  name: Manual Code Reviews
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7996,7 +7996,7 @@
   family: SA
   number: 11
   enhancement: 5
-  name: PENETRATION TESTING
+  name: Penetration Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8009,7 +8009,7 @@
   family: SA
   number: 11
   enhancement: 6
-  name: ATTACK SURFACE REVIEWS
+  name: Attack Surface Reviews
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8022,7 +8022,7 @@
   family: SA
   number: 11
   enhancement: 7
-  name: VERIFY SCOPE OF TESTING AND EVALUATION
+  name: Verify Scope of Testing and Evaluation
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8035,7 +8035,7 @@
   family: SA
   number: 11
   enhancement: 8
-  name: DYNAMIC CODE ANALYSIS
+  name: Dynamic Code Analysis
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8061,7 +8061,7 @@
   family: SA
   number: 12
   enhancement: 1
-  name: ACQUISITION STRATEGIES, TOOLS, AND METHODS
+  name: Acquisition Strategies, Tools, and Methods
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8074,7 +8074,7 @@
   family: SA
   number: 12
   enhancement: 2
-  name: SUPPLIER REVIEWS
+  name: Supplier Reviews
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8087,7 +8087,7 @@
   family: SA
   number: 12
   enhancement: 5
-  name: LIMITATION OF HARM
+  name: Limitation of Harm
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8100,7 +8100,7 @@
   family: SA
   number: 12
   enhancement: 7
-  name: ASSESSMENTS PRIOR TO SELECTION, ACCEPTANCE, AND UPDATE
+  name: Assessments Prior to Selection, Acceptance, and Update
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8113,7 +8113,7 @@
   family: SA
   number: 12
   enhancement: 8
-  name: USE OF ALL-SOURCE INTELLIGENCE
+  name: Use of All-Source Intelligence
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8126,7 +8126,7 @@
   family: SA
   number: 12
   enhancement: 9
-  name: OPERATIONS SECURITY
+  name: Operations Security
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8139,7 +8139,7 @@
   family: SA
   number: 12
   enhancement: 10
-  name: VALIDATE AS GENUINE AND NOT ALTERED
+  name: Validate As Genuine and Not Altered
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8152,7 +8152,7 @@
   family: SA
   number: 12
   enhancement: 11
-  name: PENETRATION TESTING AND ANALYSIS
+  name: Penetration Testing and Analysis
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8165,7 +8165,7 @@
   family: SA
   number: 12
   enhancement: 12
-  name: NOTIFICATION AGREEMENTS
+  name: Notification Agreements
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8178,7 +8178,7 @@
   family: SA
   number: 12
   enhancement: 14
-  name: IDENTITY AND TRACEABILITY
+  name: Identity and Traceability
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8191,7 +8191,7 @@
   family: SA
   number: 12
   enhancement: 15
-  name: PROCESSES TO ADDRESS WEAKNESSES OR DEFICIENCIES
+  name: Processes to Address Weaknesses or Deficiencies
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8204,7 +8204,7 @@
   family: SA
   number: 12
   enhancement: 16
-  name: PROVENANCE
+  name: Provenance
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8230,7 +8230,7 @@
   family: SA
   number: 15
   enhancement: 1
-  name: QUALITY METRICS
+  name: Quality Metrics
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8243,7 +8243,7 @@
   family: SA
   number: 15
   enhancement: 2
-  name: SECURITY TRACKING TOOLS
+  name: Security Tracking Tools
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8256,7 +8256,7 @@
   family: SA
   number: 15
   enhancement: 3
-  name: CRITICALITY ANALYSIS
+  name: Criticality Analysis
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8269,7 +8269,7 @@
   family: SA
   number: 15
   enhancement: 5
-  name: ATTACK SURFACE REDUCTION
+  name: Attack Surface Reduction
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8282,7 +8282,7 @@
   family: SA
   number: 15
   enhancement: 6
-  name: CONTINUOUS IMPROVEMENT
+  name: Continuous Improvement
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8295,7 +8295,7 @@
   family: SA
   number: 15
   enhancement: 7
-  name: AUTOMATED VULNERABILITY ANALYSIS
+  name: Automated Vulnerability Analysis
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8308,7 +8308,7 @@
   family: SA
   number: 15
   enhancement: 8
-  name: REUSE OF THREAT AND VULNERABILITY INFORMATION
+  name: Reuse of Threat and Vulnerability Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8321,7 +8321,7 @@
   family: SA
   number: 15
   enhancement: 10
-  name: INCIDENT RESPONSE PLAN
+  name: Incident Response Plan
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8334,7 +8334,7 @@
   family: SA
   number: 15
   enhancement: 11
-  name: ARCHIVE SYSTEM OR COMPONENT
+  name: Archive System or Component
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8373,7 +8373,7 @@
   family: SA
   number: 17
   enhancement: 1
-  name: FORMAL POLICY MODEL
+  name: Formal Policy Model
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8386,7 +8386,7 @@
   family: SA
   number: 17
   enhancement: 2
-  name: SECURITY-RELEVANT COMPONENTS
+  name: Security-Relevant Components
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8399,7 +8399,7 @@
   family: SA
   number: 17
   enhancement: 3
-  name: FORMAL CORRESPONDENCE
+  name: Formal Correspondence
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8412,7 +8412,7 @@
   family: SA
   number: 17
   enhancement: 4
-  name: INFORMAL CORRESPONDENCE
+  name: Informal Correspondence
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8425,7 +8425,7 @@
   family: SA
   number: 17
   enhancement: 5
-  name: CONCEPTUALLY SIMPLE DESIGN
+  name: Conceptually Simple Design
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8438,7 +8438,7 @@
   family: SA
   number: 17
   enhancement: 6
-  name: STRUCTURE FOR TESTING
+  name: Structure for Testing
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8451,7 +8451,7 @@
   family: SA
   number: 17
   enhancement: 7
-  name: STRUCTURE FOR LEAST PRIVILEGE
+  name: Structure for Least Privilege
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8477,7 +8477,7 @@
   family: SA
   number: 18
   enhancement: 1
-  name: MULTIPLE PHASES OF SYSTEM DEVELOPMENT LIFE CYCLE
+  name: Multiple Phases of System Development Life Cycle
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8490,7 +8490,7 @@
   family: SA
   number: 18
   enhancement: 2
-  name: INSPECTION OF SYSTEMS OR COMPONENTS
+  name: Inspection of Systems or Components
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8516,7 +8516,7 @@
   family: SA
   number: 19
   enhancement: 1
-  name: ANTI-COUNTERFEIT TRAINING
+  name: Anti-Counterfeit Training
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8529,7 +8529,7 @@
   family: SA
   number: 19
   enhancement: 2
-  name: CONFIGURATION CONTROL FOR COMPONENT SERVICE AND REPAIR
+  name: Configuration Control for Component Service and Repair
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8542,7 +8542,7 @@
   family: SA
   number: 19
   enhancement: 3
-  name: COMPONENT DISPOSAL
+  name: Component Disposal
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8555,7 +8555,7 @@
   family: SA
   number: 19
   enhancement: 4
-  name: ANTI-COUNTERFEIT SCANNING
+  name: Anti-Counterfeit Scanning
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8607,7 +8607,7 @@
   family: SA
   number: 22
   enhancement: 1
-  name: ALTERNATIVE SOURCES FOR CONTINUED SUPPORT
+  name: Alternative Sources for Continued Support
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8646,7 +8646,7 @@
   family: SC
   number: 2
   enhancement: 1
-  name: INTERFACES FOR NON-PRIVILEGED USERS
+  name: Interfaces for Non-Privileged Users
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8672,7 +8672,7 @@
   family: SC
   number: 3
   enhancement: 1
-  name: HARDWARE SEPARATION
+  name: Hardware Separation
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8685,7 +8685,7 @@
   family: SC
   number: 3
   enhancement: 2
-  name: ACCESS AND FLOW CONTROL FUNCTIONS
+  name: Access and Flow Control Functions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8698,7 +8698,7 @@
   family: SC
   number: 3
   enhancement: 3
-  name: MINIMIZE NONSECURITY FUNCTIONALITY
+  name: Minimize Nonsecurity Functionality
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -8711,7 +8711,7 @@
   family: SC
   number: 3
   enhancement: 4
-  name: MODULE COUPLING AND COHESIVENESS
+  name: Module Coupling and Cohesiveness
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -8724,7 +8724,7 @@
   family: SC
   number: 3
   enhancement: 5
-  name: LAYERED STRUCTURES
+  name: Layered Structures
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -8750,7 +8750,7 @@
   family: SC
   number: 4
   enhancement: 2
-  name: MULTILEVEL OR PERIODS PROCESSING
+  name: Multilevel or Periods Processing
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8776,7 +8776,7 @@
   family: SC
   number: 5
   enhancement: 1
-  name: RESTRICT INTERNAL USERS
+  name: Restrict Internal Users
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8789,7 +8789,7 @@
   family: SC
   number: 5
   enhancement: 2
-  name: CAPACITY, BANDWIDTH, AND REDUNDANCY
+  name: Capacity, Bandwidth, and Redundancy
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8802,7 +8802,7 @@
   family: SC
   number: 5
   enhancement: 3
-  name: DETECTION AND MONITORING
+  name: Detection and Monitoring
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8841,7 +8841,7 @@
   family: SC
   number: 7
   enhancement: 3
-  name: ACCESS POINTS
+  name: Access Points
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8854,7 +8854,7 @@
   family: SC
   number: 7
   enhancement: 4
-  name: EXTERNAL TELECOMMUNICATIONS SERVICES
+  name: External Telecommunications Services
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -8867,7 +8867,7 @@
   family: SC
   number: 7
   enhancement: 5
-  name: DENY BY DEFAULT — ALLOW BY EXCEPTION
+  name: Deny by Default — Allow by Exception
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8880,7 +8880,7 @@
   family: SC
   number: 7
   enhancement: 7
-  name: PREVENT SPLIT TUNNELING FOR REMOTE DEVICES
+  name: Prevent Split Tunneling for Remote Devices
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8893,7 +8893,7 @@
   family: SC
   number: 7
   enhancement: 8
-  name: ROUTE TRAFFIC TO AUTHENTICATED PROXY SERVERS
+  name: Route Traffic to Authenticated Proxy Servers
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8906,7 +8906,7 @@
   family: SC
   number: 7
   enhancement: 9
-  name: RESTRICT THREATENING OUTGOING COMMUNICATIONS TRAFFIC
+  name: Restrict Threatening Outgoing Communications Traffic
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8919,7 +8919,7 @@
   family: SC
   number: 7
   enhancement: 10
-  name: PREVENT EXFILTRATION
+  name: Prevent Exfiltration
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8932,7 +8932,7 @@
   family: SC
   number: 7
   enhancement: 11
-  name: RESTRICT INCOMING COMMUNICATIONS TRAFFIC
+  name: Restrict Incoming Communications Traffic
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8945,7 +8945,7 @@
   family: SC
   number: 7
   enhancement: 12
-  name: HOST-BASED PROTECTION
+  name: Host-Based Protection
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8958,7 +8958,7 @@
   family: SC
   number: 7
   enhancement: 13
-  name: ISOLATION OF SECURITY TOOLS, MECHANISMS, AND SUPPORT COMPONENTS
+  name: Isolation of Security Tools, Mechanisms, and Support Components
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8971,7 +8971,7 @@
   family: SC
   number: 7
   enhancement: 14
-  name: PROTECTS AGAINST UNAUTHORIZED PHYSICAL CONNECTIONS
+  name: Protects Against Unauthorized Physical Connections
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8984,7 +8984,7 @@
   family: SC
   number: 7
   enhancement: 15
-  name: ROUTE PRIVILEGED NETWORK ACCESSES
+  name: Route Privileged Network Accesses
   attributes:
     privacy-related: false
     implemented-by: system
@@ -8997,7 +8997,7 @@
   family: SC
   number: 7
   enhancement: 16
-  name: PREVENT DISCOVERY OF COMPONENTS AND DEVICES
+  name: Prevent Discovery of Components and Devices
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9010,7 +9010,7 @@
   family: SC
   number: 7
   enhancement: 17
-  name: AUTOMATED ENFORCEMENT OF PROTOCOL FORMATS
+  name: Automated Enforcement of Protocol Formats
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9023,7 +9023,7 @@
   family: SC
   number: 7
   enhancement: 18
-  name: FAIL SECURE
+  name: Fail Secure
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9036,7 +9036,7 @@
   family: SC
   number: 7
   enhancement: 19
-  name: BLOCK COMMUNICATION FROM NON-ORGANIZATIONALLY CONFIGURED HOSTS
+  name: Block Communication From Non-Organizationally Configured Hosts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9049,7 +9049,7 @@
   family: SC
   number: 7
   enhancement: 20
-  name: DYNAMIC ISOLATION AND SEGREGATION
+  name: Dynamic Isolation and Segregation
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9062,7 +9062,7 @@
   family: SC
   number: 7
   enhancement: 21
-  name: ISOLATION OF SYSTEM COMPONENTS
+  name: Isolation of System Components
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -9075,7 +9075,7 @@
   family: SC
   number: 7
   enhancement: 22
-  name: SEPARATE SUBNETS FOR CONNECTING TO DIFFERENT SECURITY DOMAINS
+  name: Separate Subnets for Connecting to Different Security Domains
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9088,7 +9088,7 @@
   family: SC
   number: 7
   enhancement: 23
-  name: DISABLE SENDER FEEDBACK ON PROTOCOL VALIDATION FAILURE
+  name: Disable Sender Feedback on Protocol Validation Failure
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9101,7 +9101,7 @@
   family: SC
   number: 7
   enhancement: 24
-  name: PERSONALLY IDENTIFIABLE INFORMATION
+  name: Personally Identifiable Information
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -9124,7 +9124,7 @@
   family: SC
   number: 8
   enhancement: 1
-  name: CRYPTOGRAPHIC PROTECTION
+  name: Cryptographic Protection
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9137,7 +9137,7 @@
   family: SC
   number: 8
   enhancement: 2
-  name: PRE- AND POST-TRANSMISSION HANDLING
+  name: Pre- and Post-Transmission Handling
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9150,7 +9150,7 @@
   family: SC
   number: 8
   enhancement: 3
-  name: CRYPTOGRAPHIC PROTECTION FOR MESSAGE EXTERNALS
+  name: Cryptographic Protection for Message Externals
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9163,7 +9163,7 @@
   family: SC
   number: 8
   enhancement: 4
-  name: CONCEAL OR RANDOMIZE COMMUNICATIONS
+  name: Conceal or Randomize Communications
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9202,7 +9202,7 @@
   family: SC
   number: 11
   enhancement: 1
-  name: LOGICAL ISOLATION
+  name: Logical Isolation
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9228,7 +9228,7 @@
   family: SC
   number: 12
   enhancement: 1
-  name: AVAILABILITY
+  name: Availability
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -9241,7 +9241,7 @@
   family: SC
   number: 12
   enhancement: 2
-  name: SYMMETRIC KEYS
+  name: Symmetric Keys
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -9254,7 +9254,7 @@
   family: SC
   number: 12
   enhancement: 3
-  name: ASYMMETRIC KEYS
+  name: Asymmetric Keys
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -9293,7 +9293,7 @@
   family: SC
   number: 15
   enhancement: 1
-  name: PHYSICAL DISCONNECT
+  name: Physical Disconnect
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9306,7 +9306,7 @@
   family: SC
   number: 15
   enhancement: 3
-  name: DISABLING AND REMOVAL IN SECURE WORK AREAS
+  name: Disabling and Removal in Secure Work Areas
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9319,7 +9319,7 @@
   family: SC
   number: 15
   enhancement: 4
-  name: EXPLICITLY INDICATE CURRENT PARTICIPANTS
+  name: Explicitly Indicate Current Participants
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9342,7 +9342,7 @@
   family: SC
   number: 16
   enhancement: 1
-  name: INTEGRITY VALIDATION
+  name: Integrity Validation
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9381,7 +9381,7 @@
   family: SC
   number: 18
   enhancement: 1
-  name: IDENTIFY UNACCEPTABLE CODE AND TAKE CORRECTIVE ACTIONS
+  name: Identify Unacceptable Code and Take Corrective Actions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9394,7 +9394,7 @@
   family: SC
   number: 18
   enhancement: 2
-  name: ACQUISITION, DEVELOPMENT, AND USE
+  name: Acquisition, Development, and Use
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9407,7 +9407,7 @@
   family: SC
   number: 18
   enhancement: 3
-  name: PREVENT DOWNLOADING AND EXECUTION
+  name: Prevent Downloading and Execution
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9420,7 +9420,7 @@
   family: SC
   number: 18
   enhancement: 4
-  name: PREVENT AUTOMATIC EXECUTION
+  name: Prevent Automatic Execution
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9433,7 +9433,7 @@
   family: SC
   number: 18
   enhancement: 5
-  name: ALLOW EXECUTION ONLY IN CONFINED ENVIRONMENTS
+  name: Allow Execution Only in Confined Environments
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9472,7 +9472,7 @@
   family: SC
   number: 20
   enhancement: 2
-  name: DATA ORIGIN AND INTEGRITY
+  name: Data Origin and Integrity
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9524,7 +9524,7 @@
   family: SC
   number: 23
   enhancement: 1
-  name: INVALIDATE SESSION IDENTIFIERS AT LOGOUT
+  name: Invalidate Session Identifiers at Logout
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9537,7 +9537,7 @@
   family: SC
   number: 23
   enhancement: 3
-  name: UNIQUE SESSION IDENTIFIERS WITH RANDOMIZATION
+  name: Unique Session Identifiers With Randomization
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9550,7 +9550,7 @@
   family: SC
   number: 23
   enhancement: 5
-  name: ALLOWED CERTIFICATE AUTHORITIES
+  name: Allowed Certificate Authorities
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9628,7 +9628,7 @@
   family: SC
   number: 28
   enhancement: 1
-  name: CRYPTOGRAPHIC PROTECTION
+  name: Cryptographic Protection
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9641,7 +9641,7 @@
   family: SC
   number: 28
   enhancement: 2
-  name: OFF-LINE STORAGE
+  name: Off-Line Storage
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9667,7 +9667,7 @@
   family: SC
   number: 29
   enhancement: 1
-  name: VIRTUALIZATION TECHNIQUES
+  name: Virtualization Techniques
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9693,7 +9693,7 @@
   family: SC
   number: 30
   enhancement: 2
-  name: RANDOMNESS
+  name: Randomness
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9706,7 +9706,7 @@
   family: SC
   number: 30
   enhancement: 3
-  name: CHANGE PROCESSING AND STORAGE LOCATIONS
+  name: Change Processing and Storage Locations
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9719,7 +9719,7 @@
   family: SC
   number: 30
   enhancement: 4
-  name: MISLEADING INFORMATION
+  name: Misleading Information
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9732,7 +9732,7 @@
   family: SC
   number: 30
   enhancement: 5
-  name: CONCEALMENT OF SYSTEM COMPONENTS
+  name: Concealment of System Components
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9758,7 +9758,7 @@
   family: SC
   number: 31
   enhancement: 1
-  name: TEST COVERT CHANNELS FOR EXPLOITABILITY
+  name: Test Covert Channels for Exploitability
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9771,7 +9771,7 @@
   family: SC
   number: 31
   enhancement: 2
-  name: MAXIMUM BANDWIDTH
+  name: Maximum Bandwidth
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9784,7 +9784,7 @@
   family: SC
   number: 31
   enhancement: 3
-  name: MEASURE BANDWIDTH IN OPERATIONAL ENVIRONMENTS
+  name: Measure Bandwidth in Operational Environments
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9823,7 +9823,7 @@
   family: SC
   number: 34
   enhancement: 1
-  name: NO WRITABLE STORAGE
+  name: no Writable Storage
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9836,7 +9836,7 @@
   family: SC
   number: 34
   enhancement: 2
-  name: INTEGRITY PROTECTION AND READ-ONLY MEDIA
+  name: Integrity Protection and Read-Only Media
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9849,7 +9849,7 @@
   family: SC
   number: 34
   enhancement: 3
-  name: HARDWARE-BASED PROTECTION
+  name: Hardware-Based Protection
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9888,7 +9888,7 @@
   family: SC
   number: 36
   enhancement: 1
-  name: POLLING TECHNIQUES
+  name: Polling Techniques
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9914,7 +9914,7 @@
   family: SC
   number: 37
   enhancement: 1
-  name: ENSURE DELIVERY AND TRANSMISSION
+  name: Ensure Delivery and Transmission
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -9953,7 +9953,7 @@
   family: SC
   number: 39
   enhancement: 1
-  name: HARDWARE SEPARATION
+  name: Hardware Separation
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9966,7 +9966,7 @@
   family: SC
   number: 39
   enhancement: 2
-  name: THREAD ISOLATION
+  name: Thread Isolation
   attributes:
     privacy-related: false
     implemented-by: system
@@ -9992,7 +9992,7 @@
   family: SC
   number: 40
   enhancement: 1
-  name: ELECTROMAGNETIC INTERFERENCE
+  name: Electromagnetic Interference
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10005,7 +10005,7 @@
   family: SC
   number: 40
   enhancement: 2
-  name: REDUCE DETECTION POTENTIAL
+  name: Reduce Detection Potential
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10018,7 +10018,7 @@
   family: SC
   number: 40
   enhancement: 3
-  name: IMITATIVE OR MANIPULATIVE COMMUNICATIONS DECEPTION
+  name: Imitative or Manipulative Communications Deception
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10031,7 +10031,7 @@
   family: SC
   number: 40
   enhancement: 4
-  name: SIGNAL PARAMETER IDENTIFICATION
+  name: Signal Parameter Identification
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10070,7 +10070,7 @@
   family: SC
   number: 42
   enhancement: 1
-  name: REPORTING TO AUTHORIZED INDIVIDUALS OR ROLES
+  name: Reporting to Authorized Individuals or Roles
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10083,7 +10083,7 @@
   family: SC
   number: 42
   enhancement: 2
-  name: AUTHORIZED USE
+  name: Authorized Use
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -10093,7 +10093,7 @@
   family: SC
   number: 42
   enhancement: 3
-  name: PROHIBIT USE OF DEVICES
+  name: Prohibit Use of Devices
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10106,7 +10106,7 @@
   family: SC
   number: 42
   enhancement: 4
-  name: NOTICE OF COLLECTION
+  name: Notice of Collection
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -10116,7 +10116,7 @@
   family: SC
   number: 42
   enhancement: 5
-  name: COLLECTION MINIMIZATION
+  name: Collection Minimization
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -10178,7 +10178,7 @@
   family: SI
   number: 2
   enhancement: 1
-  name: CENTRAL MANAGEMENT
+  name: Central Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10191,7 +10191,7 @@
   family: SI
   number: 2
   enhancement: 2
-  name: AUTOMATED FLAW REMEDIATION STATUS
+  name: Automated Flaw Remediation Status
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10204,7 +10204,7 @@
   family: SI
   number: 2
   enhancement: 3
-  name: TIME TO REMEDIATE FLAWS AND BENCHMARKS FOR CORRECTIVE ACTIONS
+  name: Time to Remediate Flaws and Benchmarks for Corrective Actions
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10217,7 +10217,7 @@
   family: SI
   number: 2
   enhancement: 5
-  name: AUTOMATIC SOFTWARE AND FIRMWARE UPDATES
+  name: Automatic Software and Firmware Updates
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10230,7 +10230,7 @@
   family: SI
   number: 2
   enhancement: 6
-  name: REMOVAL OF PREVIOUS VERSIONS OF SOFTWARE AND FIRMWARE
+  name: Removal of Previous Versions of Software and Firmware
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10243,7 +10243,7 @@
   family: SI
   number: 2
   enhancement: 7
-  name: PERSONALLY IDENTIFIABLE INFORMATION
+  name: Personally Identifiable Information
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -10266,7 +10266,7 @@
   family: SI
   number: 3
   enhancement: 1
-  name: CENTRAL MANAGEMENT
+  name: Central Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10279,7 +10279,7 @@
   family: SI
   number: 3
   enhancement: 4
-  name: UPDATES ONLY BY PRIVILEGED USERS
+  name: Updates Only by Privileged Users
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10292,7 +10292,7 @@
   family: SI
   number: 3
   enhancement: 6
-  name: TESTING AND VERIFICATION
+  name: Testing and Verification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10305,7 +10305,7 @@
   family: SI
   number: 3
   enhancement: 8
-  name: DETECT UNAUTHORIZED COMMANDS
+  name: Detect Unauthorized Commands
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10318,7 +10318,7 @@
   family: SI
   number: 3
   enhancement: 9
-  name: AUTHENTICATE REMOTE COMMANDS
+  name: Authenticate Remote Commands
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10331,7 +10331,7 @@
   family: SI
   number: 3
   enhancement: 10
-  name: MALICIOUS CODE ANALYSIS
+  name: Malicious Code Analysis
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10357,7 +10357,7 @@
   family: SI
   number: 4
   enhancement: 1
-  name: SYSTEM-WIDE INTRUSION DETECTION SYSTEM
+  name: System-Wide Intrusion Detection System
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10370,7 +10370,7 @@
   family: SI
   number: 4
   enhancement: 2
-  name: AUTOMATED TOOLS AND MECHANISMS FOR REAL-TIME ANALYSIS
+  name: Automated Tools and Mechanisms for Real-Time Analysis
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10383,7 +10383,7 @@
   family: SI
   number: 4
   enhancement: 3
-  name: AUTOMATED TOOL AND MECHANISM INTEGRATION
+  name: Automated Tool and Mechanism Integration
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10396,7 +10396,7 @@
   family: SI
   number: 4
   enhancement: 4
-  name: INBOUND AND OUTBOUND COMMUNICATIONS TRAFFIC
+  name: Inbound and Outbound Communications Traffic
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10409,7 +10409,7 @@
   family: SI
   number: 4
   enhancement: 5
-  name: SYSTEM-GENERATED ALERTS
+  name: System-Generated Alerts
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10422,7 +10422,7 @@
   family: SI
   number: 4
   enhancement: 7
-  name: AUTOMATED RESPONSE TO SUSPICIOUS EVENTS
+  name: Automated Response to Suspicious Events
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10435,7 +10435,7 @@
   family: SI
   number: 4
   enhancement: 9
-  name: TESTING OF MONITORING TOOLS AND MECHANISMS
+  name: Testing of Monitoring Tools and Mechanisms
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10448,7 +10448,7 @@
   family: SI
   number: 4
   enhancement: 10
-  name: VISIBILITY OF ENCRYPTED COMMUNICATIONS
+  name: Visibility of Encrypted Communications
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10461,7 +10461,7 @@
   family: SI
   number: 4
   enhancement: 11
-  name: ANALYZE COMMUNICATIONS TRAFFIC ANOMALIES
+  name: Analyze Communications Traffic Anomalies
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10474,7 +10474,7 @@
   family: SI
   number: 4
   enhancement: 12
-  name: AUTOMATED ORGANIZATION-GENERATED ALERTS
+  name: Automated Organization-Generated Alerts
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10487,7 +10487,7 @@
   family: SI
   number: 4
   enhancement: 13
-  name: ANALYZE TRAFFIC AND EVENT PATTERNS
+  name: Analyze Traffic and Event Patterns
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10500,7 +10500,7 @@
   family: SI
   number: 4
   enhancement: 14
-  name: WIRELESS INTRUSION DETECTION
+  name: Wireless Intrusion Detection
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10513,7 +10513,7 @@
   family: SI
   number: 4
   enhancement: 15
-  name: WIRELESS TO WIRELINE COMMUNICATIONS
+  name: Wireless to Wireline Communications
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10526,7 +10526,7 @@
   family: SI
   number: 4
   enhancement: 16
-  name: CORRELATE MONITORING INFORMATION
+  name: Correlate Monitoring Information
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10539,7 +10539,7 @@
   family: SI
   number: 4
   enhancement: 17
-  name: INTEGRATED SITUATIONAL AWARENESS
+  name: Integrated Situational Awareness
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10552,7 +10552,7 @@
   family: SI
   number: 4
   enhancement: 18
-  name: ANALYZE TRAFFIC AND COVERT EXFILTRATION
+  name: Analyze Traffic and Covert Exfiltration
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10565,7 +10565,7 @@
   family: SI
   number: 4
   enhancement: 19
-  name: INDIVIDUALS POSING GREATER RISK
+  name: Individuals Posing Greater Risk
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10578,7 +10578,7 @@
   family: SI
   number: 4
   enhancement: 20
-  name: PRIVILEGED USERS
+  name: Privileged Users
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10591,7 +10591,7 @@
   family: SI
   number: 4
   enhancement: 21
-  name: PROBATIONARY PERIODS
+  name: Probationary Periods
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10604,7 +10604,7 @@
   family: SI
   number: 4
   enhancement: 22
-  name: UNAUTHORIZED NETWORK SERVICES
+  name: Unauthorized Network Services
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10617,7 +10617,7 @@
   family: SI
   number: 4
   enhancement: 23
-  name: HOST-BASED DEVICES
+  name: Host-Based Devices
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10630,7 +10630,7 @@
   family: SI
   number: 4
   enhancement: 24
-  name: INDICATORS OF COMPROMISE
+  name: Indicators of Compromise
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10643,7 +10643,7 @@
   family: SI
   number: 4
   enhancement: 25
-  name: PERSONALLY IDENTIFIABLE INFORMATION MONITORING
+  name: Personally Identifiable Information Monitoring
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -10666,7 +10666,7 @@
   family: SI
   number: 5
   enhancement: 1
-  name: AUTOMATED ALERTS AND ADVISORIES
+  name: Automated Alerts and Advisories
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10692,7 +10692,7 @@
   family: SI
   number: 6
   enhancement: 2
-  name: AUTOMATION SUPPORT FOR DISTRIBUTED TESTING
+  name: Automation Support for Distributed Testing
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10705,7 +10705,7 @@
   family: SI
   number: 6
   enhancement: 3
-  name: REPORT VERIFICATION RESULTS
+  name: Report Verification Results
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -10728,7 +10728,7 @@
   family: SI
   number: 7
   enhancement: 1
-  name: INTEGRITY CHECKS
+  name: Integrity Checks
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10741,7 +10741,7 @@
   family: SI
   number: 7
   enhancement: 2
-  name: AUTOMATED NOTIFICATIONS OF INTEGRITY VIOLATIONS
+  name: Automated Notifications of Integrity Violations
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10754,7 +10754,7 @@
   family: SI
   number: 7
   enhancement: 3
-  name: CENTRALLY MANAGED INTEGRITY TOOLS
+  name: Centrally Managed Integrity Tools
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10767,7 +10767,7 @@
   family: SI
   number: 7
   enhancement: 5
-  name: AUTOMATED RESPONSE TO INTEGRITY VIOLATIONS
+  name: Automated Response to Integrity Violations
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10780,7 +10780,7 @@
   family: SI
   number: 7
   enhancement: 6
-  name: CRYPTOGRAPHIC PROTECTION
+  name: Cryptographic Protection
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10793,7 +10793,7 @@
   family: SI
   number: 7
   enhancement: 7
-  name: INTEGRATION OF DETECTION AND RESPONSE
+  name: Integration of Detection and Response
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10806,7 +10806,7 @@
   family: SI
   number: 7
   enhancement: 8
-  name: AUDITING CAPABILITY FOR SIGNIFICANT EVENTS
+  name: Auditing Capability for Significant Events
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10819,7 +10819,7 @@
   family: SI
   number: 7
   enhancement: 9
-  name: VERIFY BOOT PROCESS
+  name: Verify Boot Process
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10832,7 +10832,7 @@
   family: SI
   number: 7
   enhancement: 10
-  name: PROTECTION OF BOOT FIRMWARE
+  name: Protection of Boot Firmware
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10845,7 +10845,7 @@
   family: SI
   number: 7
   enhancement: 11
-  name: CONFINED ENVIRONMENTS WITH LIMITED PRIVILEGES
+  name: Confined Environments With Limited Privileges
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10858,7 +10858,7 @@
   family: SI
   number: 7
   enhancement: 12
-  name: INTEGRITY VERIFICATION
+  name: Integrity Verification
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10871,7 +10871,7 @@
   family: SI
   number: 7
   enhancement: 13
-  name: CODE EXECUTION IN PROTECTED ENVIRONMENTS
+  name: Code Execution in Protected Environments
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10884,7 +10884,7 @@
   family: SI
   number: 7
   enhancement: 14
-  name: BINARY OR MACHINE EXECUTABLE CODE
+  name: Binary or Machine Executable Code
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -10897,7 +10897,7 @@
   family: SI
   number: 7
   enhancement: 15
-  name: CODE AUTHENTICATION
+  name: Code Authentication
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10910,7 +10910,7 @@
   family: SI
   number: 7
   enhancement: 16
-  name: TIME LIMIT ON PROCESS EXECUTION WITHOUT SUPERVISION
+  name: Time Limit on Process Execution Without Supervision
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10936,7 +10936,7 @@
   family: SI
   number: 8
   enhancement: 1
-  name: CENTRAL MANAGEMENT
+  name: Central Management
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10949,7 +10949,7 @@
   family: SI
   number: 8
   enhancement: 2
-  name: AUTOMATIC UPDATES
+  name: Automatic Updates
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10962,7 +10962,7 @@
   family: SI
   number: 8
   enhancement: 3
-  name: CONTINUOUS LEARNING CAPABILITY
+  name: Continuous Learning Capability
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10988,7 +10988,7 @@
   family: SI
   number: 10
   enhancement: 1
-  name: MANUAL OVERRIDE CAPABILITY
+  name: Manual Override Capability
   attributes:
     privacy-related: false
     implemented-by: organization-and-system
@@ -11001,7 +11001,7 @@
   family: SI
   number: 10
   enhancement: 2
-  name: REVIEW AND RESOLVE OF ERRORS
+  name: Review and Resolve of Errors
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11014,7 +11014,7 @@
   family: SI
   number: 10
   enhancement: 3
-  name: PREDICTABLE BEHAVIOR
+  name: Predictable Behavior
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11027,7 +11027,7 @@
   family: SI
   number: 10
   enhancement: 4
-  name: TIMING INTERACTIONS
+  name: Timing Interactions
   attributes:
     privacy-related: false
     implemented-by: system
@@ -11040,7 +11040,7 @@
   family: SI
   number: 10
   enhancement: 5
-  name: RESTRICT INPUTS TO TRUSTED SOURCES AND APPROVED FORMATS
+  name: Restrict Inputs to Trusted Sources and Approved Formats
   attributes:
     privacy-related: false
     implemented-by: system
@@ -11079,8 +11079,8 @@
   family: SI
   number: 12
   enhancement: 1
-  name: LIMIT PERSONALLY IDENTIFIABLE INFORMATION ELEMENTS IN TESTING, TRAINING, AND
-    RESEARCH
+  name: Limit Personally Identifiable Information Elements in Testing, Training, and
+    Research
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -11090,7 +11090,7 @@
   family: SI
   number: 12
   enhancement: 2
-  name: MINIMIZE PERSONALLY IDENTIFIABLE INFORMATION
+  name: Minimize Personally Identifiable Information
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -11113,7 +11113,7 @@
   family: SI
   number: 13
   enhancement: 1
-  name: TRANSFERRING COMPONENT RESPONSIBILITIES
+  name: Transferring Component Responsibilities
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11126,7 +11126,7 @@
   family: SI
   number: 13
   enhancement: 3
-  name: MANUAL TRANSFER BETWEEN COMPONENTS
+  name: Manual Transfer Between Components
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11139,7 +11139,7 @@
   family: SI
   number: 13
   enhancement: 4
-  name: STANDBY COMPONENT INSTALLATION AND NOTIFICATION
+  name: Standby Component Installation and Notification
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11152,7 +11152,7 @@
   family: SI
   number: 13
   enhancement: 5
-  name: FAILOVER CAPABILITY
+  name: Failover Capability
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11178,7 +11178,7 @@
   family: SI
   number: 14
   enhancement: 1
-  name: REFRESH FROM TRUSTED SOURCES
+  name: Refresh From Trusted Sources
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -11204,7 +11204,7 @@
   family: SI
   number: 15
   enhancement: 1
-  name: LIMIT PERSONALLY IDENTIFIABLE INFORMATION DISSEMINATION
+  name: Limit Personally Identifiable Information Dissemination
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11260,7 +11260,7 @@
   family: SI
   number: 19
   enhancement: 1
-  name: UPDATING AND CORRECTING PERSONALLY IDENTIFIABLE INFORMATION
+  name: Updating and Correcting Personally Identifiable Information
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11270,7 +11270,7 @@
   family: SI
   number: 19
   enhancement: 2
-  name: DATA TAGS
+  name: Data Tags
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11280,7 +11280,7 @@
   family: SI
   number: 19
   enhancement: 3
-  name: PERSONALLY IDENTIFIABLE INFORMATION COLLECTION
+  name: Personally Identifiable Information Collection
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11300,7 +11300,7 @@
   family: SI
   number: 20
   enhancement: 1
-  name: COLLECTION
+  name: Collection
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11310,7 +11310,7 @@
   family: SI
   number: 20
   enhancement: 2
-  name: ARCHIVING
+  name: Archiving
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11320,7 +11320,7 @@
   family: SI
   number: 20
   enhancement: 3
-  name: RELEASE
+  name: Release
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11330,7 +11330,7 @@
   family: SI
   number: 20
   enhancement: 4
-  name: REMOVAL, MASKING, ENCRYPTION, HASHING, OR REPLACEMENT OF DIRECT IDENTIFIERS
+  name: Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers
   attributes:
     privacy-related: true
     implemented-by: system
@@ -11340,7 +11340,7 @@
   family: SI
   number: 20
   enhancement: 5
-  name: STATISTICAL DISCLOSURE CONTROL
+  name: Statistical Disclosure Control
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11350,7 +11350,7 @@
   family: SI
   number: 20
   enhancement: 6
-  name: DIFFERENTIAL PRIVACY
+  name: Differential Privacy
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
@@ -11360,7 +11360,7 @@
   family: SI
   number: 20
   enhancement: 7
-  name: VALIDATED SOFTWARE
+  name: Validated Software
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -11370,7 +11370,7 @@
   family: SI
   number: 20
   enhancement: 8
-  name: MOTIVATED INTRUDER
+  name: Motivated Intruder
   attributes:
     privacy-related: true
     implemented-by: organization-and-system
