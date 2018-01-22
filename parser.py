@@ -262,6 +262,44 @@ with open("control-metadata.yaml", "w") as f:
   f.write("# =======================================================\n")
   rtyaml.dump(control_metadata, f)
 
+# Parse selections and assignments in control text.
+for control in control_texts.values():
+  if "Text" not in control: continue
+  parameters = OrderedDict()
+
+  def clean(s):
+    s = re.sub("-\n\s*", "-", s).strip() # kill newlines after hyphens
+    s = re.sub("\s+", " ", s).strip() # replace whitespace with spaces
+    return s
+  
+  def extract_parameter(m):
+    m1 = re.match(r"(organization-|organized-|organizational )(defined|identified) (.*)", clean(m.group(1)))
+    if not m1: raise ValueError(repr(clean(m.group(1))))
+    parameter_id = len(parameters)+1
+    parameters[parameter_id] = OrderedDict([
+      ("type", "Assignment"),
+      #("text", clean(m.group(0))),
+      ("description", m1.group(3)),
+    ])
+    return "<{}>".format(parameter_id)
+  control["Text"] = re.sub(r"\[Assignment[:;]?\s+([^\]]+)\]", extract_parameter, control["Text"])
+  
+  def extract_parameter(m):
+    m1 = re.match(r"(\(one or more\))?:?(.*)", clean(m.group(2)))
+    if not m1: raise ValueError(repr(clean(m.group(2))))
+    parameter_id = len(parameters)+1
+    parameters[parameter_id] = OrderedDict([
+      ("type", "Selection"),
+      #("text", clean(m.group(0))),
+      ("one-or-more", bool(m1.group(1))),
+      ("choices", [clean(x) for x in m1.group(2).split("; ")]),
+    ])
+    return "<{}>".format(parameter_id)
+  control["Text"] = re.sub(r"\[Selection(:|\s+)([^\]]+)\]", extract_parameter, control["Text"])
+  
+  if parameters:
+    control["parameters"] = parameters
+
 # Write out control text and supplemental guidance.
 with open("control-text.yaml", "w") as f:
   f.write("# NIST SP 800-53 Rev 5 August 2017 Draft Control Text\n")
@@ -270,6 +308,7 @@ with open("control-text.yaml", "w") as f:
   f.write(rtyaml.dump(OrderedDict([
     (control["control"], OrderedDict([
       ("text", control_texts[control["control"]]["Text"]),
+      ("parameters", control_texts[control["control"]].get("parameters")),
       ("supplemental-guidance", control_texts[control["control"]].get("Supplemental Guidance")),
     ]))
     for control in control_metadata if control["control"] in control_texts
