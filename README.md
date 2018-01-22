@@ -10,7 +10,7 @@ Privacy Controls for Information Systems and Organizations, August 2017 draft](h
 The generated data file [control-metadata.yaml](control-metadata.yaml) in this
 repository holds metadata for each control
 and control enhancement, including the control's family, number, and name, and
-its baseline and other information from Appendix D.
+its baseline and other information from Appendix E.
 
 ### Excerpt
 

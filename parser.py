@@ -33,6 +33,8 @@ else:
   with open(cache_fn) as f:
     nist_sp_text = f.read()
 
+print("Scraping PDF text...")
+
 # Split into lines.
 lines = nist_sp_text.split("\n")
 
@@ -55,7 +57,7 @@ while True:
     continue
 
   # Parse a table line.
-  m = re.match(r" (([A-Z]{2})-(\d+)(?:\((\d+)\))?)\s+(.*?)  (.*)", line)
+  m = re.match(r" +(([A-Z]{2})-(\d+)(?:\((\d+)\))?)\s+(.*?)  (.*)", line)
   if m:
     control, family, controlnum, enhancement, name, attribs = m.groups()
 

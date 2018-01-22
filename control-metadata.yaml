@@ -1548,6 +1548,153 @@
     low: false
     moderate: false
     high: false
+- control: AT-1
+  family: AT
+  number: 1
+  enhancement: ~
+  name: Awareness and Training Policy and Procedures
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: true
+    moderate: true
+    high: true
+- control: AT-2
+  family: AT
+  number: 2
+  enhancement: ~
+  name: Awareness Training
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: true
+    moderate: true
+    high: true
+- control: AT-2(1)
+  family: AT
+  number: 2
+  enhancement: 1
+  name: Practical Exercises
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline: ~
+- control: AT-2(2)
+  family: AT
+  number: 2
+  enhancement: 2
+  name: Insider Threat
+  attributes:
+    privacy-related: false
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: false
+    moderate: true
+    high: true
+- control: AT-2(3)
+  family: AT
+  number: 2
+  enhancement: 3
+  name: Social Engineering and Mining
+  attributes:
+    privacy-related: false
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: false
+    moderate: true
+    high: true
+- control: AT-3
+  family: AT
+  number: 3
+  enhancement: ~
+  name: Role-Based Training
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: true
+    moderate: true
+    high: true
+- control: AT-3(1)
+  family: AT
+  number: 3
+  enhancement: 1
+  name: Environmental Controls
+  attributes:
+    privacy-related: false
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: false
+    moderate: false
+    high: false
+- control: AT-3(2)
+  family: AT
+  number: 3
+  enhancement: 2
+  name: Physical Security Controls
+  attributes:
+    privacy-related: false
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: false
+    moderate: false
+    high: false
+- control: AT-3(3)
+  family: AT
+  number: 3
+  enhancement: 3
+  name: Practical Exercises
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline: ~
+- control: AT-3(4)
+  family: AT
+  number: 3
+  enhancement: 4
+  name: Suspicious Communications and Anomalous System Behavior
+  attributes:
+    privacy-related: false
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: false
+    moderate: false
+    high: false
+- control: AT-3(5)
+  family: AT
+  number: 3
+  enhancement: 5
+  name: Personally Identifiable Information Processing
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline: ~
+- control: AT-4
+  family: AT
+  number: 4
+  enhancement: ~
+  name: Training Records
+  attributes:
+    privacy-related: true
+    implemented-by: organization
+    assurance: true
+  baseline:
+    low: true
+    moderate: true
+    high: true
 - control: AU-1
   family: AU
   number: 1
