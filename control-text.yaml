@@ -3792,7 +3792,6 @@ AU-6(8):
     pattern matching and heuristics.
 AU-6(9):
   text: |
-    SOURCES
     Correlate information from nontechnical sources with audit information to enhance organization-
     wide situational awareness.
   parameters: ~
@@ -5673,7 +5672,6 @@ CM-3:
                    CA-7, CM-2, CM-4, CM-5, CM-6, CM-9, CM-11, IA-3, MA-2, PE-16, SA-10,
 CM-3(1):
   text: |
-    CHANGES
     Employ automated mechanisms to:
     (a)   Document proposed changes to the system;
     (b) Notify <1> of proposed changes to the
@@ -7756,9 +7754,7 @@ IA-2:
                    AC-2, AC-3, AC-4, AC-14, AC-17, AC-18, AU-1, AU-6, IA-4, IA-5,
     IA-8, MA-
 IA-2(1):
-  text: |
-    PRIVILEGED ACCOUNTS
-    Implement multifactor authentication for access to privileged accounts.
+  text: Implement multifactor authentication for access to privileged accounts.
   parameters: ~
   supplemental-guidance: >
     Multifactor authentication requires the use of two or more different
@@ -7798,9 +7794,7 @@ IA-2(1):
 
     of access.
 IA-2(2):
-  text: |
-    NON-PRIVILEGED ACCOUNTS
-    Implement multifactor authentication for access to non-privileged accounts.
+  text: Implement multifactor authentication for access to non-privileged accounts.
   parameters: ~
   supplemental-guidance: |
     Multifactor authentication requires the use of two or more different
@@ -7821,7 +7815,6 @@ IA-2(2):
     for specific types of access.
 IA-2(5):
   text: |
-    GROUP AUTHENTICATION
     When shared accounts or authenticators are employed, require users to be individually
     authenticated before granting access to the shared accounts or resources.
   parameters: ~
@@ -7830,7 +7823,6 @@ IA-2(5):
     organizations to mitigate the risk of using group accounts or authenticators.
 IA-2(8):
   text: |
-    RESISTANT
     Implement replay-resistant authentication mechanisms for access to <1>.
   parameters:
     1:
@@ -8492,7 +8484,6 @@ IA-8:
     IA-11, MA-
 IA-8(1):
   text: |
-    CREDENTIALS FROM OTHER AGENCIES
     Accept and electronically verify Personal Identity Verification credentials from other federal
     agencies.
   parameters: ~
@@ -8503,9 +8494,7 @@ IA-8(1):
     adequacy and reliability of PIV card issuers are addressed and authorized using NIST Special
     Publication 800-79.
 IA-8(2):
-  text: |
-    CREDENTIALS
-    Accept only external credentials that are NIST compliant.
+  text: Accept only external credentials that are NIST compliant.
   parameters: ~
   supplemental-guidance: >
     This control enhancement applies to organizational systems that are
@@ -8540,9 +8529,8 @@ IA-8(4):
     Orders, directives, policies, regulations, standards, and guidelines. The result is NIST-issued
     implementation profiles of approved protocols.
 IA-8(5):
-  text: |
-    CREDENTIALS
-    Accept and electronically verify Personal Identity Verification-I (PIV-I) credentials.
+  text: Accept and electronically verify Personal Identity Verification-I (PIV-I)
+    credentials.
   parameters: ~
   supplemental-guidance: >
     This control enhancement applies to both logical access control and
@@ -9624,7 +9612,6 @@ IR-7:
     services, when required.
 IR-7(1):
   text: |
-    SUPPORT
     Employ automated mechanisms to increase the availability of incident response-related
     information and support.
   parameters: ~
@@ -16121,11 +16108,12 @@ SA-11(2):
     created because of those changes have been reviewed and mitigated.
     Related controls: PM-15, RA-3, RA-5.
 SA-11(3):
-  text: |
-    EVIDENCE
-    (a)   Require an independent agent satisfying <1> to verify the correct implementation of the developer security and privacy assessment
+  text: >
+    (a)   Require an independent agent satisfying <1> to verify the correct implementation
+    of the developer security and privacy assessment
           plans and the evidence produced during testing and evaluation; and
-    (b) Verify that the independent agent is provided with sufficient information to complete the
+    (b) Verify that the independent agent is provided with sufficient information
+    to complete the
         verification process or granted the authority to obtain such information.
   parameters:
     1:
@@ -18455,7 +18443,6 @@ SC-8(2):
     of the information.
 SC-8(3):
   text: |
-    EXTERNALS
     Implement cryptographic mechanisms to protect message externals unless otherwise protected by
     <1>.
   parameters:
@@ -21328,7 +21315,6 @@ SI-7(1):
     restart, shutdown, and abort.
 SI-7(2):
   text: |
-    VIOLATIONS
     Employ automated tools that provide notification to <1> upon discovering discrepancies during integrity verification.
   parameters:
     1:
@@ -21460,7 +21446,6 @@ SI-7(10):
     firmware.
 SI-7(11):
   text: |
-    PRIVILEGES
     Require that <1> execute in a confined
     physical or virtual machine environment with limited privileges.
   parameters:
@@ -21543,7 +21528,6 @@ SI-7(15):
     code.
 SI-7(16):
   text: |
-    SUPERVISION
     Prohibit processes from executing without supervision for more than <1>.
   parameters:
     1:
@@ -21775,7 +21759,6 @@ SI-12(1):
     disclosure, and disposition.
 SI-12(2):
   text: |
-    TESTING, TRAINING, AND RESEARCH
     Use <1> to minimize the use of personally identifiable
     information for research, testing, or training, in accordance with the privacy risk assessment.
   parameters:
@@ -22191,9 +22174,7 @@ SI-20(3):
     information. If it is not necessary, the personally identifiable information can be removed
     using de-identification techniques.
 SI-20(4):
-  text: |
-    IDENTIFIERS
-    Remove, mask, encrypt, hash, or replace direct identifiers in a dataset.
+  text: Remove, mask, encrypt, hash, or replace direct identifiers in a dataset.
   parameters: ~
   supplemental-guidance: >
     There are many possible processes for removing direct identifiers from

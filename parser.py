@@ -102,13 +102,17 @@ control_enhancements = []
 for controlnum, controldata in sorted(list(control_texts.items())):
   if controldata.get("Control Enhancements", "").strip() and not controldata["Control Enhancements"].lstrip().startswith("None."):
     cur_control_enh = None
-    for line in controldata["Control Enhancements"].split("\n"):
+    clines = controldata["Control Enhancements"].split("\n")
+    while clines:
+      line = clines.pop(0)
       if not cur_control_enh and not line.strip(): continue # ignore blank at start
 
       # Find the start of a new control enhancement.
       m = re.match("\s*\((\d+)\)\s+(.*)", line)
       if m:
         name = m.group(2).split(" | ", 1)[-1] # if there's a pipe, it separates the control name from the control enhancement name
+        while clines and clines[0] == clines[0].upper():
+          name += clines.pop(0)
         cur_control_enh = OrderedDict([
           ("Name", name),
           ("Text", ""),
