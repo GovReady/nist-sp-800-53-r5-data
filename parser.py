@@ -38,8 +38,125 @@ print("Scraping PDF text...")
 # Split into lines.
 lines = nist_sp_text.split("\n")
 
-# Parse Appendix D: Control Summaries
-# ===================================
+# Parse the Control Definitions
+# =============================
+
+# Fast-forward to the first page with control info.
+control_texts = { }
+families = rtyaml.load(open("control-families.yaml"))
+family_start_lines = { (f["citation"] + " " + f["name"].upper()): f for f in families }
+cur_family, cur_control, cur_controlname, cur_controlpart = None, None, None, None
+while lines and not lines[0].endswith("PAGE 16"): lines.pop(0)
+while lines:
+  line = lines.pop(0)
+  if line.startswith("CHAPTER THREE "): continue
+  if line.startswith("DRAFT NIST SP 800-53, REVISION 5"): lines.pop(0); lines.pop(0); continue
+  if line.startswith("Quick link to"): lines.pop(0); continue
+  if not cur_family and not line.strip(): continue
+  if line.startswith("APPENDIX A"): break # end of control sections
+
+  # start of a control family
+  if line in family_start_lines:
+    cur_family = family_start_lines[line]
+    lines.pop(0) # empty line
+    continue
+
+  if cur_family:
+    # start of a control
+    m = re.match(r"(" + re.escape(cur_family["family"]) + r"-\d+)\s+(.*)", line)
+    if m:
+      cur_control, cur_controlname = m.groups()
+      control_texts[cur_control] = OrderedDict()
+      continue
+
+    if cur_control:
+      # new control section
+      m = re.match(r"(\s{10})(Control|Supplemental Guidance|Related Controls|Control Enhancements|References):\s*", line)
+      if m:
+        # remember what section we're in
+        cur_controlpart = m.group(2)
+        if cur_controlpart == "Control": cur_controlpart = "Text"
+        # remove the header from the line but keep initial whitespace so indentation in the section is consistent
+        line = m.group(1) + line[m.end():]
+
+      # DOC ERROR
+      if cur_control == "IA-12" and "(1)" in line:
+        cur_controlpart = "Control Enhancements"
+
+      # add text
+      if cur_controlpart:
+        if cur_controlpart not in control_texts[cur_control]:
+          if not line.strip(): continue # don't start with an empty line
+          control_texts[cur_control][cur_controlpart] = ""
+        control_texts[cur_control][cur_controlpart] += line.rstrip() + "\n"
+        continue
+
+  raise ValueError(line)
+
+# Split out the control enhancements.
+control_enhancements = []
+for controlnum, controldata in sorted(list(control_texts.items())):
+  if controldata.get("Control Enhancements", "").strip() and not controldata["Control Enhancements"].lstrip().startswith("None."):
+    cur_control_enh = None
+    for line in controldata["Control Enhancements"].split("\n"):
+      if not cur_control_enh and not line.strip(): continue # ignore blank at start
+
+      # Find the start of a new control enhancement.
+      m = re.match("\s*\((\d+)\)\s+(.*)", line)
+      if m:
+        name = m.group(2).split(" | ", 1)[-1] # if there's a pipe, it separates the control name from the control enhancement name
+        cur_control_enh = OrderedDict([
+          ("Name", name),
+          ("Text", ""),
+        ])
+        control_texts[controlnum + "(" + m.group(1) + ")"] = cur_control_enh
+        control_enhancements.append(cur_control_enh)
+
+      # Add text to the control enhancement.
+      elif cur_control_enh:
+        cur_control_enh["Text"] += line + "\n"
+
+      else:
+        raise ValueError(line)
+    del controldata["Control Enhancements"]
+
+# Extract the parts of Control Enhancements sections into separate fields.
+for control in control_enhancements:
+  cur_controlpart = "Text"
+  control_parts = OrderedDict()
+  for line in control["Text"].split("\n"):
+      m = re.match(r"(\s*)(Supplemental Guidance|Related Controls|References):\s*", line)
+      if m:
+        cur_controlpart = m.group(2)
+        # remove the header from the line but keep initial whitespace so indentation in the section is consistent
+        line = m.group(1) + line[m.end():]
+      if cur_controlpart not in control_parts:
+        if line.strip() == "": continue
+        control_parts[cur_controlpart] = ""
+      control_parts[cur_controlpart] += line + "\n"
+  control.update(control_parts)
+
+# Clean up.
+for control in control_texts.values():
+  # In each control text section, remove consistent indent.
+  for k, v in control.items():
+    try:
+      indent = min(re.search(r"\S", line+"!").start() for line in v.split("\n") if line.strip() != "")
+      control[k] = "\n".join(line[indent:] for line in v.split("\n")).rstrip()
+      if "\n" in control[k]: control[k] += "\n"
+    except ValueError:
+      pass # empty value, can't take min
+
+  # Remove "Control Enhancements: None".
+  if control.get("Control Enhancements", "").strip() == "None.":
+    del control["Control Enhancements"]
+
+  # Split.
+  if control.get("Related Controls"):
+    control["Related Controls"] = control["Related Controls"].rstrip(" ").rstrip(".").split(", ")
+
+# Parse Appendix E
+# ================
 
 # Fast-forward to the appendix.
 while lines and lines[0] != "APPENDIX E": lines.pop(0)
@@ -117,6 +234,10 @@ while True:
       ("number", int(controlnum)),
       ("enhancement", int(enhancement) if enhancement is not None else None),
       ("name", name),
+      # TODO: Related Controls isn't being parsed very well because pdftotext is placing
+      # the Related Controls heading on the wrong line sometimes.
+      # ("related-controls", control_texts[control].get("Related Controls")),
+      ("references", control_texts[control].get("References")),
       ("attributes", OrderedDict([
         ("privacy-related", "P" in attribs),
         ("implemented-by", "organization" if "O" in attribs else "system" if "S" in attribs else "organization-and-system" if "O/S" in attribs else None),
@@ -140,4 +261,17 @@ with open("control-metadata.yaml", "w") as f:
   f.write("# extracted by GovReady PBC.\n")
   f.write("# =======================================================\n")
   rtyaml.dump(control_metadata, f)
+
+# Write out control text and supplemental guidance.
+with open("control-text.yaml", "w") as f:
+  f.write("# NIST SP 800-53 Rev 5 August 2017 Draft Control Text\n")
+  f.write("# extracted by GovReady PBC.\n")
+  f.write("# =======================================================\n")
+  f.write(rtyaml.dump(OrderedDict([
+    (control["control"], OrderedDict([
+      ("text", control_texts[control["control"]]["Text"]),
+      ("supplemental-guidance", control_texts[control["control"]].get("Supplemental Guidance")),
+    ]))
+    for control in control_metadata if control["control"] in control_texts
+  ])))
 
