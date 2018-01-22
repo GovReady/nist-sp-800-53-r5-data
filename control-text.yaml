@@ -394,7 +394,10 @@ AC-2(15):
     account management, network and system administration, database administration, and web
     administration.
 AC-3:
-  text: accordance with applicable access control policies.
+  text: |2
+           Enforce approved authorizations for logical access to information and system resources in
+
+    accordance with applicable access control policies.
   parameters: ~
   supplemental-guidance: |
     Access control policies control access between active entities or subjects
@@ -2914,7 +2917,9 @@ AT-1:
 
     controls does not constitute an organizational policy or procedure.
 AT-2:
-  text: |
+  text: |2
+           Provide basic security and privacy awareness training to system users (including
+
     managers, senior executives, and contractors):
     a.   As part of initial training for new users;
     b.   When required by system changes; and
@@ -11889,9 +11894,12 @@ PE-15(1):
     Automated mechanisms include, for example, water detection sensors,
     alarms, and notification systems.
 PE-16:
-  text: components] entering and exiting the facility and maintain records of those
-    items.
-  parameters: ~
+  text: |2
+          Authorize, monitor, and control <1> entering and exiting the facility and maintain records of those items.
+  parameters:
+    1:
+      type: Assignment
+      description: types of system components
   supplemental-guidance: |
     Enforcing authorizations for entry and exit of system components may
     require restricting access to delivery areas and isolating the areas from the system and media
@@ -11929,7 +11937,9 @@ PE-17:
 
     activities of organizations.
 PE-18:
-  text: |
+  text: |2
+           Position system components within the facility to minimize potential damage from
+
     <1> and to minimize the
     opportunity for unauthorized access.
   parameters:
@@ -13680,7 +13690,10 @@ PM-24:
     dissemination, disclosure, and disposition. Members may include the Chief Information Officer,
     Senior Agency Official for Privacy, and Senior Agency Information Security Officer.
 PM-25:
-  text: Agreements.
+  text: |2
+          Establish a Data Integrity Board to oversee organizational Computer Matching
+
+    Agreements.
   parameters: ~
   supplemental-guidance: >
     Organizations executing Computer Matching Agreements or participating
@@ -14865,7 +14878,9 @@ RA-8:
     may be required by law, organizations may develop policies to require privacy impact assessments
     in circumstances where a privacy impact assessment would not be required by law.
 RA-9:
-  text: |
+  text: |2
+           Identify critical system components and functions by performing a criticality analysis for
+
     <1> at
     <2>.
   parameters:
@@ -18672,7 +18687,9 @@ SC-12(3):
       - certificates issued in accordance with organization-defined requirements
   supplemental-guidance: None.
 SC-13:
-  text: |
+  text: |2
+           Implement the following cryptographic uses and type of cryptography for each use:
+
     <1>.
   parameters:
     1:
@@ -18943,7 +18960,10 @@ SC-20(2):
   parameters: ~
   supplemental-guidance: None.
 SC-21:
-  text: name/address resolution responses the system receives from authoritative sources.
+  text: |2
+           Request and perform data origin authentication and data integrity verification on the
+
+    name/address resolution responses the system receives from authoritative sources.
   parameters: ~
   supplemental-guidance: >
     Each client of name resolution services either performs this validation on
@@ -19106,8 +19126,12 @@ SC-26:
     functions. Depending upon the specific usage of the honeypot, consultation with the Office of the
     General Counsel before deployment may be needed.
 SC-27:
-  text: independent applications].
-  parameters: ~
+  text: |2
+           Include within organizational systems: <1>.
+  parameters:
+    1:
+      type: Assignment
+      description: platform-independent applications
   supplemental-guidance: >
     Platforms are combinations of hardware and software used to run software
 
@@ -19125,8 +19149,18 @@ SC-27:
 
     systems with specific operating systems are under attack.
 SC-28:
-  text: organization-defined information] at rest.
-  parameters: ~
+  text: |2
+           Protect the <2> of <1> at rest.
+  parameters:
+    1:
+      type: Assignment
+      description: information
+    2:
+      type: Selection
+      one-or-more: true
+      choices:
+      - confidentiality
+      - integrity
   supplemental-guidance: >
     This control addresses the confidentiality and integrity of information at
 
@@ -19603,7 +19637,10 @@ SC-34(3):
       description: authorized individuals
   supplemental-guidance: None.
 SC-35:
-  text: code, malicious websites, or web-based malicious code.
+  text: |2
+           Include system components that proactively seek to identify network-based malicious
+
+    code, malicious websites, or web-based malicious code.
   parameters: ~
   supplemental-guidance: >
     Honeyclients differ from honeypots in that the components actively probe
@@ -21969,8 +22006,14 @@ SI-15(1):
     or heuristic information) against the security risks they help mitigate and the established
     privacy posture in the privacy program plan.
 SI-16:
-  text: memory from unauthorized code execution.
-  parameters: ~
+  text: |2
+          Implement <1> to protect the system
+
+    memory from unauthorized code execution.
+  parameters:
+    1:
+      type: Assignment
+      description: security safeguards
   supplemental-guidance: >
     Some adversaries launch attacks with the intent of executing code in non-
 

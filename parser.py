@@ -66,7 +66,11 @@ while lines:
     m = re.match(r"(" + re.escape(cur_family["family"]) + r"-\d+)\s+(.*)", line)
     if m:
       cur_control, cur_controlname = m.groups()
+      # Subequent all-caps lines are probably more of the control name.
+      while lines and lines[0] == lines[0].upper():
+        cur_controlname += lines.pop(0)
       control_texts[cur_control] = OrderedDict()
+      cur_controlpart = "Text"
       continue
 
     if cur_control:

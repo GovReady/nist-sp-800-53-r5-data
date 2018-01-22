@@ -246,8 +246,7 @@
   number: 3
   enhancement: ~
   name: Access Enforcement
-  references: |2
-           Enforce approved authorizations for logical access to information and system resources in
+  references: |
     NIST Special Publications 800-57-1, 800-57-2, 800-57-3, 800-162; NIST Interagency
     Report 7874.
   attributes:
@@ -1696,9 +1695,7 @@
   number: 2
   enhancement: ~
   name: Awareness Training
-  references: |2
-           Provide basic security and privacy awareness training to system users (including
-    NIST Special Publication 800-50.
+  references: NIST Special Publication 800-50.
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -7138,9 +7135,7 @@
   number: 16
   enhancement: ~
   name: Delivery and Removal
-  references: |2
-          Authorize, monitor, and control [Assignment: organization-defined types of system
-    None.
+  references: None.
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7168,9 +7163,7 @@
   number: 18
   enhancement: ~
   name: Location of System Components
-  references: |2
-           Position system components within the facility to minimize potential damage from
-    None.
+  references: None.
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -7740,9 +7733,7 @@
   number: 25
   enhancement: ~
   name: Data Integrity Board
-  references: |2
-          Establish a Data Integrity Board to oversee organizational Computer Matching
-    None.
+  references: None.
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -7765,9 +7756,7 @@
   enhancement: ~
   name: Minimization of PII Used in Testing Training, and Research                                                                                                           are
     employed by the
-  references: |
-    TRAINING, AND RESEARCH
-        None.
+  references: None.
   attributes:
     privacy-related: true
     implemented-by: organization
@@ -8312,9 +8301,7 @@
   number: 9
   enhancement: ~
   name: Criticality Analysis
-  references: |2
-           Identify critical system components and functions by performing a criticality analysis for
-    None.
+  references: None.
   attributes:
     privacy-related: false
     implemented-by: organization
@@ -10256,9 +10243,7 @@
   number: 13
   enhancement: ~
   name: Cryptographic Protection
-  references: |2
-           Implement the following cryptographic uses and type of cryptography for each use:
-    FIPS Publication 140-2.
+  references: FIPS Publication 140-2.
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10493,9 +10478,7 @@
   number: 21
   enhancement: ~
   name: Secure Name/Address Resolution Service (Recursive or Caching Resolver)
-  references: |2
-           Request and perform data origin authentication and data integrity verification on the
-    NIST Special Publication 800-81.
+  references: NIST Special Publication 800-81.
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10621,9 +10604,7 @@
   number: 27
   enhancement: ~
   name: Platform-Independent Applications
-  references: |2
-           Include within organizational systems: [Assignment: organization-defined platform-
-    None.
+  references: None.
   attributes:
     privacy-related: false
     implemented-by: system
@@ -10637,8 +10618,7 @@
   number: 28
   enhancement: ~
   name: Protection of Information at Rest
-  references: |2
-           Protect the [Selection (one or more): confidentiality; integrity] of [Assignment:
+  references: |
     NIST Special Publications 800-56A, 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
     3, 800-111, 800-124.
   attributes:
@@ -10906,9 +10886,7 @@
   number: 35
   enhancement: ~
   name: Honeyclients
-  references: |2
-           Include system components that proactively seek to identify network-based malicious
-    None.
+  references: None.
   attributes:
     privacy-related: false
     implemented-by: system
@@ -12370,9 +12348,7 @@
   number: 16
   enhancement: ~
   name: Memory Protection
-  references: |2
-          Implement [Assignment: organization-defined security safeguards] to protect the system
-    None.
+  references: None.
   attributes:
     privacy-related: false
     implemented-by: system
