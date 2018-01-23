@@ -4945,7 +4945,7 @@
   family: IA
   number: 8
   enhancement: ~
-  name: Identification and Authentication (Non- Organizational Users)
+  name: Identification and Authentication (Non-Organizational Users)
   references: |
     FIPS Publication 201; NIST Special Publications 800-63, 800-79, 800-116; NIST
     Interagency Report 8062.
@@ -6966,7 +6966,7 @@
   family: PE
   number: 11
   enhancement: 2
-  name: Long-Term Alternate Power Supply — Self- Contained
+  name: Long-Term Alternate Power Supply — Self-Contained
   references: ~
   attributes:
     privacy-related: false
@@ -7754,8 +7754,8 @@
   family: PM
   number: 26
   enhancement: ~
-  name: Minimization of PII Used in Testing Training, and Research                                                                                                           are
-    employed by the
+  name: Minimization of PII Used in Testing Training, and Research are employed by
+    the
   references: None.
   attributes:
     privacy-related: true

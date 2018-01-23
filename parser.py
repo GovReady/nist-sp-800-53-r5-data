@@ -166,6 +166,11 @@ for control in control_texts.values():
 # Parse Appendix E
 # ================
 
+def clean_single_line(s):
+  s = re.sub("-\n\s*", "-", s).strip() # kill newlines after hyphens
+  s = re.sub("\s+", " ", s).strip() # replace whitespace with spaces
+  return s
+
 # Fast-forward to the appendix.
 while lines and lines[0] != "APPENDIX E": lines.pop(0)
 
@@ -188,7 +193,8 @@ while True:
 
     # Next line is a continuation of the control name?
     if lines[0].startswith("               "):
-      name += " " + lines.pop(0).lstrip()
+      name += "\n" + lines.pop(0).lstrip()
+      name = clean_single_line(name)
 
     # Control enhancements have all-capital names, which is not very legible.
     if name == name.upper():
@@ -275,32 +281,27 @@ for control in control_texts.values():
   if "Text" not in control: continue
   parameters = OrderedDict()
 
-  def clean(s):
-    s = re.sub("-\n\s*", "-", s).strip() # kill newlines after hyphens
-    s = re.sub("\s+", " ", s).strip() # replace whitespace with spaces
-    return s
-  
   def extract_parameter(m):
-    m1 = re.match(r"(organization-|organized-|organizational )(defined|identified) (.*)", clean(m.group(1)))
-    if not m1: raise ValueError(repr(clean(m.group(1))))
+    m1 = re.match(r"(organization-|organized-|organizational )(defined|identified) (.*)", clean_single_line(m.group(1)))
+    if not m1: raise ValueError(repr(clean_single_line(m.group(1))))
     parameter_id = len(parameters)+1
     parameters[parameter_id] = OrderedDict([
       ("type", "Assignment"),
-      #("text", clean(m.group(0))),
+      #("text", clean_single_line(m.group(0))),
       ("description", m1.group(3)),
     ])
     return "<{}>".format(parameter_id)
   control["Text"] = re.sub(r"\[Assignment[:;]?\s+([^\]]+)\]", extract_parameter, control["Text"])
   
   def extract_parameter(m):
-    m1 = re.match(r"(\(one or more\))?:?(.*)", clean(m.group(2)))
-    if not m1: raise ValueError(repr(clean(m.group(2))))
+    m1 = re.match(r"(\(one or more\))?:?(.*)", clean_single_line(m.group(2)))
+    if not m1: raise ValueError(repr(clean_single_line(m.group(2))))
     parameter_id = len(parameters)+1
     parameters[parameter_id] = OrderedDict([
       ("type", "Selection"),
-      #("text", clean(m.group(0))),
+      #("text", clean_single_line(m.group(0))),
       ("one-or-more", bool(m1.group(1))),
-      ("choices", [clean(x) for x in m1.group(2).split("; ")]),
+      ("choices", [clean_single_line(x) for x in m1.group(2).split("; ")]),
     ])
     return "<{}>".format(parameter_id)
   control["Text"] = re.sub(r"\[Selection(:|\s+)([^\]]+)\]", extract_parameter, control["Text"])
