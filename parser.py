@@ -287,7 +287,7 @@ for control in control_texts.values():
     parameter_id = len(parameters)+1
     parameters[parameter_id] = OrderedDict([
       ("type", "Assignment"),
-      #("text", clean_single_line(m.group(0))),
+      ("text", clean_single_line(m.group(0))),
       ("description", m1.group(3)),
     ])
     return "<{}>".format(parameter_id)
@@ -299,7 +299,7 @@ for control in control_texts.values():
     parameter_id = len(parameters)+1
     parameters[parameter_id] = OrderedDict([
       ("type", "Selection"),
-      #("text", clean_single_line(m.group(0))),
+      ("text", clean_single_line(m.group(0))),
       ("one-or-more", bool(m1.group(1))),
       ("choices", [clean_single_line(x) for x in m1.group(2).split("; ")]),
     ])
