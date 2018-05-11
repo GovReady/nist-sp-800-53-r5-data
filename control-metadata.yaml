@@ -7456,7 +7456,7 @@
   family: PM
   number: 4
   enhancement: ~
-  name: Plan of Action and Milestones Process family have been
+  name: Plan of Action and Milestones Process
   references: NIST Special Publications 800-37.
   attributes:
     privacy-related: true
@@ -7478,7 +7478,7 @@
   family: PM
   number: 6
   enhancement: ~
-  name: Measures of Performance federal laws, Executive
+  name: Measures of Performance
   references: NIST Special Publications 800-55, 800-137.
   attributes:
     privacy-related: true
@@ -7489,7 +7489,7 @@
   family: PM
   number: 7
   enhancement: ~
-  name: Enterprise Architecture Orders, directives,
+  name: Enterprise Architecture
   references: NIST Special Publication 800-39.
   attributes:
     privacy-related: true
@@ -7534,7 +7534,7 @@
   family: PM
   number: 11
   enhancement: ~
-  name: Mission and Business Process Definition FIPS 200 impact levels
+  name: Mission and Business Process Definition
   references: FIPS Publication 199; NIST Special Publication 800-60-1, 800-60-2.
   attributes:
     privacy-related: true
@@ -7556,7 +7556,7 @@
   family: PM
   number: 13
   enhancement: ~
-  name: Security and Privacy Workforce control baselines in
+  name: Security and Privacy Workforce
   references: NIST Cyber Workforce Framework.
   attributes:
     privacy-related: true
@@ -7567,7 +7567,7 @@
   family: PM
   number: 14
   enhancement: ~
-  name: Testing, Training, and Monitoring Appendix D. Tailoring
+  name: Testing, Training, and Monitoring
   references: NIST Special Publications 800-37, 800-39; 800-53A, 800-137.
   attributes:
     privacy-related: true
@@ -7611,7 +7611,7 @@
   family: PM
   number: 17
   enhancement: ~
-  name: Protecting CUI on External Systems on the programmatic,
+  name: Protecting CUI on External Systems
   references: 32 CFR 2002; NIST Special Publication 800-171; NARA CUI Registry.
   attributes:
     privacy-related: false
@@ -7633,7 +7633,7 @@
   family: PM
   number: 19
   enhancement: ~
-  name: Privacy Program Roles independent of any
+  name: Privacy Program Roles
   references: None.
   attributes:
     privacy-related: true
@@ -7644,7 +7644,7 @@
   family: PM
   number: 20
   enhancement: ~
-  name: System of Records Notice system and essential
+  name: System of Records Notice
   references: None.
   attributes:
     privacy-related: true
@@ -7677,7 +7677,7 @@
   family: PM
   number: 23
   enhancement: ~
-  name: Data Quality Management document the controls
+  name: Data Quality Management
   references: NIST Special Publication 800-188.
   attributes:
     privacy-related: true
@@ -7688,7 +7688,7 @@
   family: PM
   number: 23
   enhancement: 1
-  name: AUTOMATION in their information
+  name: Automation
   references: ~
   attributes:
     privacy-related: true
@@ -7710,7 +7710,7 @@
   family: PM
   number: 23
   enhancement: 3
-  name: UPDATING PERSONALLY IDENTIFIABLE INFORMATION plans, together with the
+  name: Updating Personally Identifiable Information
   references: ~
   attributes:
     privacy-related: true
@@ -7721,7 +7721,7 @@
   family: PM
   number: 24
   enhancement: ~
-  name: Data Management Board security and privacy
+  name: Data Management Board
   references: NIST Special Publication 800-188.
   attributes:
     privacy-related: true
@@ -7743,7 +7743,7 @@
   family: PM
   number: 25
   enhancement: 1
-  name: PUBLISH AGREEMENTS ON WEBSITE totality of security and
+  name: Publish Agreements on Website
   references: ~
   attributes:
     privacy-related: true
@@ -7754,8 +7754,7 @@
   family: PM
   number: 26
   enhancement: ~
-  name: Minimization of PII Used in Testing Training, and Research are employed by
-    the
+  name: Minimization of PII Used in Testing Training, and Research
   references: None.
   attributes:
     privacy-related: true
