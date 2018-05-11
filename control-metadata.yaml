@@ -7434,7 +7434,7 @@
   family: PM
   number: 2
   enhancement: ~
-  name: Inforamtion Security Program Roles
+  name: Information Security Program Roles
   references: NIST Special Publications 800-37, 800-39; OMB Memorandum 17-25.
   attributes:
     privacy-related: false
