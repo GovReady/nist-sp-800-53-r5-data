@@ -7,14 +7,14 @@
   enhancement: ~
   name: Access Control Policy and Procedures
   references: |
-    NIST Special Publications 800-12, 800-30, 800-39, 800-100; NIST Interagency
+    [SP 800-12], 800-30, 800-39, 800-100; NIST Interagency
     Report 7874.
 - control: AC-2
   family: AC
   number: 2
   enhancement: ~
   name: Account Management
-  references: NIST Special Publications 800-162, 800-178.
+  references: '[SP 800-162], 800-178.'
 - control: AC-2(1)
   family: AC
   number: 2
@@ -111,7 +111,7 @@
   enhancement: ~
   name: Access Enforcement
   references: |
-    NIST Special Publications 800-57-1, 800-57-2, 800-57-3, 800-162; NIST Interagency
+    [SP 800-57-1], 800-57-2, 800-57-3, 800-162; NIST Interagency
     Report 7874.
 - control: AC-3(2)
   family: AC
@@ -184,7 +184,7 @@
   number: 4
   enhancement: ~
   name: Information Flow Enforcement
-  references: NIST Special Publications 800-162, 800-178.
+  references: '[SP 800-162], 800-178.'
 - control: AC-4(1)
   family: AC
   number: 4
@@ -382,7 +382,7 @@
   number: 7
   enhancement: ~
   name: Unsuccessful Logon Attempts
-  references: NIST Special Publications 800-63, 800-124.
+  references: '[SP 800-63], 800-124.'
 - control: AC-7(2)
   family: AC
   number: 7
@@ -496,7 +496,7 @@
   number: 16
   enhancement: ~
   name: Security and Privacy Attributes
-  references: FIPS Publications 140-2, 186-4; NIST Special Publications 800-162, 800-178.
+  references: '[FIPS 140-2], 186-4; [SP 800-162], 800-178.'
 - control: AC-16(1)
   family: AC
   number: 16
@@ -569,7 +569,7 @@
   enhancement: ~
   name: Remote Access
   references: |
-    NIST Special Publications 800-46, 800-77, 800-113, 800-114, 800-121; NIST
+    [SP 800-46], 800-77, 800-113, 800-114, 800-121; NIST
     Interagency Report 7966.
 - control: AC-17(1)
   family: AC
@@ -612,7 +612,7 @@
   number: 18
   enhancement: ~
   name: Wireless Access
-  references: NIST Special Publications 800-48, 800-94, 800-97.
+  references: '[SP 800-48], 800-94, 800-97.'
 - control: AC-18(1)
   family: AC
   number: 18
@@ -642,7 +642,7 @@
   number: 19
   enhancement: ~
   name: Access Control for Mobile Devices
-  references: NIST Special Publications 800-114, 800-124, 800-164.
+  references: '[SP 800-114], 800-124, 800-164.'
 - control: AC-19(4)
   family: AC
   number: 19
@@ -720,7 +720,7 @@
   number: 24
   enhancement: ~
   name: Access Control Decisions
-  references: NIST Special Publications 800-162, 800-178.
+  references: '[SP 800-162], 800-178.'
 - control: AC-24(1)
   family: AC
   number: 24
@@ -744,7 +744,7 @@
   number: 1
   enhancement: ~
   name: Awareness and Training Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-50, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-50, 800-100.'
 - control: AT-2
   family: AT
   number: 2
@@ -816,7 +816,7 @@
   number: 1
   enhancement: ~
   name: Audit and Accountability Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-50, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-50, 800-100.'
 - control: AU-2
   family: AU
   number: 2
@@ -900,7 +900,7 @@
   number: 6
   enhancement: ~
   name: Audit Review, Analysis, and Reporting
-  references: NIST Special Publications 800-86, 800-101.
+  references: '[SP 800-86], 800-101.'
 - control: AU-6(1)
   family: AU
   number: 6
@@ -990,7 +990,7 @@
   number: 9
   enhancement: ~
   name: Protection of Audit Information
-  references: FIPS Publications 140-2, 180-4, 202.
+  references: '[FIPS 140-2], 180-4, 202.'
 - control: AU-9(1)
   family: AU
   number: 9
@@ -1038,8 +1038,7 @@
   number: 10
   enhancement: ~
   name: Non-repudiation
-  references: FIPS Publications 140-2, 180-4, 186-4, 202; NIST Special Publication
-    800-177.
+  references: '[FIPS 140-2], 180-4, 186-4, 202; NIST Special Publication 800-177.'
 - control: AU-10(1)
   family: AU
   number: 10
@@ -1178,7 +1177,7 @@
   enhancement: ~
   name: Assessment, Authorization, and Monitoring Policies and Procedures
   references: |
-    NIST Special Publications 800-12, 800-30, 800-39, 800-50, 800-100, 800-122; NIST
+    [SP 800-12], 800-30, 800-39, 800-50, 800-100, 800-122; NIST
     Interagency Report 8062.
 - control: CA-2
   family: CA
@@ -1186,7 +1185,7 @@
   enhancement: ~
   name: Assessments
   references: |
-    FIPS Publication 199; NIST Special Publications 800-37, 800-39, 800-53A, 800-115,
+    FIPS Publication 199; [SP 800-37], 800-39, 800-53A, 800-115,
     800-122, 800-137; NIST Interagency Report 8062.
 - control: CA-2(1)
   family: CA
@@ -1284,8 +1283,8 @@
   enhancement: ~
   name: Continuous Monitoring
   references: |
-    NIST Special Publications 800-37, 800-39, 800-53A, 800-115, 800-122, 800-137;
-    NIST Interagency Reports 8011, 8062.
+    [SP 800-37], 800-39, 800-53A, 800-115, 800-122, 800-137;
+    [IR 8011], 8062.
 - control: CA-7(1)
   family: CA
   number: 7
@@ -1345,13 +1344,13 @@
   number: 1
   enhancement: ~
   name: Configuration Management Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: CM-2
   family: CM
   number: 2
   enhancement: ~
   name: Baseline Configuration
-  references: NIST Special Publications 800-124, 800-128.
+  references: '[SP 800-124], 800-128.'
 - control: CM-2(2)
   family: CM
   number: 2
@@ -1381,8 +1380,7 @@
   number: 3
   enhancement: ~
   name: Configuration Change Control
-  references: NIST Special Publications 800-124, 800-128; NIST Interagency Report
-    8062.
+  references: '[SP 800-124], 800-128; NIST Interagency Report 8062.'
 - control: CM-3(1)
   family: CM
   number: 3
@@ -1442,7 +1440,7 @@
   number: 5
   enhancement: ~
   name: Access Restrictions for Change
-  references: FIPS Publications 140-2, 186-4.
+  references: '[FIPS 140-2], 186-4.'
 - control: CM-5(1)
   family: CM
   number: 5
@@ -1485,7 +1483,7 @@
   enhancement: ~
   name: Configuration Settings
   references: |
-    NIST Special Publications 800-70, 800-126, 800-128; US Government Configuration
+    [SP 800-70], 800-126, 800-128; US Government Configuration
     Baselines; National Checklist Repository.
 - control: CM-6(1)
   family: CM
@@ -1504,8 +1502,7 @@
   number: 7
   enhancement: ~
   name: Least Functionality
-  references: FIPS Publications 140-2, 180-4, 186-4, 202; NIST Special Publication
-    800-167.
+  references: '[FIPS 140-2], 180-4, 186-4, 202; NIST Special Publication 800-167.'
 - control: CM-7(1)
   family: CM
   number: 7
@@ -1542,7 +1539,7 @@
   enhancement: ~
   name: System Component Inventory
   references: |
-    NIST Special Publications 800-57-1, 800-57-2, 800-57-3, 800-128; NIST Interagency
+    [SP 800-57-1], 800-57-2, 800-57-3, 800-128; NIST Interagency
     Report 8062.
 - control: CM-8(1)
   family: CM
@@ -1657,7 +1654,7 @@
   number: 1
   enhancement: ~
   name: Contingency Planning Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-34, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-34, 800-39, 800-100.'
 - control: CP-2
   family: CP
   number: 2
@@ -1735,7 +1732,7 @@
   number: 4
   enhancement: ~
   name: Contingency Plan Testing
-  references: FIPS Publication 199; NIST Special Publications 800-34, 800-84.
+  references: FIPS Publication 199; [SP 800-34], 800-84.
 - control: CP-4(1)
   family: CP
   number: 4
@@ -1861,8 +1858,7 @@
   number: 9
   enhancement: ~
   name: System Backup
-  references: FIPS Publications 140-2, 186-4; NIST Special Publications 800-34, 800-130,
-    800-152.
+  references: '[FIPS 140-2], 186-4; [SP 800-34], 800-130, 800-152.'
 - control: CP-9(1)
   family: CP
   number: 9
@@ -1953,7 +1949,7 @@
   enhancement: ~
   name: Identification and Authentication Policy and Procedures
   references: |
-    FIPS Publication 201; NIST Special Publications 800-12, 800-30, 800-39, 800-63,
+    FIPS Publication 201; [SP 800-12], 800-30, 800-39, 800-63,
     800-73, 800-76, 800-78, 800-100; NIST Interagency Report 7874.
 - control: IA-2
   family: IA
@@ -1961,8 +1957,8 @@
   enhancement: ~
   name: Identification and Authentication (Organizational Users)
   references: |
-    FIPS Publications 140-2, 201, 202; NIST Special Publications 800-63, 800-73, 800-
-    76, 800-78, 800-79, 800-156, 800-166; NIST Interagency Reports 7539, 7676, 7817, 7849, 7870,
+    [FIPS 140-2], 201, 202; [SP 800-63], 800-73, 800-
+    76, 800-78, 800-79, 800-156, 800-166; [IR 7539], 7676, 7817, 7849, 7870,
     7874, 7966.
 - control: IA-2(1)
   family: IA
@@ -2029,8 +2025,7 @@
   number: 4
   enhancement: ~
   name: Identifier Management
-  references: FIPS Publication 201; NIST Special Publications 800-63, 800-73, 800-76,
-    800-78.
+  references: FIPS Publication 201; [SP 800-63], 800-73, 800-76, 800-78.
 - control: IA-4(1)
   family: IA
   number: 4
@@ -2067,8 +2062,8 @@
   enhancement: ~
   name: Authenticator Management
   references: |
-    FIPS Publications 140-2, 180-4, 201, 202; NIST Special Publications 800-73, 800-63,
-    800-76, 800-78; NIST Interagency Reports 7539, 7817, 7849, 7870, 8040.
+    [FIPS 140-2], 180-4, 201, 202; [SP 800-73], 800-63,
+    800-76, 800-78; [IR 7539], 7817, 7849, 7870, 8040.
 - control: IA-5(1)
   family: IA
   number: 5
@@ -2171,7 +2166,7 @@
   enhancement: ~
   name: Identification and Authentication (Non-Organizational Users)
   references: |
-    FIPS Publication 201; NIST Special Publications 800-63, 800-79, 800-116; NIST
+    FIPS Publication 201; [SP 800-63], 800-79, 800-116; NIST
     Interagency Report 8062.
 - control: IA-8(1)
   family: IA
@@ -2238,7 +2233,7 @@
   number: 12
   enhancement: ~
   name: Identity Proofing
-  references: FIPS Publication 201; NIST Special Publications 800-63, 800-63A.
+  references: FIPS Publication 201; [SP 800-63], 800-63A.
 - control: IA-12(1)
   family: IA
   number: 12
@@ -2280,7 +2275,7 @@
   number: 1
   enhancement: ~
   name: Individual Participation Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: IP-2
   family: IP
   number: 2
@@ -2346,7 +2341,7 @@
   number: 1
   enhancement: ~
   name: Incident Response Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-61, 800-83, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-61, 800-83, 800-100.'
 - control: IR-2
   family: IR
   number: 2
@@ -2370,7 +2365,7 @@
   number: 3
   enhancement: ~
   name: Incident Response Testing
-  references: NIST Special Publications 800-84, 800-115.
+  references: '[SP 800-84], 800-115.'
 - control: IR-3(1)
   family: IR
   number: 3
@@ -2394,8 +2389,7 @@
   number: 4
   enhancement: ~
   name: Incident Handling
-  references: NIST Special Publications 800-61, 800-101, 800-86; NIST Interagency
-    Report 7599.
+  references: '[SP 800-61], 800-101, 800-86; NIST Interagency Report 7599.'
 - control: IR-4(1)
   family: IR
   number: 4
@@ -2563,7 +2557,7 @@
   number: 1
   enhancement: ~
   name: System Maintenance Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: MA-2
   family: MA
   number: 2
@@ -2611,8 +2605,7 @@
   number: 4
   enhancement: ~
   name: Nonlocal Maintenance
-  references: FIPS Publications 140-2, 197, 201; NIST Special Publications 800-63,
-    800-88.
+  references: '[FIPS 140-2], 197, 201; [SP 800-63], 800-88.'
 - control: MA-4(1)
   family: MA
   number: 4
@@ -2720,7 +2713,7 @@
   number: 1
   enhancement: ~
   name: Media Protection Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: MP-2
   family: MP
   number: 2
@@ -2739,7 +2732,7 @@
   enhancement: ~
   name: Media Storage
   references: |
-    FIPS Publication 199; NIST Special Publications 800-56A, 800-56B, 800-56C, 800-
+    FIPS Publication 199; [SP 800-56A], 800-56B, 800-56C, 800-
     57-1, 800-57-2, 800-57-3, 800-111.
 - control: MP-4(2)
   family: MP
@@ -2765,7 +2758,7 @@
   enhancement: ~
   name: Media Sanitization
   references: |
-    FIPS Publication 199; NIST Special Publications 800-60-1, 800-60-2, 800-88, 800-
+    FIPS Publication 199; [SP 800-60-1], 800-60-2, 800-88, 800-
     124; NIST Interagency Report 8023.
 - control: MP-6(1)
   family: MP
@@ -2850,7 +2843,7 @@
   number: 1
   enhancement: ~
   name: Privacy Authorization Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: PA-2
   family: PA
   number: 2
@@ -2886,13 +2879,13 @@
   number: 1
   enhancement: ~
   name: Physical and Environmental Protection Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: PE-2
   family: PE
   number: 2
   enhancement: ~
   name: Physical Access Authorizations
-  references: FIPS Publication 201; NIST Special Publications 800-76, 800-73, 800-78.
+  references: FIPS Publication 201; [SP 800-76], 800-73, 800-78.
 - control: PE-2(1)
   family: PE
   number: 2
@@ -2916,8 +2909,7 @@
   number: 3
   enhancement: ~
   name: Physical Access Control
-  references: FIPS Publication 201; NIST Special Publications 800-73, 800-76, 800-78,
-    800-116.
+  references: FIPS Publication 201; [SP 800-73], 800-76, 800-78, 800-116.
 - control: PE-3(1)
   family: PE
   number: 3
@@ -3193,7 +3185,7 @@
   number: 1
   enhancement: ~
   name: Planning Policy and Procedures
-  references: NIST Special Publications 800-12, 800-18, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-18, 800-30, 800-39, 800-100.'
 - control: PL-2
   family: PL
   number: 2
@@ -3254,7 +3246,7 @@
   enhancement: ~
   name: Baseline Selection
   references: |
-    FIPS Publications 199, 200; NIST Special Publications 800-30, 800-37, 800-39, 800-
+    [FIPS 199], 200; [SP 800-30], 800-37, 800-39, 800-
     60-1, 800-60-2, 800-160.
 - control: PL-11
   family: PL
@@ -3262,7 +3254,7 @@
   enhancement: ~
   name: Baseline Tailoring
   references: |
-    FIPS Publications 199, 200; NIST Special Publications 800-30, 800-37, 800-39, 800-
+    [FIPS 199], 200; [SP 800-30], 800-37, 800-39, 800-
     160.
 - control: PM-1
   family: PM
@@ -3275,7 +3267,7 @@
   number: 2
   enhancement: ~
   name: Information Security Program Roles
-  references: NIST Special Publications 800-37, 800-39; OMB Memorandum 17-25.
+  references: '[SP 800-37], 800-39; OMB Memorandum 17-25.'
 - control: PM-3
   family: PM
   number: 3
@@ -3287,7 +3279,7 @@
   number: 4
   enhancement: ~
   name: Plan of Action and Milestones Process
-  references: NIST Special Publications 800-37.
+  references: '[SP 800-37.]'
 - control: PM-5
   family: PM
   number: 5
@@ -3299,7 +3291,7 @@
   number: 6
   enhancement: ~
   name: Measures of Performance
-  references: NIST Special Publications 800-55, 800-137.
+  references: '[SP 800-55], 800-137.'
 - control: PM-7
   family: PM
   number: 7
@@ -3317,14 +3309,13 @@
   number: 9
   enhancement: ~
   name: Risk Management Strategy
-  references: NIST Special Publications 800-30, 800-39, 800-161; NIST Interagency
-    Report 8023.
+  references: '[SP 800-30], 800-39, 800-161; NIST Interagency Report 8023.'
 - control: PM-10
   family: PM
   number: 10
   enhancement: ~
   name: Authorization Process
-  references: NIST Special Publications 800-37, 800-39.
+  references: '[SP 800-37], 800-39.'
 - control: PM-11
   family: PM
   number: 11
@@ -3348,7 +3339,7 @@
   number: 14
   enhancement: ~
   name: Testing, Training, and Monitoring
-  references: NIST Special Publications 800-37, 800-39; 800-53A, 800-137.
+  references: '[SP 800-37], 800-39; 800-53A, 800-137.'
 - control: PM-15
   family: PM
   number: 15
@@ -3498,7 +3489,7 @@
   number: 1
   enhancement: ~
   name: Personnel Security Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: PS-2
   family: PS
   number: 2
@@ -3511,7 +3502,7 @@
   enhancement: ~
   name: Personnel Screening
   references: |
-    FIPS Publications 199, 201; NIST Special Publications 800-60-1, 800-60-2, 800-73,
+    [FIPS 199], 201; [SP 800-60-1], 800-60-2, 800-73,
     800-76, 800-78.
 - control: PS-3(1)
   family: PS
@@ -3596,14 +3587,14 @@
   number: 1
   enhancement: ~
   name: Risk Assessment Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: RA-2
   family: RA
   number: 2
   enhancement: ~
   name: Security Categorization
   references: |
-    FIPS Publications 199, 200; NIST Special Publications 800-30, 800-39, 800-60-1,
+    [FIPS 199], 200; [SP 800-30], 800-39, 800-60-1,
     800-60-2.
 - control: RA-2(1)
   family: RA
@@ -3616,8 +3607,7 @@
   number: 3
   enhancement: ~
   name: Risk Assessment
-  references: NIST Special Publications 800-30, 800-39, 800-161; NIST Interagency
-    Report 8023.
+  references: '[SP 800-30], 800-39, 800-161; NIST Interagency Report 8023.'
 - control: RA-3(1)
   family: RA
   number: 3
@@ -3630,7 +3620,7 @@
   enhancement: ~
   name: Vulnerability Scanning
   references: |
-    NIST Special Publications 800-40, 800-70, 800-115, 800-126; NIST Interagency
+    [SP 800-40], 800-70, 800-115, 800-126; NIST Interagency
     Reports 7788, 8023.
 - control: RA-5(2)
   family: RA
@@ -3686,7 +3676,7 @@
   enhancement: ~
   name: Risk Response
   references: |
-    FIPS Publications 199, 200; NIST Special Publications 800-30, 800-37, 800-39, 800-
+    [FIPS 199], 200; [SP 800-30], 800-37, 800-39, 800-
     160.
 - control: RA-8
   family: RA
@@ -3705,7 +3695,7 @@
   number: 1
   enhancement: ~
   name: System and Services Acquisition Policy and Procedures
-  references: NIST Special Publications 800-12, 800-30, 800-39, 800-100.
+  references: '[SP 800-12], 800-30, 800-39, 800-100.'
 - control: SA-2
   family: SA
   number: 2
@@ -3717,7 +3707,7 @@
   number: 3
   enhancement: ~
   name: System Development Life Cycle
-  references: NIST Special Publications 800-30, 800-37, 800-64.
+  references: '[SP 800-30], 800-37, 800-64.'
 - control: SA-3(1)
   family: SA
   number: 3
@@ -3742,7 +3732,7 @@
   enhancement: ~
   name: Acquisition Process
   references: |
-    ISO/IEC 15408; FIPS Publications 140-2, 201; NIST Special Publications 800-23,
+    ISO/IEC 15408; [FIPS 140-2], 201; [SP 800-23],
     800-35, 800-36, 800-37, 800-64, 800-70, 800-73, 800-137, 800-161; NIST Interagency Reports
     7539, 7622, 7676, 7870, 8062.
 - control: SA-4(1)
@@ -3811,14 +3801,14 @@
   enhancement: ~
   name: Security and Privacy Engineering Principles
   references: |
-    FIPS Publications 199, 200; NIST Special Publications 800-53A, 800-60-1, 800-60-2,
+    [FIPS 199], 200; [SP 800-53A], 800-60-1, 800-60-2,
     800-64, 800-160; NIST Interagency Report 8062.
 - control: SA-9
   family: SA
   number: 9
   enhancement: ~
   name: External System Services
-  references: NIST Special Publications 800-35, 800-161.
+  references: '[SP 800-35], 800-161.'
 - control: SA-9(1)
   family: SA
   number: 9
@@ -3866,7 +3856,7 @@
   number: 10
   enhancement: ~
   name: Developer Configuration Management
-  references: FIPS Publications 140-2, 180-4, 202; NIST Special Publication 800-128.
+  references: '[FIPS 140-2], 180-4, 202; NIST Special Publication 800-128.'
 - control: SA-10(1)
   family: SA
   number: 10
@@ -3908,7 +3898,7 @@
   number: 11
   enhancement: ~
   name: Developer Testing and Evaluation
-  references: ISO/IEC 15408; NIST Special Publications 800-30, 800-53A, 800-154.
+  references: ISO/IEC 15408; [SP 800-30], 800-53A, 800-154.
 - control: SA-11(1)
   family: SA
   number: 11
@@ -3963,7 +3953,7 @@
   enhancement: ~
   name: Supply Chain Risk Management
   references: |
-    FIPS Publications 140-2, 180-4, 186-4, 202; NIST Special Publications 800-30, 800-
+    [FIPS 140-2], 180-4, 186-4, 202; [SP 800-30], 800-
     161; NIST Interagency Report 7622.
 - control: SA-12(1)
   family: SA
@@ -4250,7 +4240,7 @@
   number: 1
   enhancement: ~
   name: System and Communications Protection Policy and Procedures
-  references: NIST Special Publications 800-12, 800-100.
+  references: '[SP 800-12], 800-100.'
 - control: SC-2
   family: SC
   number: 2
@@ -4346,7 +4336,7 @@
   number: 7
   enhancement: ~
   name: Boundary Protection
-  references: FIPS Publication 199; NIST Special Publications 800-41, 800-77.
+  references: FIPS Publication 199; [SP 800-41], 800-77.
 - control: SC-7(3)
   family: SC
   number: 7
@@ -4479,7 +4469,7 @@
   enhancement: ~
   name: Transmission Confidentiality and Integrity
   references: |
-    FIPS Publications 140-2, 197; NIST Special Publications 800-52, 800-77, 800-81,
+    [FIPS 140-2], 197; [SP 800-52], 800-77, 800-81,
     800-113, 800-177; NIST Interagency Report 8023.
 - control: SC-8(1)
   family: SC
@@ -4529,8 +4519,8 @@
   enhancement: ~
   name: Cryptographic Key Establishment and Management
   references: |
-    NIST Special Publications 800-56A, 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
-    3, 95663; NIST Interagency Reports 7956, 7966.
+    [SP 800-56A], 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
+    3, 95663; [IR 7956], 7966.
 - control: SC-12(1)
   family: SC
   number: 12
@@ -4596,7 +4586,7 @@
   number: 17
   enhancement: ~
   name: Public Key Infrastructure Certificates
-  references: NIST Special Publications 800-32, 800-57-1, 800-57-2, 800-57-3, 800-63.
+  references: '[SP 800-32], 800-57-1, 800-57-2, 800-57-3, 800-63.'
 - control: SC-18
   family: SC
   number: 18
@@ -4644,7 +4634,7 @@
   number: 20
   enhancement: ~
   name: Secure Name/Address Resolution Service (Authoritative Source)
-  references: FIPS Publications 140-2, 186-4; NIST Special Publication 800-81.
+  references: '[FIPS 140-2], 186-4; NIST Special Publication 800-81.'
 - control: SC-20(2)
   family: SC
   number: 20
@@ -4668,7 +4658,7 @@
   number: 23
   enhancement: ~
   name: Session Authenticity
-  references: NIST Special Publications 800-52, 800-77, 800-95, 800-113.
+  references: '[SP 800-52], 800-77, 800-95, 800-113.'
 - control: SC-23(1)
   family: SC
   number: 23
@@ -4717,7 +4707,7 @@
   enhancement: ~
   name: Protection of Information at Rest
   references: |
-    NIST Special Publications 800-56A, 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
+    [SP 800-56A], 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
     3, 800-111, 800-124.
 - control: SC-28(1)
   family: SC
@@ -4970,14 +4960,14 @@
   number: 1
   enhancement: ~
   name: System and Information Integrity Policy and Procedures
-  references: NIST Special Publications 800-12, 800-100.
+  references: '[SP 800-12], 800-100.'
 - control: SI-2
   family: SI
   number: 2
   enhancement: ~
   name: Flaw Remediation
   references: |
-    FIPS Publications 140-2, 186-4; NIST Special Publications 800-40, 800-128; NIST
+    [FIPS 140-2], 186-4; [SP 800-40], 800-128; NIST
     Interagency Report 7788.
 - control: SI-2(1)
   family: SI
@@ -5062,7 +5052,7 @@
   number: 4
   enhancement: ~
   name: System Monitoring
-  references: NIST Special Publications 800-61, 800-83, 800-92, 800-94, 800-137.
+  references: '[SP 800-61], 800-83, 800-92, 800-94, 800-137.'
 - control: SI-4(1)
   family: SI
   number: 4
@@ -5237,7 +5227,7 @@
   enhancement: ~
   name: Software, Firmware, and Information Integrity
   references: |
-    FIPS Publications 140-2, 180-4, 186-4, 202; NIST Special Publications 800-70, 800-
+    [FIPS 140-2], 180-4, 186-4, 202; [SP 800-70], 800-
     147.
 - control: SI-7(1)
   family: SI
@@ -5334,7 +5324,7 @@
   number: 8
   enhancement: ~
   name: Spam Protection
-  references: NIST Special Publications 800-45, 800-177.
+  references: '[SP 800-45], 800-177.'
 - control: SI-8(1)
   family: SI
   number: 8
