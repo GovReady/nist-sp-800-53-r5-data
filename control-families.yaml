@@ -1,4 +1,4 @@
-# NIST SP 800-53 Rev 5 August 2017 Draft Control Family Metadata
+# NIST SP 800-53 Rev 5 March 2020 Draft Control Family Metadata
 # extracted by GovReady PBC.
 # ==============================================================
 - family: AC
@@ -22,42 +22,42 @@
 - family: IA
   name: Identification and Authentication
   citation: "3.7"
-- family: IP
-  name: Individual Participation
-  citation: "3.8"
 - family: IR
   name: Incident Response
-  citation: "3.9"
+  citation: "3.8"
 - family: MA
   name: Maintenance
-  citation: "3.10"
+  citation: "3.9"
 - family: MP
   name: Media Protection
-  citation: "3.11"
-- family: PA
-  name: Privacy Authorization
-  citation: "3.12"
+  citation: "3.10"
 - family: PE
   name: Physical and Environmental Protection
-  citation: "3.13"
+  citation: "3.11"
 - family: PL
   name: Planning
-  citation: "3.14"
+  citation: "3.12"
 - family: PM
   name: Program Management
-  citation: "3.15"
+  citation: "3.13"
 - family: PS
   name: Personnel Security
-  citation: "3.16"
+  citation: "3.14"
+- family: PT
+  name: Personally Identifiable Information Processing and Transparency
+  citation: "3.15"
 - family: RA
   name: Risk Assessment
-  citation: "3.17"
+  citation: "3.16"
 - family: SA
   name: System and Services Acquisition
-  citation: "3.18"
+  citation: "3.17"
 - family: SC
   name: System and Communications Protection
-  citation: "3.19"
+  citation: "3.18"
 - family: SI
   name: System and Information Integrity
+  citation: "3.19"
+- family: SR
+  name: Supply Chain Risk Management
   citation: "3.20"

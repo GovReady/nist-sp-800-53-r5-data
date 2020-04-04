@@ -11,6 +11,8 @@ import sys
 import re
 import rtyaml
 
+nist_sp_800_53_pdf = "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5-draft.pdf"
+
 # Download the PDF and convert to text, and cache the result
 # since this is an expensive step.
 import os.path, subprocess, urllib.request
@@ -20,7 +22,7 @@ if not os.path.exists(cache_fn):
   print("Downloading and converting to text...")
   cp = subprocess.run(
     ["pdftotext", "-layout", "-", "-"],
-    input=urllib.request.urlopen("https://csrc.nist.gov/CSRC/media//Publications/sp/800-53/rev-5/draft/documents/sp800-53r5-draft.pdf").read(),
+    input=urllib.request.urlopen(nist_sp_800_53_pdf).read(),
     stdout=subprocess.PIPE)
   nist_sp_text = cp.stdout.decode("utf8") # in Py 3.6, set encoding="utf8" inside subprocess.run(...) instead
 
@@ -35,6 +37,9 @@ else:
 
 print("Scraping PDF text...")
 
+# Fix line wrapping in control family headers.
+nist_sp_text = re.sub(r"(\n\d{3,4}.*AND)\n\d{3,4}\s+", r"\1 ", nist_sp_text)
+
 # Split into lines.
 lines = nist_sp_text.split("\n")
 
@@ -47,18 +52,37 @@ families = rtyaml.load(open("control-families.yaml"))
 family_start_lines = { (f["citation"] + " " + f["name"].upper()): f for f in families }
 cur_family, cur_control, cur_controlname, cur_controlpart = None, None, None, None
 while lines and not lines[0].endswith("PAGE 16"): lines.pop(0)
+lines.pop(0)
+lines.pop(0)
+lines.pop(0)
 while lines:
   line = lines.pop(0)
-  if line.startswith("CHAPTER THREE "): continue
-  if line.startswith("DRAFT NIST SP 800-53, REVISION 5"): lines.pop(0); lines.pop(0); continue
+
+  if "CHAPTER THREE" in line:
+  	# This is the start of the page header.
+  	lines.pop(0)
+  	lines.pop(0)
+  	lines.pop(0)
+  	continue
+
+  # Remove line numbers.
+  if not line: continue # not even a line number so it's not a real line
+  m = re.match(r"^ ?(\d{3,5})\s*", line)
+  if m:
+    linenum = m.group(1)
+    line = line[m.end():]
+
   if line.startswith("Quick link to"): lines.pop(0); continue
-  if not cur_family and not line.strip(): continue
+  if (not cur_family or not cur_control) and not line.strip(): continue
   if line.startswith("APPENDIX A"): break # end of control sections
 
   # start of a control family
   if line in family_start_lines:
     cur_family = family_start_lines[line]
+    cur_control = None
     lines.pop(0) # empty line
+    if linenum == "8608": # narrative
+        while "8617" not in lines[0]: lines.pop(0)
     continue
 
   if cur_family:
@@ -68,23 +92,29 @@ while lines:
       cur_control, cur_controlname = m.groups()
       # Subequent all-caps lines are probably more of the control name.
       while lines and lines[0] == lines[0].upper():
+        line = re.sub(r"^ ?\d{3,5}\s+", "", line) # remove line number
         cur_controlname += lines.pop(0)
+      print(cur_control, cur_controlname)
       control_texts[cur_control] = OrderedDict()
       cur_controlpart = "Text"
       continue
 
     if cur_control:
       # new control section
-      m = re.match(r"(\s{10})(Control|Supplemental Guidance|Related Controls|Control Enhancements|References):\s*", line)
+      m = re.match(r"(Control|Control Enhancements|References|Related Controls):\s*", line)
       if m:
         # remember what section we're in
-        cur_controlpart = m.group(2)
-        if cur_controlpart == "Control": cur_controlpart = "Text"
-        # remove the header from the line but keep initial whitespace so indentation in the section is consistent
-        line = m.group(1) + line[m.end():]
+        if m.group(1) == "Related Controls" and cur_controlpart == "Control Enhancements":
+            pass # don't break out here
+        else:
+            cur_controlpart = m.group(1)
+            if cur_controlpart == "Control": cur_controlpart = "Text"
+            print(" ", cur_controlpart)
+            # remove the header from the line but keep initial whitespace so indentation in the section is consistent
+            line = line[m.end():]
 
-      # DOC ERROR
-      if cur_control == "IA-12" and "(1)" in line:
+      # Missing "Control Enhancements" line in IA-12.
+      if linenum == "6424":
         cur_controlpart = "Control Enhancements"
 
       # add text
@@ -95,7 +125,7 @@ while lines:
         control_texts[cur_control][cur_controlpart] += line.rstrip() + "\n"
         continue
 
-  raise ValueError(line)
+  raise ValueError(repr(line) + " at " + str((cur_family, cur_control, cur_controlname, cur_controlpart)))
 
 # Split out the control enhancements.
 control_enhancements = []
@@ -128,12 +158,18 @@ for controlnum, controldata in sorted(list(control_texts.items())):
         raise ValueError(line)
     del controldata["Control Enhancements"]
 
+    # Extract the 'Discussion' part of controls into a separate field.
+    textparts = controldata["Text"].split("Discussion: ", 1)
+    controldata["Text"] = textparts[0]
+    if len(textparts) > 1:
+        controldata["Discussion"] = textparts[1]
+
 # Extract the parts of Control Enhancements sections into separate fields.
 for control in control_enhancements:
   cur_controlpart = "Text"
   control_parts = OrderedDict()
   for line in control["Text"].split("\n"):
-      m = re.match(r"(\s*)(Supplemental Guidance|Related Controls|References):\s*", line)
+      m = re.match(r"(\s*)(Discussion|Related Controls|References):\s*", line)
       if m:
         cur_controlpart = m.group(2)
         # remove the header from the line but keep initial whitespace so indentation in the section is consistent
@@ -163,7 +199,7 @@ for control in control_texts.values():
   if control.get("Related Controls"):
     control["Related Controls"] = control["Related Controls"].rstrip(" ").rstrip(".").split(", ")
 
-# Parse Appendix E
+# Parse Appendix D
 # ================
 
 def clean_single_line(s):
@@ -172,7 +208,7 @@ def clean_single_line(s):
   return s
 
 # Fast-forward to the appendix.
-while lines and lines[0] != "APPENDIX E": lines.pop(0)
+while lines and lines[0] != "15836   APPENDIX D": lines.pop(0)
 
 # Start reading lines of the table.
 control_metadata = []
@@ -180,11 +216,9 @@ low_mod_high_cols = None
 while True:
   line = lines.pop(0)
 
-  # Parse column header for fixed-width column indices of the columns.
-  m = re.match(r".*(LOW)\s+(MOD)\s+(HIGH)$", line)
-  if m:
-    low_mod_high_cols = [m.span(i) for i in range(1,4)]
-    continue
+  if "15895" in line:
+    # End of table.
+    break
 
   # Parse a table line.
   m = re.match(r" +(([A-Z]{2})-(\d+)(?:\((\d+)\))?)\s+(.*?)  (.*)", line)
@@ -211,36 +245,10 @@ while True:
         for word in name.split(" ")
       )
 
-    # The LOW/MOD/HIGH columns are all marked with x's. Since HIGH implies MOD
-    # which implies LOW, just count the number of x's at the end and strip them
-    # off.
-    baseline_levels = set()
-    while attribs.rstrip().endswith("x") and len(baseline_levels) < 3:
-      baseline_levels.add( ["HIGH", "MOD", "LOW"][len(baseline_levels)] )
-      attribs = attribs[:attribs.rstrip().rindex("x")]
-
-    # Take the attributes span only up to the character column of the LOW column
-    # since the LOW/MOD/HIGH columns are unparsable for the PL family.
-    attribs = attribs[:(low_mod_high_cols[0][0] - m.start(6))]
-
-    # CA-9 and CA-9(1) have a mistake: "X" is used in place of "A".
-    if control in ("CA-9", "CA-9(1)"): attribs = attribs.replace("X", "A")
-
-    # Find the single or multi-character flags in the attributes columns.
-    attribs = set(re.split(r"\s+", attribs.strip()))
-
-    # Add back in the baseline levels.
-    attribs |= baseline_levels
-
     # Omit withdrawn controls. The rest of the column says where the
     # control was incorporated into.
-    if "W" in attribs:
+    if "W:" in attribs:
       continue
-
-    # Validate the set of attributes.
-    if len(attribs - { "P", "O", "O/S", "S", "A", "LOW", "MOD", "HIGH" }) > 0:
-      print("Invalid attributes", attribs, "in", line)
-
 
     control_metadata.append(OrderedDict([
       ("control", control),
@@ -252,26 +260,10 @@ while True:
       # the Related Controls heading on the wrong line sometimes.
       # ("related-controls", control_texts[control].get("Related Controls")),
       ("references", control_texts[control].get("References")),
-      ("attributes", OrderedDict([
-        ("privacy-related", "P" in attribs),
-        ("implemented-by", "organization" if "O" in attribs else "system" if "S" in attribs else "organization-and-system" if "O/S" in attribs else None),
-        ("assurance", "A" in attribs),
-      ])),
-      ("baseline", OrderedDict([
-        ("low", "LOW" in attribs),
-        ("moderate", "MOD" in attribs),
-        ("high", "HIGH" in attribs),        
-         # There is no baseline for privacy-related controls, but as a fail-safe include if there is a baseline.
-         # But don't include 
-      ]) if ((attribs&{"LOW", "MOD", "HIGH"}) or ("P" not in attribs and family != "PM")) else None),
     ]))
 
-  if line == "APPENDIX F":
-    # End of table.
-    break
-
 with open("control-metadata.yaml", "w") as f:
-  f.write("# NIST SP 800-53 Rev 5 August 2017 Draft Control Metadata\n")
+  f.write("# NIST SP 800-53 Rev 5 March 2020 Draft Control Metadata\n")
   f.write("# extracted by GovReady PBC.\n")
   f.write("# =======================================================\n")
   rtyaml.dump(control_metadata, f)
@@ -282,13 +274,13 @@ for control in control_texts.values():
   parameters = OrderedDict()
 
   def extract_parameter(m):
-    m1 = re.match(r"(organization-|organized-|organizational )(defined|identified) (.*)", clean_single_line(m.group(1)))
+    m1 = re.match(r"(list of )?(organization-|organized-|organizational )(defined|identified) (.*)", clean_single_line(m.group(1)))
     if not m1: raise ValueError(repr(clean_single_line(m.group(1))))
     parameter_id = len(parameters)+1
     parameters[parameter_id] = OrderedDict([
       ("type", "Assignment"),
       ("text", clean_single_line(m.group(0))),
-      ("description", m1.group(3)),
+      ("description", m1.group(4)),
     ])
     return "<{}>".format(parameter_id)
   control["Text"] = re.sub(r"\[Assignment[:;]?\s+([^\]]+)\]", extract_parameter, control["Text"])
@@ -301,7 +293,7 @@ for control in control_texts.values():
       ("type", "Selection"),
       ("text", clean_single_line(m.group(0))),
       ("one-or-more", bool(m1.group(1))),
-      ("choices", [clean_single_line(x) for x in m1.group(2).split("; ")]),
+      ("choices", [clean_single_line(x) for x in m1.group(2).split("; ") if clean_single_line(x)]),
     ])
     return "<{}>".format(parameter_id)
   control["Text"] = re.sub(r"\[Selection(:|\s+)([^\]]+)\]", extract_parameter, control["Text"])
@@ -311,14 +303,14 @@ for control in control_texts.values():
 
 # Write out control text and supplemental guidance.
 with open("control-text.yaml", "w") as f:
-  f.write("# NIST SP 800-53 Rev 5 August 2017 Draft Control Text\n")
+  f.write("# NIST SP 800-53 Rev 5 March 2020 Draft Control Text\n")
   f.write("# extracted by GovReady PBC.\n")
   f.write("# =======================================================\n")
   f.write(rtyaml.dump(OrderedDict([
     (control["control"], OrderedDict([
       ("text", control_texts[control["control"]]["Text"]),
+      ("discussion", control_texts[control["control"]].get("Discussion")),
       ("parameters", control_texts[control["control"]].get("parameters")),
-      ("supplemental-guidance", control_texts[control["control"]].get("Supplemental Guidance")),
     ]))
     for control in control_metadata if control["control"] in control_texts
   ])))

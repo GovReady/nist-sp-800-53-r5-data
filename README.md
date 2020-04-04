@@ -3,7 +3,7 @@ NIST SP 800-53 Rev 5 as Data
 
 This repository contains data files of information automatically extracted
 (scraped) from the [NIST Special Publication 800-53 Revision 5: Security and
-Privacy Controls for Information Systems and Organizations, August 2017 draft](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/draft).
+Privacy Controls for Information Systems and Organizations, March 2020 draft](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/draft).
 
 There are three files in this repository:
 
@@ -15,7 +15,6 @@ There are three files in this repository:
 
 The data file [control-families.yaml](control-families.yaml) holds metadata on
 the 20 control families, from Access Control to System and Information Integrity.
-The data file was manually created.
 
 ### Excerpt
 
@@ -32,12 +31,12 @@ The data file was manually created.
 
 ### Data notes
 
+This data file was manually created.
+
 ## [control-metadata.yaml](control-metadata.yaml)
 
-The generated data file [control-metadata.yaml](control-metadata.yaml) in this
-repository holds metadata for each control
-and control enhancement, including the control's family, number, and name, and
-its baseline and other information from Appendix E, and references from Chapter 3.
+The generated data file [control-metadata.yaml](control-metadata.yaml) holds metadata for each control
+and control enhancement, including the control's family, number, and name.
 
 ### Excerpt
 
@@ -48,67 +47,48 @@ its baseline and other information from Appendix E, and references from Chapter 
   enhancement: 3
   name: Limit Personally Identifiable Information Elements
   references: ~
-  attributes:
-    privacy-related: true
-    implemented-by: organization
-    assurance: false
-  baseline: ~
 - control: AU-4
   family: AU
   number: 4
   enhancement: ~
-  name: Audit Storage Capacity
+  name: Audit Log Storage Capacity
   references: None.
-  attributes:
-    privacy-related: false
-    implemented-by: organization-and-system
-    assurance: false
-  baseline:
-    low: true
-    moderate: true
-    high: true
 ```
 
 ### Data notes
 
 * `enhancement` is null (a tilde) for regular controls.
-* `baseline` is null for which a baseline is not applicable, such as privacy-related controls
-  and the PM family of controls.
-* `privacy-related`, `assurance`, and the `baseline` fields are boolean fields which are either `true` or `false`.
-* `implemented-by` is either `organization`, `system`, or `organization-and-system`.
 
 ## [control-text.yaml](control-text.yaml)
 
-This file contains control text and supplemental guidance from Chapter 3. Assignments and Selections
-in control text is represented structurally.
+This file contains control text from Chapter 3. Assignments and Selections
+within control text is represented structurally.
 
 ### Excerpt
 
 ```yaml
-SA-18(2):
+SC-7(5):
   text: |
-    Inspect <1> <4> to detect tampering.
+    Deny network communications traffic by default and allow network communications
+    traffic by exception <2>.
+  discussion: |
+    Denying by default and allowing by exception applies to inbound and outbound
+    network communications traffic. A deny-all, permit-by-exception network communications
+    traffic policy ensures that only those system connections that are essential and approved are
+    allowed. Deny by default, allow by exception also applies to a system that is connected to an
+    external system.
   parameters:
     1:
       type: Assignment
-      description: systems or system components
+      text: '[Assignment: organization-defined systems]'
+      description: systems
     2:
-      type: Assignment
-      description: frequency
-    3:
-      type: Assignment
-      description: indications of need for inspection
-    4:
       type: Selection
+      text: '[Selection (one or more); at managed interfaces; for <1>]'
       one-or-more: true
       choices:
-      - at random
-      - at <2>, upon <3>
-  supplemental-guidance: |
-    This control enhancement addresses physical and logical tampering
-    and is typically applied to mobile devices, notebook computers, or other system components
-    taken out of organization-controlled areas. Indications of a need for inspection include, for
-    example, when individuals return from travel to high-risk locations.
+      - at managed interfaces
+      - for <1>
 ```
 
 ### Data notes

@@ -1,20 +1,19 @@
-# NIST SP 800-53 Rev 5 August 2017 Draft Control Metadata
+# NIST SP 800-53 Rev 5 March 2020 Draft Control Metadata
 # extracted by GovReady PBC.
 # =======================================================
 - control: AC-1
   family: AC
   number: 1
   enhancement: ~
-  name: Access Control Policy and Procedures
-  references: |
-    [SP 800-12], 800-30, 800-39, 800-100; NIST Interagency
-    Report 7874.
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100]; [IR
+    7874].'
 - control: AC-2
   family: AC
   number: 2
   enhancement: ~
   name: Account Management
-  references: '[SP 800-162], 800-178.'
+  references: '[SP 800-162]; [SP 800-178]; [SP 800-192].'
 - control: AC-2(1)
   family: AC
   number: 2
@@ -25,7 +24,7 @@
   family: AC
   number: 2
   enhancement: 2
-  name: Removal of Temporary and Emergency Accounts
+  name: Automated Temporary and Emergency Account Management
   references: ~
 - control: AC-2(3)
   family: AC
@@ -55,7 +54,7 @@
   family: AC
   number: 2
   enhancement: 7
-  name: Role-Based Schemes
+  name: Privileged User Accounts
   references: ~
 - control: AC-2(8)
   family: AC
@@ -68,12 +67,6 @@
   number: 2
   enhancement: 9
   name: Restrictions on Use of Shared and Group Accounts
-  references: ~
-- control: AC-2(10)
-  family: AC
-  number: 2
-  enhancement: 10
-  name: Shared and Group Account Credential Change
   references: ~
 - control: AC-2(11)
   family: AC
@@ -91,7 +84,7 @@
   family: AC
   number: 2
   enhancement: 13
-  name: Disable Accounts for High-Risk Individuals
+  name: Disable Accounts for High-Risk Users
   references: ~
 - control: AC-2(14)
   family: AC
@@ -99,20 +92,14 @@
   enhancement: 14
   name: Prohibit Specific Account Types
   references: ~
-- control: AC-2(15)
-  family: AC
-  number: 2
-  enhancement: 15
-  name: Attribute-Based Schemes
-  references: ~
 - control: AC-3
   family: AC
   number: 3
   enhancement: ~
   name: Access Enforcement
   references: |
-    [SP 800-57-1], 800-57-2, 800-57-3, 800-162; NIST Interagency
-    Report 7874.
+    [OMB A-130]; [SP 800-57-1]; [SP 800-57-2]; [SP 800-57-3]; [SP 800-162]; [SP 800-
+    178]; [IR 7874].
 - control: AC-3(2)
   family: AC
   number: 3
@@ -165,7 +152,7 @@
   family: AC
   number: 3
   enhancement: 11
-  name: Restrict Access to Specific Information
+  name: Restrict Access to Specific Information Types
   references: ~
 - control: AC-3(12)
   family: AC
@@ -179,17 +166,29 @@
   enhancement: 13
   name: Attribute-Based Access Control
   references: ~
+- control: AC-3(14)
+  family: AC
+  number: 3
+  enhancement: 14
+  name: Individual Access
+  references: ~
+- control: AC-3(15)
+  family: AC
+  number: 3
+  enhancement: 15
+  name: Discretionary and Mandatory Access Control
+  references: ~
 - control: AC-4
   family: AC
   number: 4
   enhancement: ~
   name: Information Flow Enforcement
-  references: '[SP 800-162], 800-178.'
+  references: '[SP-800-160 v1]; [SP 800-162]; [SP 800-178].'
 - control: AC-4(1)
   family: AC
   number: 4
   enhancement: 1
-  name: Object Security Attributes
+  name: Object Security and Privacy Attributes
   references: ~
 - control: AC-4(2)
   family: AC
@@ -231,7 +230,7 @@
   family: AC
   number: 4
   enhancement: 8
-  name: Security Policy Filters
+  name: Security and Privacy Policy Filters
   references: ~
 - control: AC-4(9)
   family: AC
@@ -243,13 +242,13 @@
   family: AC
   number: 4
   enhancement: 10
-  name: Enable and Disable Security Policy Filters
+  name: Enable and Disable Security or Privacy Policy Filters
   references: ~
 - control: AC-4(11)
   family: AC
   number: 4
   enhancement: 11
-  name: Configuration of Security Policy Filters
+  name: Configuration of Security or Privacy Policy Filters
   references: ~
 - control: AC-4(12)
   family: AC
@@ -267,7 +266,7 @@
   family: AC
   number: 4
   enhancement: 14
-  name: Security Policy Filter Constraints
+  name: Security or Privacy Policy Filter Constraints
   references: ~
 - control: AC-4(15)
   family: AC
@@ -297,13 +296,73 @@
   family: AC
   number: 4
   enhancement: 21
-  name: Physical and Logical Separation of Information Flows
+  name: Physical or Logical Separation of Information Flows
   references: ~
 - control: AC-4(22)
   family: AC
   number: 4
   enhancement: 22
   name: Access Only
+  references: ~
+- control: AC-4(23)
+  family: AC
+  number: 4
+  enhancement: 23
+  name: Modify Non-Releasable Information
+  references: ~
+- control: AC-4(24)
+  family: AC
+  number: 4
+  enhancement: 24
+  name: Internal Normalized Format
+  references: ~
+- control: AC-4(25)
+  family: AC
+  number: 4
+  enhancement: 25
+  name: Data Sanitization
+  references: ~
+- control: AC-4(26)
+  family: AC
+  number: 4
+  enhancement: 26
+  name: Audit Filtering Actions
+  references: ~
+- control: AC-4(27)
+  family: AC
+  number: 4
+  enhancement: 27
+  name: Redundant/Independent Filtering Mechanisms
+  references: ~
+- control: AC-4(28)
+  family: AC
+  number: 4
+  enhancement: 28
+  name: Linear Filter Pipelines
+  references: ~
+- control: AC-4(29)
+  family: AC
+  number: 4
+  enhancement: 29
+  name: Filter Orchestration Engines
+  references: ~
+- control: AC-4(30)
+  family: AC
+  number: 4
+  enhancement: 30
+  name: Filter Mechanisms Using Multiple Processes
+  references: ~
+- control: AC-4(31)
+  family: AC
+  number: 4
+  enhancement: 31
+  name: Failed Content Transfer Prevention
+  references: ~
+- control: AC-4(32)
+  family: AC
+  number: 4
+  enhancement: 32
+  name: Process Requirements for Information Transfer
   references: ~
 - control: AC-5
   family: AC
@@ -369,20 +428,20 @@
   family: AC
   number: 6
   enhancement: 9
-  name: Auditing Use of Privileged Functions
+  name: Log Use of Privileged Functions
   references: ~
 - control: AC-6(10)
   family: AC
   number: 6
   enhancement: 10
-  name: Prohibit Non-Privileged Users From Executing Privileged Functions
+  name: Prohibit Non-Privileged Users From Executing Privileged
   references: ~
 - control: AC-7
   family: AC
   number: 7
   enhancement: ~
   name: Unsuccessful Logon Attempts
-  references: '[SP 800-63], 800-124.'
+  references: '[SP 800-63-3]; [SP 800-124].'
 - control: AC-7(2)
   family: AC
   number: 7
@@ -411,7 +470,7 @@
   family: AC
   number: 9
   enhancement: ~
-  name: Previous Logon (Access) Notification
+  name: Previous Logon Notification
   references: None.
 - control: AC-9(1)
   family: AC
@@ -455,12 +514,6 @@
   enhancement: 1
   name: Pattern-Hiding Displays
   references: ~
-- control: AC-11(2)
-  family: AC
-  number: 11
-  enhancement: 2
-  name: Require User-Initiated Lock
-  references: ~
 - control: AC-12
   family: AC
   number: 12
@@ -489,14 +542,14 @@
   family: AC
   number: 14
   enhancement: ~
-  name: Permitted Actions without Identification or Authentication
+  name: Permitted Actions without Identification or
   references: None.
 - control: AC-16
   family: AC
   number: 16
   enhancement: ~
   name: Security and Privacy Attributes
-  references: '[FIPS 140-2], 186-4; [SP 800-162], 800-178.'
+  references: '[OMB A-130]; [FIPS 140-3]; [FIPS 186-4]; [SP 800-162]; [SP 800-178].'
 - control: AC-16(1)
   family: AC
   number: 16
@@ -549,7 +602,7 @@
   family: AC
   number: 16
   enhancement: 9
-  name: Attribute Reassignment
+  name: Attribute Reassignment – Regrading Mechanisms
   references: ~
 - control: AC-16(10)
   family: AC
@@ -557,25 +610,18 @@
   enhancement: 10
   name: Attribute Configuration by Authorized Individuals
   references: ~
-- control: AC-16(11)
-  family: AC
-  number: 16
-  enhancement: 11
-  name: Audit Changes
-  references: ~
 - control: AC-17
   family: AC
   number: 17
   enhancement: ~
   name: Remote Access
-  references: |
-    [SP 800-46], 800-77, 800-113, 800-114, 800-121; NIST
-    Interagency Report 7966.
+  references: '[SP 800-46]; [SP 800-77]; [SP 800-113]; [SP 800-114]; [SP 800-121];
+    [IR 7966].'
 - control: AC-17(1)
   family: AC
   number: 17
   enhancement: 1
-  name: Automated Monitoring and Control
+  name: Monitoring and Control
   references: ~
 - control: AC-17(2)
   family: AC
@@ -599,7 +645,7 @@
   family: AC
   number: 17
   enhancement: 6
-  name: Protection of Information
+  name: Protection of Mechanism Information
   references: ~
 - control: AC-17(9)
   family: AC
@@ -607,12 +653,18 @@
   enhancement: 9
   name: Disconnect or Disable Access
   references: ~
+- control: AC-17(10)
+  family: AC
+  number: 17
+  enhancement: 10
+  name: Authenticate Remote Commands
+  references: ~
 - control: AC-18
   family: AC
   number: 18
   enhancement: ~
   name: Wireless Access
-  references: '[SP 800-48], 800-94, 800-97.'
+  references: '[SP 800-94]; [SP 800-97].'
 - control: AC-18(1)
   family: AC
   number: 18
@@ -642,7 +694,7 @@
   number: 19
   enhancement: ~
   name: Access Control for Mobile Devices
-  references: '[SP 800-114], 800-124, 800-164.'
+  references: '[SP 800-114]; [SP 800-124].'
 - control: AC-19(4)
   family: AC
   number: 19
@@ -660,7 +712,7 @@
   number: 20
   enhancement: ~
   name: Use of External Systems
-  references: FIPS Publication 199.
+  references: '[FIPS 199]; [SP 800-171]; [SP 800-171B].'
 - control: AC-20(1)
   family: AC
   number: 20
@@ -671,13 +723,13 @@
   family: AC
   number: 20
   enhancement: 2
-  name: Portable Storage Devices
+  name: Portable Storage Devices — Restricted Use
   references: ~
 - control: AC-20(3)
   family: AC
   number: 20
   enhancement: 3
-  name: Non-Organizationally Owned Systems and Components
+  name: Non-Organizationally Owned Systems — Restricted Use
   references: ~
 - control: AC-20(4)
   family: AC
@@ -685,12 +737,24 @@
   enhancement: 4
   name: Network Accessible Storage Devices
   references: ~
+- control: AC-20(5)
+  family: AC
+  number: 20
+  enhancement: 5
+  name: Portable Storage Devices — Prohibited Use
+  references: ~
+- control: AC-20(6)
+  family: AC
+  number: 20
+  enhancement: 6
+  name: Non-Organizationally Owned Systems — Prohibited Use
+  references: ~
 - control: AC-21
   family: AC
   number: 21
   enhancement: ~
   name: Information Sharing
-  references: NIST Special Publication 800-150; NIST Interagency Report 8062.
+  references: '[OMB A-130]; [SP 800-150]; [IR 8062].'
 - control: AC-21(1)
   family: AC
   number: 21
@@ -708,19 +772,19 @@
   number: 22
   enhancement: ~
   name: Publicly Accessible Content
-  references: None.
+  references: '[PRIVACT].'
 - control: AC-23
   family: AC
   number: 23
   enhancement: ~
   name: Data Mining Protection
-  references: None.
+  references: '[EO 13587].'
 - control: AC-24
   family: AC
   number: 24
   enhancement: ~
   name: Access Control Decisions
-  references: '[SP 800-162], 800-178.'
+  references: '[SP 800-162]; [SP 800-178].'
 - control: AC-24(1)
   family: AC
   number: 24
@@ -743,14 +807,15 @@
   family: AT
   number: 1
   enhancement: ~
-  name: Awareness and Training Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-50, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-50]; [SP
+    800-100].'
 - control: AT-2
   family: AT
   number: 2
   enhancement: ~
   name: Awareness Training
-  references: NIST Special Publication 800-50.
+  references: '[OMB A-130]; [SP 800-50]; [SP 800-160 v2].'
 - control: AT-2(1)
   family: AT
   number: 2
@@ -769,12 +834,42 @@
   enhancement: 3
   name: Social Engineering and Mining
   references: ~
+- control: AT-2(4)
+  family: AT
+  number: 2
+  enhancement: 4
+  name: Suspicious Communications and Anomalous System Behavior
+  references: ~
+- control: AT-2(5)
+  family: AT
+  number: 2
+  enhancement: 5
+  name: Breach
+  references: ~
+- control: AT-2(6)
+  family: AT
+  number: 2
+  enhancement: 6
+  name: Advanced Persistent Threat
+  references: ~
+- control: AT-2(7)
+  family: AT
+  number: 2
+  enhancement: 7
+  name: Cyber Threat Environment
+  references: ~
+- control: AT-2(8)
+  family: AT
+  number: 2
+  enhancement: 8
+  name: Training Feedback
+  references: ~
 - control: AT-3
   family: AT
   number: 3
   enhancement: ~
   name: Role-Based Training
-  references: NIST Special Publication 800-50.
+  references: '[OMB A-130]; [SP 800-50].'
 - control: AT-3(1)
   family: AT
   number: 3
@@ -793,48 +888,36 @@
   enhancement: 3
   name: Practical Exercises
   references: ~
-- control: AT-3(4)
-  family: AT
-  number: 3
-  enhancement: 4
-  name: Suspicious Communications and Anomalous System Behavior
-  references: ~
 - control: AT-3(5)
   family: AT
   number: 3
   enhancement: 5
-  name: Personally Identifiable Information Processing
+  name: Accessing Personally Identifiable Information
   references: ~
 - control: AT-4
   family: AT
   number: 4
   enhancement: ~
   name: Training Records
-  references: None.
+  references: '[OMB A-130].'
 - control: AU-1
   family: AU
   number: 1
   enhancement: ~
-  name: Audit and Accountability Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-50, 800-100.'
+  name: Policy and Procedures
+  references: '[SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: AU-2
   family: AU
   number: 2
   enhancement: ~
-  name: Audit Events
-  references: NIST Special Publication 800-92.
-- control: AU-2(3)
-  family: AU
-  number: 2
-  enhancement: 3
-  name: Reviews and Updates
-  references: ~
+  name: Event Logging
+  references: '[OMB A-130]; [SP 800-92].'
 - control: AU-3
   family: AU
   number: 3
   enhancement: ~
   name: Content of Audit Records
-  references: NIST Interagency Report 8062.
+  references: '[OMB A-130]; [IR 8062].'
 - control: AU-3(1)
   family: AU
   number: 3
@@ -857,7 +940,7 @@
   family: AU
   number: 4
   enhancement: ~
-  name: Audit Storage Capacity
+  name: Audit Log Storage Capacity
   references: None.
 - control: AU-4(1)
   family: AU
@@ -869,13 +952,13 @@
   family: AU
   number: 5
   enhancement: ~
-  name: Response to Audit Processing Failures
+  name: Response to Audit Logging Process Failures
   references: None.
 - control: AU-5(1)
   family: AU
   number: 5
   enhancement: 1
-  name: Audit Storage Capacity
+  name: Storage Capacity Warning
   references: ~
 - control: AU-5(2)
   family: AU
@@ -895,12 +978,18 @@
   enhancement: 4
   name: Shutdown on Failure
   references: ~
+- control: AU-5(5)
+  family: AU
+  number: 5
+  enhancement: 5
+  name: Alternate Audit Logging Capability
+  references: ~
 - control: AU-6
   family: AU
   number: 6
   enhancement: ~
-  name: Audit Review, Analysis, and Reporting
-  references: '[SP 800-86], 800-101.'
+  name: Audit Record Review, Analysis, and Reporting
+  references: '[SP 800-86]; [SP 800-101].'
 - control: AU-6(1)
   family: AU
   number: 6
@@ -911,7 +1000,7 @@
   family: AU
   number: 6
   enhancement: 3
-  name: Correlate Audit Repositories
+  name: Correlate Audit Record Repositories
   references: ~
 - control: AU-6(4)
   family: AU
@@ -953,7 +1042,7 @@
   family: AU
   number: 7
   enhancement: ~
-  name: Audit Reduction and Report Generation
+  name: Audit Record Reduction and Report Generation
   references: None.
 - control: AU-7(1)
   family: AU
@@ -961,18 +1050,12 @@
   enhancement: 1
   name: Automatic Processing
   references: ~
-- control: AU-7(2)
-  family: AU
-  number: 7
-  enhancement: 2
-  name: Automatic Sort and Search
-  references: ~
 - control: AU-8
   family: AU
   number: 8
   enhancement: ~
   name: Time Stamps
-  references: None.
+  references: '[IETF 5905].'
 - control: AU-8(1)
   family: AU
   number: 8
@@ -990,7 +1073,7 @@
   number: 9
   enhancement: ~
   name: Protection of Audit Information
-  references: '[FIPS 140-2], 180-4, 202.'
+  references: '[FIPS 140-3]; [FIPS 180-4]; [FIPS 202].'
 - control: AU-9(1)
   family: AU
   number: 9
@@ -1038,7 +1121,7 @@
   number: 10
   enhancement: ~
   name: Non-repudiation
-  references: '[FIPS 140-2], 180-4, 186-4, 202; NIST Special Publication 800-177.'
+  references: '[FIPS 140-3]; [FIPS 180-4]; [FIPS 186-4]; [FIPS 202]; [SP 800-177].'
 - control: AU-10(1)
   family: AU
   number: 10
@@ -1068,7 +1151,7 @@
   number: 11
   enhancement: ~
   name: Audit Record Retention
-  references: None.
+  references: '[OMB A-130].'
 - control: AU-11(1)
   family: AU
   number: 11
@@ -1079,7 +1162,7 @@
   family: AU
   number: 12
   enhancement: ~
-  name: Audit Generation
+  name: Audit Record Generation
   references: None.
 - control: AU-12(1)
   family: AU
@@ -1123,6 +1206,12 @@
   enhancement: 2
   name: Review of Monitored Sites
   references: ~
+- control: AU-13(3)
+  family: AU
+  number: 13
+  enhancement: 3
+  name: Unauthorized Replication of Information
+  references: ~
 - control: AU-14
   family: AU
   number: 14
@@ -1135,29 +1224,17 @@
   enhancement: 1
   name: System Start-Up
   references: ~
-- control: AU-14(2)
-  family: AU
-  number: 14
-  enhancement: 2
-  name: Capture and Record Content
-  references: ~
 - control: AU-14(3)
   family: AU
   number: 14
   enhancement: 3
   name: Remote Viewing and Listening
   references: ~
-- control: AU-15
-  family: AU
-  number: 15
-  enhancement: ~
-  name: Alternate Audit Capability
-  references: None.
 - control: AU-16
   family: AU
   number: 16
   enhancement: ~
-  name: Cross-Organizational Auditing
+  name: Cross-Organizational Audit Logging
   references: None.
 - control: AU-16(1)
   family: AU
@@ -1171,22 +1248,28 @@
   enhancement: 2
   name: Sharing of Audit Information
   references: ~
+- control: AU-16(3)
+  family: AU
+  number: 16
+  enhancement: 3
+  name: Disassociability
+  references: ~
 - control: CA-1
   family: CA
   number: 1
   enhancement: ~
-  name: Assessment, Authorization, and Monitoring Policies and Procedures
+  name: Policies and Procedures
   references: |
-    [SP 800-12], 800-30, 800-39, 800-50, 800-100, 800-122; NIST
-    Interagency Report 8062.
+    [OMB A-130, Appendix II]; [SP 800-12]; [SP 800-30]; [SP 800-37]; [SP 800-39]; [SP
+    800-53A]; [SP 800-100]; [SP 800-137]; [IR 8062].
 - control: CA-2
   family: CA
   number: 2
   enhancement: ~
-  name: Assessments
+  name: Control Assessments
   references: |
-    FIPS Publication 199; [SP 800-37], 800-39, 800-53A, 800-115,
-    800-122, 800-137; NIST Interagency Report 8062.
+    [OMB A-130]; [FIPS 199]; [SP 800-18]; [SP 800-37]; [SP 800-39]; [SP 800-53A]; [SP
+    800-115]; [SP 800-137]; [IR 8062].
 - control: CA-2(1)
   family: CA
   number: 2
@@ -1209,50 +1292,26 @@
   family: CA
   number: 3
   enhancement: ~
-  name: System Interconnections
-  references: FIPS Publication 199; NIST Special Publication 800-47.
-- control: CA-3(1)
-  family: CA
-  number: 3
-  enhancement: 1
-  name: Unclassified National Security System Connections
-  references: ~
-- control: CA-3(2)
-  family: CA
-  number: 3
-  enhancement: 2
-  name: Classified National Security System Connections
-  references: ~
-- control: CA-3(3)
-  family: CA
-  number: 3
-  enhancement: 3
-  name: Unclassified Non-National Security System Connections
-  references: ~
-- control: CA-3(4)
-  family: CA
-  number: 3
-  enhancement: 4
-  name: Connections to Public Networks
-  references: ~
-- control: CA-3(5)
-  family: CA
-  number: 3
-  enhancement: 5
-  name: Restrictions on External System Connections
-  references: ~
+  name: Information Exchange
+  references: '[OMB A-130, Appendix II]; [FIPS 199]; [SP 800-47].'
 - control: CA-3(6)
   family: CA
   number: 3
   enhancement: 6
-  name: Secondary and Tertiary Connections
+  name: Transfer Authorizations
+  references: ~
+- control: CA-3(7)
+  family: CA
+  number: 3
+  enhancement: 7
+  name: Transitive Information Exchanges
   references: ~
 - control: CA-5
   family: CA
   number: 5
   enhancement: ~
   name: Plan of Action and Milestones
-  references: NIST Special Publication 800-37.
+  references: '[OMB A-130]; [SP 800-37].'
 - control: CA-5(1)
   family: CA
   number: 5
@@ -1264,18 +1323,18 @@
   number: 6
   enhancement: ~
   name: Authorization
-  references: Ongoing Authorization.
+  references: '[OMB A-130]; [SP 800-37]; [SP 800-137].'
 - control: CA-6(1)
   family: CA
   number: 6
   enhancement: 1
-  name: Joint Authorization — Same Organization
+  name: Joint Authorization — Intra-Organization
   references: ~
 - control: CA-6(2)
   family: CA
   number: 6
   enhancement: 2
-  name: Joint Authorization — Different Organizations
+  name: Joint Authorization — Inter-Organization
   references: ~
 - control: CA-7
   family: CA
@@ -1283,8 +1342,8 @@
   enhancement: ~
   name: Continuous Monitoring
   references: |
-    [SP 800-37], 800-39, 800-53A, 800-115, 800-122, 800-137;
-    [IR 8011], 8062.
+    [OMB A-130]; [SP 800-37]; [SP 800-39]; [SP 800-53A]; [SP 800-115]; [SP 800-137]; [IR
+    8011 v1] [IR 8062].
 - control: CA-7(1)
   family: CA
   number: 7
@@ -1303,6 +1362,12 @@
   enhancement: 4
   name: Risk Monitoring
   references: ~
+- control: CA-7(5)
+  family: CA
+  number: 7
+  enhancement: 5
+  name: Consistency Analysis
+  references: ~
 - control: CA-8
   family: CA
   number: 8
@@ -1313,7 +1378,7 @@
   family: CA
   number: 8
   enhancement: 1
-  name: Independent Penetration Agent or Team
+  name: Independent Penetration Testing Agent or Team
   references: ~
 - control: CA-8(2)
   family: CA
@@ -1332,7 +1397,7 @@
   number: 9
   enhancement: ~
   name: Internal System Connections
-  references: NIST Special Publication 800-124; NIST Interagency Report 8023.
+  references: '[SP 800-124]; [IR 8023].'
 - control: CA-9(1)
   family: CA
   number: 9
@@ -1343,14 +1408,14 @@
   family: CM
   number: 1
   enhancement: ~
-  name: Configuration Management Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: CM-2
   family: CM
   number: 2
   enhancement: ~
   name: Baseline Configuration
-  references: '[SP 800-124], 800-128.'
+  references: '[SP 800-124]; [SP 800-128].'
 - control: CM-2(2)
   family: CM
   number: 2
@@ -1380,7 +1445,7 @@
   number: 3
   enhancement: ~
   name: Configuration Change Control
-  references: '[SP 800-124], 800-128; NIST Interagency Report 8062.'
+  references: '[SP 800-124]; [SP 800-128]; [IR 8062].'
 - control: CM-3(1)
   family: CM
   number: 3
@@ -1403,7 +1468,7 @@
   family: CM
   number: 3
   enhancement: 4
-  name: Security Representative
+  name: Security and Privacy Representatives
   references: ~
 - control: CM-3(5)
   family: CM
@@ -1417,12 +1482,24 @@
   enhancement: 6
   name: Cryptography Management
   references: ~
+- control: CM-3(7)
+  family: CM
+  number: 3
+  enhancement: 7
+  name: Review System Changes
+  references: ~
+- control: CM-3(8)
+  family: CM
+  number: 3
+  enhancement: 8
+  name: Prevent or Restrict Configuration Changes
+  references: ~
 - control: CM-4
   family: CM
   number: 4
   enhancement: ~
-  name: Security and Privacy Impact Analyses
-  references: NIST Special Publication 800-128.
+  name: Impact Analyses
+  references: '[SP 800-128].'
 - control: CM-4(1)
   family: CM
   number: 4
@@ -1433,25 +1510,19 @@
   family: CM
   number: 4
   enhancement: 2
-  name: Verification of Security and Privacy Functions
+  name: Verification of Controls
   references: ~
 - control: CM-5
   family: CM
   number: 5
   enhancement: ~
   name: Access Restrictions for Change
-  references: '[FIPS 140-2], 186-4.'
+  references: '[FIPS 140-3]; [FIPS 186-4].'
 - control: CM-5(1)
   family: CM
   number: 5
   enhancement: 1
-  name: Automated Access Enforcement and Auditing
-  references: ~
-- control: CM-5(2)
-  family: CM
-  number: 5
-  enhancement: 2
-  name: Review System Changes
+  name: Automated Access Enforcement and Audit Records
   references: ~
 - control: CM-5(3)
   family: CM
@@ -1482,9 +1553,7 @@
   number: 6
   enhancement: ~
   name: Configuration Settings
-  references: |
-    [SP 800-70], 800-126, 800-128; US Government Configuration
-    Baselines; National Checklist Repository.
+  references: '[SP 800-70]; [SP 800-126]; [SP 800-128]; [USGCB]; [NCPR]; [DOD STIG].'
 - control: CM-6(1)
   family: CM
   number: 6
@@ -1502,7 +1571,7 @@
   number: 7
   enhancement: ~
   name: Least Functionality
-  references: '[FIPS 140-2], 180-4, 186-4, 202; NIST Special Publication 800-167.'
+  references: '[FIPS 140-3]; [FIPS 180-4]; [FIPS 186-4]; [FIPS 202]; [SP 800-167].'
 - control: CM-7(1)
   family: CM
   number: 7
@@ -1533,14 +1602,30 @@
   enhancement: 5
   name: Authorized Software — Whitelisting
   references: ~
+- control: CM-7(6)
+  family: CM
+  number: 7
+  enhancement: 6
+  name: Confined Environments With Limited Privileges
+  references: ~
+- control: CM-7(7)
+  family: CM
+  number: 7
+  enhancement: 7
+  name: Code Execution in Protected Environments
+  references: ~
+- control: CM-7(8)
+  family: CM
+  number: 7
+  enhancement: 8
+  name: Binary or Machine Executable Code
+  references: ~
 - control: CM-8
   family: CM
   number: 8
   enhancement: ~
   name: System Component Inventory
-  references: |
-    [SP 800-57-1], 800-57-2, 800-57-3, 800-128; NIST Interagency
-    Report 8062.
+  references: '[OMB A-130]; [SP 800-57-1]; [SP 800-57-2]; [SP 800-57-3]; [SP 800-128].'
 - control: CM-8(1)
   family: CM
   number: 8
@@ -1595,18 +1680,12 @@
   enhancement: 9
   name: Assignment of Components to Systems
   references: ~
-- control: CM-8(10)
-  family: CM
-  number: 8
-  enhancement: 10
-  name: Data Action Mapping
-  references: ~
 - control: CM-9
   family: CM
   number: 9
   enhancement: ~
   name: Configuration Management Plan
-  references: NIST Special Publication 800-128.
+  references: '[SP 800-128].'
 - control: CM-9(1)
   family: CM
   number: 9
@@ -1642,25 +1721,32 @@
   number: 12
   enhancement: ~
   name: Information Location
-  references: FIPS Publication 199; NIST Special Publication 800-60-1, 800-60-2.
+  references: '[FIPS 199]; [SP 800-60 v1]; [SP 800-60 v2].'
 - control: CM-12(1)
   family: CM
   number: 12
   enhancement: 1
   name: Automated Tools to Support Information Location
   references: ~
+- control: CM-13
+  family: CM
+  number: 13
+  enhancement: ~
+  name: Data Action Mapping
+  references: '[IR 8062].'
 - control: CP-1
   family: CP
   number: 1
   enhancement: ~
-  name: Contingency Planning Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-34, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[SP 800-12]; [SP 800-30]; [SP 800-34]; [SP 800-39]; [SP 800-50]; [SP
+    800-100].'
 - control: CP-2
   family: CP
   number: 2
   enhancement: ~
   name: Contingency Plan
-  references: NIST Special Publication 800-34; NIST Interagency Report 8179.
+  references: '[SP 800-34]; [IR 8179].'
 - control: CP-2(1)
   family: CP
   number: 2
@@ -1677,19 +1763,13 @@
   family: CP
   number: 2
   enhancement: 3
-  name: Resume Essential Missions and Business Functions
-  references: ~
-- control: CP-2(4)
-  family: CP
-  number: 2
-  enhancement: 4
-  name: Resume All Missions and Business Functions
+  name: Resume Missions and Business Functions
   references: ~
 - control: CP-2(5)
   family: CP
   number: 2
   enhancement: 5
-  name: Continue Essential Missions and Business Functions
+  name: Continue Missions and Business Functions
   references: ~
 - control: CP-2(6)
   family: CP
@@ -1714,7 +1794,7 @@
   number: 3
   enhancement: ~
   name: Contingency Training
-  references: NIST Special Publication 800-50.
+  references: '[SP 800-50].'
 - control: CP-3(1)
   family: CP
   number: 3
@@ -1725,14 +1805,14 @@
   family: CP
   number: 3
   enhancement: 2
-  name: Automated Training Environments
+  name: Mechanisms Used in Training Environments
   references: ~
 - control: CP-4
   family: CP
   number: 4
   enhancement: ~
   name: Contingency Plan Testing
-  references: FIPS Publication 199; [SP 800-34], 800-84.
+  references: '[FIPS 199]; [SP 800-34]; [SP 800-84].'
 - control: CP-4(1)
   family: CP
   number: 4
@@ -1762,7 +1842,7 @@
   number: 6
   enhancement: ~
   name: Alternate Storage Site
-  references: NIST Special Publication 800-34.
+  references: '[SP 800-34].'
 - control: CP-6(1)
   family: CP
   number: 6
@@ -1786,7 +1866,7 @@
   number: 7
   enhancement: ~
   name: Alternate Processing Site
-  references: NIST Special Publication 800-34.
+  references: '[SP 800-34].'
 - control: CP-7(1)
   family: CP
   number: 7
@@ -1822,7 +1902,7 @@
   number: 8
   enhancement: ~
   name: Telecommunications Services
-  references: NIST Special Publication 800-34.
+  references: '[SP 800-34].'
 - control: CP-8(1)
   family: CP
   number: 8
@@ -1858,7 +1938,7 @@
   number: 9
   enhancement: ~
   name: System Backup
-  references: '[FIPS 140-2], 186-4; [SP 800-34], 800-130, 800-152.'
+  references: '[FIPS 140-3]; [FIPS 186-4]; [SP 800-34]; [SP 800-130]; [SP 800-152].'
 - control: CP-9(1)
   family: CP
   number: 9
@@ -1906,7 +1986,7 @@
   number: 10
   enhancement: ~
   name: System Recovery and Reconstitution
-  references: NIST Special Publication 800-34.
+  references: '[SP 800-34].'
 - control: CP-10(2)
   family: CP
   number: 10
@@ -1943,23 +2023,29 @@
   enhancement: ~
   name: Alternative Security Mechanisms
   references: None.
+- control: CP-14
+  family: CP
+  number: 14
+  enhancement: ~
+  name: Self-Challenge
+  references: '[SP 800-160 v2].'
 - control: IA-1
   family: IA
   number: 1
   enhancement: ~
-  name: Identification and Authentication Policy and Procedures
+  name: Policy and Procedures
   references: |
-    FIPS Publication 201; [SP 800-12], 800-30, 800-39, 800-63,
-    800-73, 800-76, 800-78, 800-100; NIST Interagency Report 7874.
+    [OMB A-130]; [FIPS 201-2]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-63-3]; [SP
+    800-73-4]; [SP 800-76-2]; [SP 800-78-4]; [SP 800-100]; [IR 7874].
 - control: IA-2
   family: IA
   number: 2
   enhancement: ~
   name: Identification and Authentication (Organizational Users)
   references: |
-    [FIPS 140-2], 201, 202; [SP 800-63], 800-73, 800-
-    76, 800-78, 800-79, 800-156, 800-166; [IR 7539], 7676, 7817, 7849, 7870,
-    7874, 7966.
+    [FIPS 140-3]; [FIPS 201-2]; [FIPS 202]; [SP 800-63-3]; [SP 800-73-4]; [SP 800-76-2];
+    [SP 800-78-4]; [SP 800-79-2]; [SP 800-156]; [SP 800-166]; [IR 7539]; [IR 7676]; [IR 7817]; [IR
+    7849]; [IR 7870]; [IR 7874]; [IR 7966].
 - control: IA-2(1)
   family: IA
   number: 2
@@ -1978,6 +2064,12 @@
   enhancement: 5
   name: Individual Authentication With Group Authentication
   references: ~
+- control: IA-2(6)
+  family: IA
+  number: 2
+  enhancement: 6
+  name: Access to Accounts — Separate Device
+  references: ~
 - control: IA-2(8)
   family: IA
   number: 2
@@ -1995,6 +2087,12 @@
   number: 2
   enhancement: 12
   name: Acceptance of Piv Credentials
+  references: ~
+- control: IA-2(13)
+  family: IA
+  number: 2
+  enhancement: 13
+  name: Out-Of-Band Authentication
   references: ~
 - control: IA-3
   family: IA
@@ -2025,7 +2123,7 @@
   number: 4
   enhancement: ~
   name: Identifier Management
-  references: FIPS Publication 201; [SP 800-63], 800-73, 800-76, 800-78.
+  references: '[FIPS 201-2]; [SP 800-63-3]; [SP 800-73-4]; [SP 800-76-2]; [SP 800-78-4].'
 - control: IA-4(1)
   family: IA
   number: 4
@@ -2056,14 +2154,20 @@
   enhancement: 8
   name: Pairwise Pseudonymous Identifiers
   references: ~
+- control: IA-4(9)
+  family: IA
+  number: 4
+  enhancement: 9
+  name: Attribute Maintenance and Protection
+  references: ~
 - control: IA-5
   family: IA
   number: 5
   enhancement: ~
   name: Authenticator Management
   references: |
-    [FIPS 140-2], 180-4, 201, 202; [SP 800-73], 800-63,
-    800-76, 800-78; [IR 7539], 7817, 7849, 7870, 8040.
+    [FIPS 140-3]; [FIPS 180-4]; [FIPS 201-2]; [FIPS 202]; [SP 800-63-3]; [SP 800-73-4]; [SP
+    800-76-2]; [SP 800-78-4]; [IR 7539]; [IR 7817]; [IR 7849]; [IR 7870]; [IR 8040].
 - control: IA-5(1)
   family: IA
   number: 5
@@ -2148,6 +2252,12 @@
   enhancement: 17
   name: Presentation Attack Detection for Biometric Authenticators
   references: ~
+- control: IA-5(18)
+  family: IA
+  number: 5
+  enhancement: 18
+  name: Password Managers
+  references: ~
 - control: IA-6
   family: IA
   number: 6
@@ -2159,15 +2269,14 @@
   number: 7
   enhancement: ~
   name: Cryptographic Module Authentication
-  references: FIPS Publication 140-2.
+  references: '[FIPS 140-3].'
 - control: IA-8
   family: IA
   number: 8
   enhancement: ~
   name: Identification and Authentication (Non-Organizational Users)
-  references: |
-    FIPS Publication 201; [SP 800-63], 800-79, 800-116; NIST
-    Interagency Report 8062.
+  references: '[OMB A-130]; [FIPS 201-2]; [SP 800-63-3]; [SP 800-79-2]; [SP 800-116];
+    [IR 8062].'
 - control: IA-8(1)
   family: IA
   number: 8
@@ -2204,24 +2313,12 @@
   enhancement: ~
   name: Service Identification and Authentication
   references: None.
-- control: IA-9(1)
-  family: IA
-  number: 9
-  enhancement: 1
-  name: Information Exchange
-  references: ~
-- control: IA-9(2)
-  family: IA
-  number: 9
-  enhancement: 2
-  name: Transmission of Decisions
-  references: ~
 - control: IA-10
   family: IA
   number: 10
   enhancement: ~
   name: Adaptive Authentication
-  references: NIST Special Publication 800-63.
+  references: '[SP 800-63-3].'
 - control: IA-11
   family: IA
   number: 11
@@ -2233,7 +2330,7 @@
   number: 12
   enhancement: ~
   name: Identity Proofing
-  references: FIPS Publication 201; [SP 800-63], 800-63A.
+  references: '[FIPS 201-2]; [SP 800-63-3]; [SP 800-63A]; [SP 800-79-2].'
 - control: IA-12(1)
   family: IA
   number: 12
@@ -2270,84 +2367,20 @@
   enhancement: 6
   name: Accept Externally-Proofed Identities
   references: ~
-- control: IP-1
-  family: IP
-  number: 1
-  enhancement: ~
-  name: Individual Participation Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
-- control: IP-2
-  family: IP
-  number: 2
-  enhancement: ~
-  name: Consent
-  references: NIST Special Publication 800-63; NIST Interagency Report 8062.
-- control: IP-2(1)
-  family: IP
-  number: 2
-  enhancement: 1
-  name: Attribute Management
-  references: ~
-- control: IP-2(2)
-  family: IP
-  number: 2
-  enhancement: 2
-  name: Just-In-Time Notice of Consent
-  references: ~
-- control: IP-3
-  family: IP
-  number: 3
-  enhancement: ~
-  name: Redress
-  references: None.
-- control: IP-3(1)
-  family: IP
-  number: 3
-  enhancement: 1
-  name: Notice of Correction or Amendment
-  references: ~
-- control: IP-3(2)
-  family: IP
-  number: 3
-  enhancement: 2
-  name: Appeal
-  references: ~
-- control: IP-4
-  family: IP
-  number: 4
-  enhancement: ~
-  name: Privacy Notice
-  references: NIST Interagency Report 8062.
-- control: IP-4(1)
-  family: IP
-  number: 4
-  enhancement: 1
-  name: Just-In-Time Notice of Privacy Authorization
-  references: ~
-- control: IP-5
-  family: IP
-  number: 5
-  enhancement: ~
-  name: Privacy Act Statements
-  references: None.
-- control: IP-6
-  family: IP
-  number: 6
-  enhancement: ~
-  name: Individual Access
-  references: NIST Interagency Report 8062.
 - control: IR-1
   family: IR
   number: 1
   enhancement: ~
-  name: Incident Response Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-61, 800-83, 800-100.'
+  name: Policy and Procedures
+  references: |
+    [OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-50]; [SP 800-61]; [SP
+    800-83]; [SP 800-100].
 - control: IR-2
   family: IR
   number: 2
   enhancement: ~
   name: Incident Response Training
-  references: NIST Special Publication 800-50.
+  references: '[SP 800-50].'
 - control: IR-2(1)
   family: IR
   number: 2
@@ -2365,7 +2398,7 @@
   number: 3
   enhancement: ~
   name: Incident Response Testing
-  references: '[SP 800-84], 800-115.'
+  references: '[OMB A-130]; [SP 800-84]; [SP 800-115].'
 - control: IR-3(1)
   family: IR
   number: 3
@@ -2389,7 +2422,9 @@
   number: 4
   enhancement: ~
   name: Incident Handling
-  references: '[SP 800-61], 800-101, 800-86; NIST Interagency Report 7599.'
+  references: |
+    [SP 800-61]; [SP 800-86]; [SP 800-101]; [SP 800-150]; [SP 800-160 v2]; [SP 800-184];
+    [IR 7559].
 - control: IR-4(1)
   family: IR
   number: 4
@@ -2450,12 +2485,42 @@
   enhancement: 10
   name: Supply Chain Coordination
   references: ~
+- control: IR-4(11)
+  family: IR
+  number: 4
+  enhancement: 11
+  name: Integrated Incident Response Team
+  references: ~
+- control: IR-4(12)
+  family: IR
+  number: 4
+  enhancement: 12
+  name: Malicious Code and Forensic Analysis
+  references: ~
+- control: IR-4(13)
+  family: IR
+  number: 4
+  enhancement: 13
+  name: Behavior Analysis
+  references: ~
+- control: IR-4(14)
+  family: IR
+  number: 4
+  enhancement: 14
+  name: Security Operations Center
+  references: ~
+- control: IR-4(15)
+  family: IR
+  number: 4
+  enhancement: 15
+  name: Public Relations and Reputation Repair
+  references: ~
 - control: IR-5
   family: IR
   number: 5
   enhancement: ~
   name: Incident Monitoring
-  references: NIST Special Publication 800-61.
+  references: '[SP 800-61].'
 - control: IR-5(1)
   family: IR
   number: 5
@@ -2467,7 +2532,7 @@
   number: 6
   enhancement: ~
   name: Incident Reporting
-  references: NIST Special Publication 800-61.
+  references: '[SP 800-61].'
 - control: IR-6(1)
   family: IR
   number: 6
@@ -2491,7 +2556,7 @@
   number: 7
   enhancement: ~
   name: Incident Response Assistance
-  references: NIST Interagency Report 7559.
+  references: '[OMB A-130]; [IR 7559].'
 - control: IR-7(1)
   family: IR
   number: 7
@@ -2509,12 +2574,12 @@
   number: 8
   enhancement: ~
   name: Incident Response Plan
-  references: NIST Special Publication 800-61.
+  references: '[OMB A-130]; [SP 800-61]; [OMB M-17-12].'
 - control: IR-8(1)
   family: IR
   number: 8
   enhancement: 1
-  name: Personally Identifiable Information Processes
+  name: Privacy Breaches
   references: ~
 - control: IR-9
   family: IR
@@ -2522,12 +2587,6 @@
   enhancement: ~
   name: Information Spillage Response
   references: None.
-- control: IR-9(1)
-  family: IR
-  number: 9
-  enhancement: 1
-  name: Responsible Personnel
-  references: ~
 - control: IR-9(2)
   family: IR
   number: 9
@@ -2546,24 +2605,18 @@
   enhancement: 4
   name: Exposure to Unauthorized Personnel
   references: ~
-- control: IR-10
-  family: IR
-  number: 10
-  enhancement: ~
-  name: Integrated Information Security Analysis Team
-  references: NIST Special Publication 800-150; NIST Interagency Report 7559.
 - control: MA-1
   family: MA
   number: 1
   enhancement: ~
-  name: System Maintenance Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: MA-2
   family: MA
   number: 2
   enhancement: ~
   name: Controlled Maintenance
-  references: NIST Interagency Report 8023.
+  references: '[OMB A-130]; [IR 8023].'
 - control: MA-2(2)
   family: MA
   number: 2
@@ -2575,7 +2628,7 @@
   number: 3
   enhancement: ~
   name: Maintenance Tools
-  references: NIST Special Publication 800-88.
+  references: '[SP 800-88].'
 - control: MA-3(1)
   family: MA
   number: 3
@@ -2600,17 +2653,29 @@
   enhancement: 4
   name: Restricted Tool Use
   references: ~
+- control: MA-3(5)
+  family: MA
+  number: 3
+  enhancement: 5
+  name: Execution With Privilege
+  references: ~
+- control: MA-3(6)
+  family: MA
+  number: 3
+  enhancement: 6
+  name: Software Updates and Patches
+  references: ~
 - control: MA-4
   family: MA
   number: 4
   enhancement: ~
   name: Nonlocal Maintenance
-  references: '[FIPS 140-2], 197, 201; [SP 800-63], 800-88.'
+  references: '[FIPS 140-3]; [FIPS 197]; [FIPS 201-2]; [SP 800-63-3]; [SP 800-88].'
 - control: MA-4(1)
   family: MA
   number: 4
   enhancement: 1
-  name: Auditing and Review
+  name: Logging and Review
   references: ~
 - control: MA-4(3)
   family: MA
@@ -2640,7 +2705,7 @@
   family: MA
   number: 4
   enhancement: 7
-  name: Remote Disconnect Verification
+  name: Disconnect Verification
   references: ~
 - control: MA-5
   family: MA
@@ -2702,38 +2767,38 @@
   enhancement: 3
   name: Automated Support for Predictive Maintenance
   references: ~
-- control: MA-6(4)
+- control: MA-7
   family: MA
-  number: 6
-  enhancement: 4
-  name: Adequate Supply
-  references: ~
+  number: 7
+  enhancement: ~
+  name: Field Maintenance
+  references: None.
 - control: MP-1
   family: MP
   number: 1
   enhancement: ~
-  name: Media Protection Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: MP-2
   family: MP
   number: 2
   enhancement: ~
   name: Media Access
-  references: FIPS Publication 199; NIST Special Publication 800-111.
+  references: '[OMB A-130]; [FIPS 199]; [SP 800-111].'
 - control: MP-3
   family: MP
   number: 3
   enhancement: ~
   name: Media Marking
-  references: FIPS Publication 199.
+  references: '[32 CFR 2002]; [FIPS 199].'
 - control: MP-4
   family: MP
   number: 4
   enhancement: ~
   name: Media Storage
   references: |
-    FIPS Publication 199; [SP 800-56A], 800-56B, 800-56C, 800-
-    57-1, 800-57-2, 800-57-3, 800-111.
+    [FIPS 199]; [SP 800-56A]; [SP 800-56B]; [SP 800-56C]; [SP 800-57-1]; [SP 800-57-2];
+    [SP 800-57-3]; [SP 800-111].
 - control: MP-4(2)
   family: MP
   number: 4
@@ -2745,7 +2810,7 @@
   number: 5
   enhancement: ~
   name: Media Transport
-  references: FIPS Publication 199; NIST Special Publication 800-60-1, 800-60-2.
+  references: '[FIPS 199]; [SP 800-60 v1]; [SP 800-60 v2].'
 - control: MP-5(3)
   family: MP
   number: 5
@@ -2758,13 +2823,13 @@
   enhancement: ~
   name: Media Sanitization
   references: |
-    FIPS Publication 199; [SP 800-60-1], 800-60-2, 800-88, 800-
-    124; NIST Interagency Report 8023.
+    [OMB A-130]; [FIPS 199]; [SP 800-60 v1]; [SP 800-60 v2]. [SP 800-88]; [SP 800-124];
+    [IR 8023]; [NSA MEDIA].
 - control: MP-6(1)
   family: MP
   number: 6
   enhancement: 1
-  name: Review, Approve, Track, Document, Verify
+  name: Review, Approve, Track, Document, and Verify
   references: ~
 - control: MP-6(2)
   family: MP
@@ -2790,18 +2855,12 @@
   enhancement: 8
   name: Remote Purging or Wiping of Information
   references: ~
-- control: MP-6(9)
-  family: MP
-  number: 6
-  enhancement: 9
-  name: Destruction of Personally Identifiable Information
-  references: ~
 - control: MP-7
   family: MP
   number: 7
   enhancement: ~
   name: Media Use
-  references: FIPS Publication 199; NIST Special Publication 800-111.
+  references: '[FIPS 199]; [SP 800-111].'
 - control: MP-7(2)
   family: MP
   number: 7
@@ -2838,54 +2897,18 @@
   enhancement: 4
   name: Classified Information
   references: ~
-- control: PA-1
-  family: PA
-  number: 1
-  enhancement: ~
-  name: Privacy Authorization Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
-- control: PA-2
-  family: PA
-  number: 2
-  enhancement: ~
-  name: Authority to Collect
-  references: None.
-- control: PA-3
-  family: PA
-  number: 3
-  enhancement: ~
-  name: Purpose Specification
-  references: None.
-- control: PA-3(1)
-  family: PA
-  number: 3
-  enhancement: 1
-  name: Usage Restrictions of Personally Identifiable Information
-  references: ~
-- control: PA-3(2)
-  family: PA
-  number: 3
-  enhancement: 2
-  name: Automation
-  references: ~
-- control: PA-4
-  family: PA
-  number: 4
-  enhancement: ~
-  name: Information Sharing with External Parties
-  references: None.
 - control: PE-1
   family: PE
   number: 1
   enhancement: ~
-  name: Physical and Environmental Protection Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: PE-2
   family: PE
   number: 2
   enhancement: ~
   name: Physical Access Authorizations
-  references: FIPS Publication 201; [SP 800-76], 800-73, 800-78.
+  references: '[FIPS 201-2]; [SP 800-73-4]; [SP 800-76-2]; [SP 800-78-4].'
 - control: PE-2(1)
   family: PE
   number: 2
@@ -2909,7 +2932,7 @@
   number: 3
   enhancement: ~
   name: Physical Access Control
-  references: FIPS Publication 201; [SP 800-73], 800-76, 800-78, 800-116.
+  references: '[FIPS 201-2]; [SP 800-73-4]; [SP 800-76-2]; [SP 800-78-4]; [SP 800-116].'
 - control: PE-3(1)
   family: PE
   number: 3
@@ -2920,7 +2943,7 @@
   family: PE
   number: 3
   enhancement: 2
-  name: Facility and System Boundaries
+  name: Facility and Systems
   references: ~
 - control: PE-3(3)
   family: PE
@@ -2946,6 +2969,12 @@
   enhancement: 7
   name: Physical Barriers
   references: ~
+- control: PE-3(8)
+  family: PE
+  number: 3
+  enhancement: 8
+  name: Access Control Vestibules
+  references: ~
 - control: PE-4
   family: PE
   number: 4
@@ -2957,18 +2986,12 @@
   number: 5
   enhancement: ~
   name: Access Control for Output Devices
-  references: NIST Interagency Report 8023.
-- control: PE-5(1)
-  family: PE
-  number: 5
-  enhancement: 1
-  name: Access to Output by Authorized Individuals
-  references: ~
+  references: '[IR 8023].'
 - control: PE-5(2)
   family: PE
   number: 5
   enhancement: 2
-  name: Access to Output by Individual Identity
+  name: Link to Individual Identity
   references: ~
 - control: PE-5(3)
   family: PE
@@ -3052,13 +3075,13 @@
   family: PE
   number: 11
   enhancement: 1
-  name: Long-Term Alternate Power Supply — Minimal Operational Capability
+  name: Alternate Power Supply — Minimal Operational Capability
   references: ~
 - control: PE-11(2)
   family: PE
   number: 11
   enhancement: 2
-  name: Long-Term Alternate Power Supply — Self-Contained
+  name: Alternate Power Supply — Self-Contained
   references: ~
 - control: PE-12
   family: PE
@@ -3082,13 +3105,13 @@
   family: PE
   number: 13
   enhancement: 1
-  name: Detection Devices and Systems
+  name: Detection Systems — Automatic Activation and Notification
   references: ~
 - control: PE-13(2)
   family: PE
   number: 13
   enhancement: 2
-  name: Automatic Suppression Devices and Systems
+  name: Suppression Systems — Automatic Activation and Notification
   references: ~
 - control: PE-13(4)
   family: PE
@@ -3100,7 +3123,7 @@
   family: PE
   number: 14
   enhancement: ~
-  name: Temperature and Humidity Controls
+  name: Environmental Controls
   references: None.
 - control: PE-14(1)
   family: PE
@@ -3137,25 +3160,19 @@
   number: 17
   enhancement: ~
   name: Alternate Work Site
-  references: NIST Special Publication 800-46.
+  references: '[SP 800-46].'
 - control: PE-18
   family: PE
   number: 18
   enhancement: ~
   name: Location of System Components
   references: None.
-- control: PE-18(1)
-  family: PE
-  number: 18
-  enhancement: 1
-  name: Facility Site
-  references: ~
 - control: PE-19
   family: PE
   number: 19
   enhancement: ~
   name: Information Leakage
-  references: FIPS Publication 199.
+  references: '[FIPS 199].'
 - control: PE-19(1)
   family: PE
   number: 19
@@ -3180,48 +3197,51 @@
   enhancement: ~
   name: Component Marking
   references: None.
+- control: PE-23
+  family: PE
+  number: 23
+  enhancement: ~
+  name: Facility Location
+  references: None.
 - control: PL-1
   family: PL
   number: 1
   enhancement: ~
-  name: Planning Policy and Procedures
-  references: '[SP 800-12], 800-18, 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-18]; [SP 800-30]; [SP 800-39]; [SP
+    800-100].'
 - control: PL-2
   family: PL
   number: 2
   enhancement: ~
-  name: Security and Privacy Plans
-  references: NIST Special Publication 800-18.
-- control: PL-2(3)
-  family: PL
-  number: 2
-  enhancement: 3
-  name: Plan and Coordinate With Other Organizational Entities
-  references: ~
+  name: System Security and Privacy Plans
+  references: |
+    [OMB A-130, Appendix II]; [SP 800-18]; [SP 800-37]; [SP 800-160 v1]; [SP 800-160
+    v2].
 - control: PL-4
   family: PL
   number: 4
   enhancement: ~
   name: Rules of Behavior
-  references: NIST Special Publication 800-18.
+  references: '[OMB A-130]; [SP 800-18].'
 - control: PL-4(1)
   family: PL
   number: 4
   enhancement: 1
-  name: Social Media and Networking Restrictions
+  name: Social Media and External Site/Application Usage Restrictions
   references: ~
 - control: PL-7
   family: PL
   number: 7
   enhancement: ~
   name: Concept of Operations
-  references: None.
+  references: '[OMB A-130, Appendix II].'
 - control: PL-8
   family: PL
   number: 8
   enhancement: ~
   name: Security and Privacy Architectures
-  references: None.
+  references: '[OMB A-130]; [SP 800-160 v1]; [SP 800-160 v2].'
 - control: PL-8(1)
   family: PL
   number: 8
@@ -3239,113 +3259,128 @@
   number: 9
   enhancement: ~
   name: Central Management
-  references: NIST Special Publication 800-37.
+  references: '[OMB A-130]; [SP 800-37].'
 - control: PL-10
   family: PL
   number: 10
   enhancement: ~
   name: Baseline Selection
   references: |
-    [FIPS 199], 200; [SP 800-30], 800-37, 800-39, 800-
-    60-1, 800-60-2, 800-160.
+    [FIPS 199]; [FIPS 200]; [SP 800-30]; [SP 800-37]; [SP 800-39]; [SP 800-53B]; [SP 800-
+    60 v1]; [SP 800-60 v2]; [SP 800-160 v1]; [CNSSI 1253].
 - control: PL-11
   family: PL
   number: 11
   enhancement: ~
   name: Baseline Tailoring
   references: |
-    [FIPS 199], 200; [SP 800-30], 800-37, 800-39, 800-
-    160.
+    [FIPS 199]; [FIPS 200]; [SP 800-30]; [SP 800-37]; [SP 800-39]; [SP 800-53B]; [SP 800-
+    60 v1]; [SP 800-60 v2]; [SP 800-160 v1]; [CNSSI 1253].
 - control: PM-1
   family: PM
   number: 1
   enhancement: ~
   name: Information Security Program Plan
-  references: None.
+  references: '[FISMA]; [OMB A-130].'
 - control: PM-2
   family: PM
   number: 2
   enhancement: ~
-  name: Information Security Program Roles
-  references: '[SP 800-37], 800-39; OMB Memorandum 17-25.'
+  name: Information Security Program Leadership Role
+  references: '[OMB M-17-25]; [SP 800-37]; [SP 800-39].'
 - control: PM-3
   family: PM
   number: 3
   enhancement: ~
   name: Information Security and Privacy Resources
-  references: NIST Special Publication 800-65.
+  references: '[OMB A-130].'
 - control: PM-4
   family: PM
   number: 4
   enhancement: ~
   name: Plan of Action and Milestones Process
-  references: '[SP 800-37.]'
+  references: '[PRIVACT]; [OMB A-130]; [SP 800-37].'
 - control: PM-5
   family: PM
   number: 5
   enhancement: ~
   name: System Inventory
-  references: None.
+  references: '[IR 8062].'
+- control: PM-5(1)
+  family: PM
+  number: 5
+  enhancement: 1
+  name: Inventory of Personally Identifiable Information
+  references: ~
 - control: PM-6
   family: PM
   number: 6
   enhancement: ~
   name: Measures of Performance
-  references: '[SP 800-55], 800-137.'
+  references: '[OMB A-130]; [SP 800-55]; [SP 800-137].'
 - control: PM-7
   family: PM
   number: 7
   enhancement: ~
   name: Enterprise Architecture
-  references: NIST Special Publication 800-39.
+  references: '[OMB A-130]; [SP 800-37]; [SP 800-39]; [SP 800-160 v1]; [SP 800-160
+    v2].'
+- control: PM-7(1)
+  family: PM
+  number: 7
+  enhancement: 1
+  name: Offloading
+  references: ~
 - control: PM-8
   family: PM
   number: 8
   enhancement: ~
   name: Critical Infrastructure Plan
-  references: HSPD 7; National Infrastructure Protection Plan.
+  references: '[OMB A-130]; [HSPD 7]; [DHS NIPP].'
 - control: PM-9
   family: PM
   number: 9
   enhancement: ~
   name: Risk Management Strategy
-  references: '[SP 800-30], 800-39, 800-161; NIST Interagency Report 8023.'
+  references: '[OMB A-130]; [SP 800-30]; [SP 800-39]; [SP 800-161]; [IR 8023].'
 - control: PM-10
   family: PM
   number: 10
   enhancement: ~
   name: Authorization Process
-  references: '[SP 800-37], 800-39.'
+  references: '[SP 800-37]; [SP 800-39].'
 - control: PM-11
   family: PM
   number: 11
   enhancement: ~
   name: Mission and Business Process Definition
-  references: FIPS Publication 199; NIST Special Publication 800-60-1, 800-60-2.
+  references: '[OMB A-130]; [FIPS 199]; [SP 800-60 v1]; [SP 800-60 v2]; [SP 800-160
+    v1].'
 - control: PM-12
   family: PM
   number: 12
   enhancement: ~
   name: Insider Threat Program
-  references: None.
+  references: '[EO 13587]; [ODNI NITP].'
 - control: PM-13
   family: PM
   number: 13
   enhancement: ~
   name: Security and Privacy Workforce
-  references: NIST Cyber Workforce Framework.
+  references: '[OMB A-130]; [SP 800-181].'
 - control: PM-14
   family: PM
   number: 14
   enhancement: ~
   name: Testing, Training, and Monitoring
-  references: '[SP 800-37], 800-39; 800-53A, 800-137.'
+  references: '[OMB A-130]; [SP 800-37]; [SP 800-39]; [SP 800-53A]; [SP 800-115];
+    [SP 800-137].'
 - control: PM-15
   family: PM
   number: 15
   enhancement: ~
-  name: Contacts with Groups and Associations
-  references: None.
+  name: Security and Privacy Groups and Associations
+  references: '[OMB A-130].'
 - control: PM-16
   family: PM
   number: 16
@@ -3363,147 +3398,123 @@
   number: 17
   enhancement: ~
   name: Protecting CUI on External Systems
-  references: 32 CFR 2002; NIST Special Publication 800-171; NARA CUI Registry.
+  references: '[32 CFR 2002]; [SP 800-171]; [NARA CUI].'
 - control: PM-18
   family: PM
   number: 18
   enhancement: ~
   name: Privacy Program Plan
-  references: None.
+  references: '[PRIVACT]; [OMB A-130].'
 - control: PM-19
   family: PM
   number: 19
   enhancement: ~
-  name: Privacy Program Roles
-  references: None.
+  name: Privacy Program Leadership Role
+  references: '[OMB A-130].'
 - control: PM-20
   family: PM
   number: 20
   enhancement: ~
-  name: System of Records Notice
-  references: None.
+  name: Dissemination of Privacy Program Information
+  references: '[PRIVACT]; [OMB A-130]; [OMB M-17-06].'
 - control: PM-21
   family: PM
   number: 21
   enhancement: ~
-  name: Dissemination of Privacy Program Information
-  references: None.
+  name: Accounting of Disclosures
+  references: '[PRIVACT]; [OMB A-130].'
 - control: PM-22
   family: PM
   number: 22
   enhancement: ~
-  name: Accounting of Disclosures
-  references: None.
+  name: Personally Identifiable Information Quality Management
+  references: '[OMB A-130]; [SP 800-188].'
 - control: PM-23
   family: PM
   number: 23
   enhancement: ~
-  name: Data Quality Management
-  references: NIST Special Publication 800-188.
-- control: PM-23(1)
-  family: PM
-  number: 23
-  enhancement: 1
-  name: Automation
-  references: ~
-- control: PM-23(2)
-  family: PM
-  number: 23
-  enhancement: 2
-  name: Data Tagging
-  references: ~
-- control: PM-23(3)
-  family: PM
-  number: 23
-  enhancement: 3
-  name: Updating Personally Identifiable Information
-  references: ~
+  name: Data Governance Body
+  references: '[EVIDACT]; [OMB A-130]; [OMB M-19-23]; [SP 800-188].'
 - control: PM-24
   family: PM
   number: 24
   enhancement: ~
-  name: Data Management Board
-  references: NIST Special Publication 800-188.
+  name: Data Integrity Board
+  references: '[PRIVACT]; [OMB A-130, Appendix II]; [OMB A-108].'
 - control: PM-25
   family: PM
   number: 25
   enhancement: ~
-  name: Data Integrity Board
-  references: None.
-- control: PM-25(1)
-  family: PM
-  number: 25
-  enhancement: 1
-  name: Publish Agreements on Website
-  references: ~
+  name: Minimization of PII Used in Testing Training, and Research
+  references: '[OMB A-130, Appendix II].'
 - control: PM-26
   family: PM
   number: 26
   enhancement: ~
-  name: Minimization of PII Used in Testing Training, and Research
-  references: None.
+  name: Complaint Management
+  references: '[OMB A-130].'
 - control: PM-27
   family: PM
   number: 27
   enhancement: ~
-  name: Individual Access Control
-  references: None.
+  name: Privacy Reporting
+  references: '[FISMA]; [OMB A-130]; [OMB A-108].'
 - control: PM-28
   family: PM
   number: 28
   enhancement: ~
-  name: Complaint Management
-  references: None.
+  name: Risk Framing
+  references: '[OMB A-130]; [SP 800-39].'
 - control: PM-29
   family: PM
   number: 29
   enhancement: ~
-  name: Inventory of PII
-  references: None.
-- control: PM-29(1)
-  family: PM
-  number: 29
-  enhancement: 1
-  name: Automation Support
-  references: ~
+  name: Risk Management Program Leadership Roles
+  references: '[SP 800-37].'
 - control: PM-30
   family: PM
   number: 30
   enhancement: ~
-  name: Privacy Reporting
-  references: None.
+  name: Supply Chain Risk Management Strategy
+  references: '[SP 800-161].'
 - control: PM-31
   family: PM
   number: 31
   enhancement: ~
-  name: Supply Chain Risk Management Plan
-  references: NIST Special Publication 800-161.
+  name: Continuous Monitoring Strategy
+  references: '[SP 800-37]; [SP 800-137].'
 - control: PM-32
   family: PM
   number: 32
   enhancement: ~
-  name: Risk Framing
-  references: NIST Special Publication 800-39.
+  name: Purposing
+  references: '[SP 800-137].'
+- control: PM-33
+  family: PM
+  number: 33
+  enhancement: ~
+  name: Privacy Policies on Websites, Applications, and Digital Services
+  references: '[OMB A-130].'
 - control: PS-1
   family: PS
   number: 1
   enhancement: ~
-  name: Personnel Security Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: PS-2
   family: PS
   number: 2
   enhancement: ~
   name: Position Risk Designation
-  references: 5 C.F.R. 731.106.
+  references: '[5 CFR 731].'
 - control: PS-3
   family: PS
   number: 3
   enhancement: ~
   name: Personnel Screening
   references: |
-    [FIPS 199], 201; [SP 800-60-1], 800-60-2, 800-73,
-    800-76, 800-78.
+    [EO 13526]; [EO 13587]; [FIPS 199]; [FIPS 201-2]; [SP 800-60 v1]; [SP 800-60 v2]; [SP
+    800-73-4]; [SP 800-76-2]; [SP 800-78-4].
 - control: PS-3(1)
   family: PS
   number: 3
@@ -3575,58 +3586,203 @@
   number: 7
   enhancement: ~
   name: External Personnel Security
-  references: NIST Special Publication 800-35.
+  references: '[SP 800-35].'
 - control: PS-8
   family: PS
   number: 8
   enhancement: ~
   name: Personnel Sanctions
   references: None.
+- control: PT-1
+  family: PT
+  number: 1
+  enhancement: ~
+  name: Policy and Procedures
+  references: '[OMB A-130].'
+- control: PT-2
+  family: PT
+  number: 2
+  enhancement: ~
+  name: Authority to Process Personally Identifiable Information
+  references: '[PRIVACT]; [OMB A-130, Appendix II].'
+- control: PT-2(1)
+  family: PT
+  number: 2
+  enhancement: 1
+  name: Data Tagging
+  references: ~
+- control: PT-2(2)
+  family: PT
+  number: 2
+  enhancement: 2
+  name: Automation
+  references: ~
+- control: PT-3
+  family: PT
+  number: 3
+  enhancement: ~
+  name: Personally Identifiable Information Processing Purposes
+  references: '[PRIVACT]; [OMB A-130, Appendix II].'
+- control: PT-3(1)
+  family: PT
+  number: 3
+  enhancement: 1
+  name: Data Tagging
+  references: ~
+- control: PT-3(2)
+  family: PT
+  number: 3
+  enhancement: 2
+  name: Automation
+  references: ~
+- control: PT-4
+  family: PT
+  number: 4
+  enhancement: ~
+  name: Minimization
+  references: '[OMB A-130].'
+- control: PT-5
+  family: PT
+  number: 5
+  enhancement: ~
+  name: Consent
+  references: '[PRIVACT]; [OMB A-130]; [SP 800-63-3].'
+- control: PT-5(1)
+  family: PT
+  number: 5
+  enhancement: 1
+  name: Tailored Consent
+  references: ~
+- control: PT-5(2)
+  family: PT
+  number: 5
+  enhancement: 2
+  name: Just-In-Time Consent
+  references: ~
+- control: PT-6
+  family: PT
+  number: 6
+  enhancement: ~
+  name: Privacy Notice
+  references: '[PRIVACT]; [OMB A-130]; [OMB A-108].'
+- control: PT-6(1)
+  family: PT
+  number: 6
+  enhancement: 1
+  name: Just-In-Time Notice
+  references: ~
+- control: PT-6(2)
+  family: PT
+  number: 6
+  enhancement: 2
+  name: Privacy Act Statements
+  references: ~
+- control: PT-7
+  family: PT
+  number: 7
+  enhancement: ~
+  name: System of Records Notice
+  references: '[PRIVACT]; [OMB A-108].'
+- control: PT-7(1)
+  family: PT
+  number: 7
+  enhancement: 1
+  name: Routine Uses
+  references: ~
+- control: PT-7(2)
+  family: PT
+  number: 7
+  enhancement: 2
+  name: Exemption Rules
+  references: ~
+- control: PT-8
+  family: PT
+  number: 8
+  enhancement: ~
+  name: Specific Categories of Personally Identifiable Information
+  references: '[PRIVACT]; [OMB A-130]; [OMB A-108].'
+- control: PT-8(1)
+  family: PT
+  number: 8
+  enhancement: 1
+  name: Social Security Numbers
+  references: ~
+- control: PT-8(2)
+  family: PT
+  number: 8
+  enhancement: 2
+  name: First Amendment Information
+  references: ~
+- control: PT-9
+  family: PT
+  number: 9
+  enhancement: ~
+  name: Computer Matching Requirements
+  references: '[PRIVACT]; [OMB A-130]; [OMB A-108].'
 - control: RA-1
   family: RA
   number: 1
   enhancement: ~
-  name: Risk Assessment Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100].'
 - control: RA-2
   family: RA
   number: 2
   enhancement: ~
   name: Security Categorization
   references: |
-    [FIPS 199], 200; [SP 800-30], 800-39, 800-60-1,
-    800-60-2.
+    [FIPS 199]; [FIPS 200]; [SP 800-30]; [SP 800-37]; [SP 800-39]; [SP 800-60 v1]; [SP 800-
+    60 v2]; [SP 800-160 v1].
 - control: RA-2(1)
   family: RA
   number: 2
   enhancement: 1
-  name: Second-Level Categorization
+  name: Impact-Level Prioritization
   references: ~
 - control: RA-3
   family: RA
   number: 3
   enhancement: ~
   name: Risk Assessment
-  references: '[SP 800-30], 800-39, 800-161; NIST Interagency Report 8023.'
+  references: '[OMB A-130]; [SP 800-30]; [SP 800-39]; [SP 800-161]; [IR 8023]; [IR
+    8062].'
 - control: RA-3(1)
   family: RA
   number: 3
   enhancement: 1
   name: Supply Chain Risk Assessment
   references: ~
+- control: RA-3(2)
+  family: RA
+  number: 3
+  enhancement: 2
+  name: Use of All-Source Intelligence
+  references: ~
+- control: RA-3(3)
+  family: RA
+  number: 3
+  enhancement: 3
+  name: Dynamic Threat Awareness
+  references: ~
+- control: RA-3(4)
+  family: RA
+  number: 3
+  enhancement: 4
+  name: Predictive Cyber Analytics
+  references: ~
 - control: RA-5
   family: RA
   number: 5
   enhancement: ~
-  name: Vulnerability Scanning
+  name: Vulnerability Monitoring and Scanning
   references: |
-    [SP 800-40], 800-70, 800-115, 800-126; NIST Interagency
-    Reports 7788, 8023.
+    [SP 800-40]; [SP 800-53A]; [SP 800-70]; [SP 800-115]; [SP 800-126]; [IR 7788]; [IR
+    8023].
 - control: RA-5(2)
   family: RA
   number: 5
   enhancement: 2
-  name: Update by Frequency, Prior to New Scan, or When Identified
+  name: Update System Vulnerabilities
   references: ~
 - control: RA-5(3)
   family: RA
@@ -3664,6 +3820,12 @@
   enhancement: 10
   name: Correlate Scanning Information
   references: ~
+- control: RA-5(11)
+  family: RA
+  number: 5
+  enhancement: 11
+  name: Public Disclosure Program
+  references: ~
 - control: RA-6
   family: RA
   number: 6
@@ -3675,50 +3837,58 @@
   number: 7
   enhancement: ~
   name: Risk Response
-  references: |
-    [FIPS 199], 200; [SP 800-30], 800-37, 800-39, 800-
-    160.
+  references: '[FIPS 199]; [FIPS 200]; [SP 800-30]; [SP 800-37]; [SP 800-39]; [SP
+    800-160 v1].'
 - control: RA-8
   family: RA
   number: 8
   enhancement: ~
   name: Privacy Impact Assessments
-  references: None.
+  references: '[EGOV]; [OMB A-130, Appendix II].'
 - control: RA-9
   family: RA
   number: 9
   enhancement: ~
   name: Criticality Analysis
-  references: None.
+  references: '[IR 8179].'
+- control: RA-10
+  family: RA
+  number: 10
+  enhancement: ~
+  name: Threat Hunting
+  references: '[SP 800-30].'
 - control: SA-1
   family: SA
   number: 1
   enhancement: ~
-  name: System and Services Acquisition Policy and Procedures
-  references: '[SP 800-12], 800-30, 800-39, 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100]; [SP
+    800-160 v1].'
 - control: SA-2
   family: SA
   number: 2
   enhancement: ~
   name: Allocation of Resources
-  references: NIST Special Publication 800-65.
+  references: '[OMB A-130]; [SP 800-160 v1].'
 - control: SA-3
   family: SA
   number: 3
   enhancement: ~
   name: System Development Life Cycle
-  references: '[SP 800-30], 800-37, 800-64.'
+  references: |
+    [OMB A-130]; [SP 800-30]; [SP 800-37]; [SP 800-160 v1]; [SP 800-171]; [SP 800-
+    171B].
 - control: SA-3(1)
   family: SA
   number: 3
   enhancement: 1
-  name: Manage Development Environment
+  name: Manage Preproduction Environment
   references: ~
 - control: SA-3(2)
   family: SA
   number: 3
   enhancement: 2
-  name: Use of Live Data
+  name: Use of Live or Operational Data
   references: ~
 - control: SA-3(3)
   family: SA
@@ -3732,9 +3902,9 @@
   enhancement: ~
   name: Acquisition Process
   references: |
-    ISO/IEC 15408; [FIPS 140-2], 201; [SP 800-23],
-    800-35, 800-36, 800-37, 800-64, 800-70, 800-73, 800-137, 800-161; NIST Interagency Reports
-    7539, 7622, 7676, 7870, 8062.
+    [PRIVACT]; [OMB A-130]; [ISO 15408-1]; [ISO 15408-2]; [ISO 15408-3]; [FIPS 140-3];
+    [FIPS 201-2]; [SP 800-35]; [SP 800-37]; [SP 800-70]; [SP 800-73-4]; [SP 800-137]; [SP 800-160 v1];
+    [SP 800-161]; [IR 7539]; [IR 7622]; [IR 7676]; [IR 7870]; [IR 8062]; [NIAP CCEVS]; [NSA CSFC].
 - control: SA-4(1)
   family: SA
   number: 4
@@ -3789,26 +3959,230 @@
   enhancement: 10
   name: Use of Approved Piv Products
   references: ~
+- control: SA-4(11)
+  family: SA
+  number: 4
+  enhancement: 11
+  name: System of Records
+  references: ~
+- control: SA-4(12)
+  family: SA
+  number: 4
+  enhancement: 12
+  name: Data Ownership
+  references: ~
 - control: SA-5
   family: SA
   number: 5
   enhancement: ~
   name: System Documentation
-  references: None.
+  references: '[SP 800-160 v1].'
 - control: SA-8
   family: SA
   number: 8
   enhancement: ~
   name: Security and Privacy Engineering Principles
   references: |
-    [FIPS 199], 200; [SP 800-53A], 800-60-1, 800-60-2,
-    800-64, 800-160; NIST Interagency Report 8062.
+    [FIPS 199]; [FIPS 200]; [SP 800-53A]; [SP 800-60 v1]; [SP 800-60 v2]; [SP 800-160 v1];
+    [IR 8062].
+- control: SA-8(1)
+  family: SA
+  number: 8
+  enhancement: 1
+  name: Clear Abstractions
+  references: ~
+- control: SA-8(2)
+  family: SA
+  number: 8
+  enhancement: 2
+  name: Least Common Mechanism
+  references: ~
+- control: SA-8(3)
+  family: SA
+  number: 8
+  enhancement: 3
+  name: Modularity and Layering
+  references: ~
+- control: SA-8(4)
+  family: SA
+  number: 8
+  enhancement: 4
+  name: Partially Ordered Dependencies
+  references: ~
+- control: SA-8(5)
+  family: SA
+  number: 8
+  enhancement: 5
+  name: Efficiently Mediated Access
+  references: ~
+- control: SA-8(6)
+  family: SA
+  number: 8
+  enhancement: 6
+  name: Minimized Sharing
+  references: ~
+- control: SA-8(7)
+  family: SA
+  number: 8
+  enhancement: 7
+  name: Reduced Complexity
+  references: ~
+- control: SA-8(8)
+  family: SA
+  number: 8
+  enhancement: 8
+  name: Secure Evolvability
+  references: ~
+- control: SA-8(9)
+  family: SA
+  number: 8
+  enhancement: 9
+  name: Trusted Components
+  references: ~
+- control: SA-8(10)
+  family: SA
+  number: 8
+  enhancement: 10
+  name: Hierarchical Trust
+  references: ~
+- control: SA-8(11)
+  family: SA
+  number: 8
+  enhancement: 11
+  name: Inverse Modification Threshold
+  references: ~
+- control: SA-8(12)
+  family: SA
+  number: 8
+  enhancement: 12
+  name: Hierarchical Protection
+  references: ~
+- control: SA-8(13)
+  family: SA
+  number: 8
+  enhancement: 13
+  name: Minimized Security Elements
+  references: ~
+- control: SA-8(14)
+  family: SA
+  number: 8
+  enhancement: 14
+  name: Least Privilege
+  references: ~
+- control: SA-8(15)
+  family: SA
+  number: 8
+  enhancement: 15
+  name: Predicate Permission
+  references: ~
+- control: SA-8(16)
+  family: SA
+  number: 8
+  enhancement: 16
+  name: Self-Reliant Trustworthiness
+  references: ~
+- control: SA-8(17)
+  family: SA
+  number: 8
+  enhancement: 17
+  name: Secure Distributed Composition
+  references: ~
+- control: SA-8(18)
+  family: SA
+  number: 8
+  enhancement: 18
+  name: Trusted Communications Channels
+  references: ~
+- control: SA-8(19)
+  family: SA
+  number: 8
+  enhancement: 19
+  name: Continuous Protection
+  references: ~
+- control: SA-8(20)
+  family: SA
+  number: 8
+  enhancement: 20
+  name: Secure Metadata Management
+  references: ~
+- control: SA-8(21)
+  family: SA
+  number: 8
+  enhancement: 21
+  name: Self-Analysis
+  references: ~
+- control: SA-8(22)
+  family: SA
+  number: 8
+  enhancement: 22
+  name: Accountability and Traceability
+  references: ~
+- control: SA-8(23)
+  family: SA
+  number: 8
+  enhancement: 23
+  name: Secure Defaults
+  references: ~
+- control: SA-8(24)
+  family: SA
+  number: 8
+  enhancement: 24
+  name: Secure Failure and Recovery
+  references: ~
+- control: SA-8(25)
+  family: SA
+  number: 8
+  enhancement: 25
+  name: Economic Security
+  references: ~
+- control: SA-8(26)
+  family: SA
+  number: 8
+  enhancement: 26
+  name: Performance Security
+  references: ~
+- control: SA-8(27)
+  family: SA
+  number: 8
+  enhancement: 27
+  name: Human Factored Security
+  references: ~
+- control: SA-8(28)
+  family: SA
+  number: 8
+  enhancement: 28
+  name: Acceptable Security
+  references: ~
+- control: SA-8(29)
+  family: SA
+  number: 8
+  enhancement: 29
+  name: Repeatable and Documented Procedures
+  references: ~
+- control: SA-8(30)
+  family: SA
+  number: 8
+  enhancement: 30
+  name: Procedural Rigor
+  references: ~
+- control: SA-8(31)
+  family: SA
+  number: 8
+  enhancement: 31
+  name: Secure System Modification
+  references: ~
+- control: SA-8(32)
+  family: SA
+  number: 8
+  enhancement: 32
+  name: Sufficient Documentation
+  references: ~
 - control: SA-9
   family: SA
   number: 9
   enhancement: ~
   name: External System Services
-  references: '[SP 800-35], 800-161.'
+  references: '[OMB A-130]; [SP 800-35]; [SP 800-160 v1]; [SP 800-161].'
 - control: SA-9(1)
   family: SA
   number: 9
@@ -3851,12 +4225,18 @@
   enhancement: 7
   name: Organization-Controlled Integrity Checking
   references: ~
+- control: SA-9(8)
+  family: SA
+  number: 9
+  enhancement: 8
+  name: Processing and Storage Location — U.S. Jurisdiction
+  references: ~
 - control: SA-10
   family: SA
   number: 10
   enhancement: ~
   name: Developer Configuration Management
-  references: '[FIPS 140-2], 180-4, 202; NIST Special Publication 800-128.'
+  references: '[FIPS 140-3]; [FIPS 180-4]; [FIPS 202]; [SP 800-128]; [SP 800-160 v1].'
 - control: SA-10(1)
   family: SA
   number: 10
@@ -3898,7 +4278,8 @@
   number: 11
   enhancement: ~
   name: Developer Testing and Evaluation
-  references: ISO/IEC 15408; [SP 800-30], 800-53A, 800-154.
+  references: '[ISO 15408-3]; [SP 800-30]; [SP 800-53A]; [SP 800-154]; [SP 800-160
+    v1].'
 - control: SA-11(1)
   family: SA
   number: 11
@@ -3947,92 +4328,18 @@
   enhancement: 8
   name: Dynamic Code Analysis
   references: ~
-- control: SA-12
+- control: SA-11(9)
   family: SA
-  number: 12
-  enhancement: ~
-  name: Supply Chain Risk Management
-  references: |
-    [FIPS 140-2], 180-4, 186-4, 202; [SP 800-30], 800-
-    161; NIST Interagency Report 7622.
-- control: SA-12(1)
-  family: SA
-  number: 12
-  enhancement: 1
-  name: Acquisition Strategies, Tools, and Methods
-  references: ~
-- control: SA-12(2)
-  family: SA
-  number: 12
-  enhancement: 2
-  name: Supplier Reviews
-  references: ~
-- control: SA-12(5)
-  family: SA
-  number: 12
-  enhancement: 5
-  name: Limitation of Harm
-  references: ~
-- control: SA-12(7)
-  family: SA
-  number: 12
-  enhancement: 7
-  name: Assessments Prior to Selection, Acceptance, and Update
-  references: ~
-- control: SA-12(8)
-  family: SA
-  number: 12
-  enhancement: 8
-  name: Use of All-Source Intelligence
-  references: ~
-- control: SA-12(9)
-  family: SA
-  number: 12
+  number: 11
   enhancement: 9
-  name: Operations Security
-  references: ~
-- control: SA-12(10)
-  family: SA
-  number: 12
-  enhancement: 10
-  name: Validate As Genuine and Not Altered
-  references: ~
-- control: SA-12(11)
-  family: SA
-  number: 12
-  enhancement: 11
-  name: Penetration Testing and Analysis
-  references: ~
-- control: SA-12(12)
-  family: SA
-  number: 12
-  enhancement: 12
-  name: Notification Agreements
-  references: ~
-- control: SA-12(14)
-  family: SA
-  number: 12
-  enhancement: 14
-  name: Identity and Traceability
-  references: ~
-- control: SA-12(15)
-  family: SA
-  number: 12
-  enhancement: 15
-  name: Processes to Address Weaknesses or Deficiencies
-  references: ~
-- control: SA-12(16)
-  family: SA
-  number: 12
-  enhancement: 16
-  name: Provenance
+  name: Interactive Application Security Testing
   references: ~
 - control: SA-15
   family: SA
   number: 15
   enhancement: ~
   name: Development Process, Standards, and Tools
-  references: None.
+  references: '[SP 800-160 v1]; [IR 8179].'
 - control: SA-15(1)
   family: SA
   number: 15
@@ -4087,6 +4394,12 @@
   enhancement: 11
   name: Archive System or Component
   references: ~
+- control: SA-15(12)
+  family: SA
+  number: 15
+  enhancement: 12
+  name: Minimize Personally Identifiable Information
+  references: ~
 - control: SA-16
   family: SA
   number: 16
@@ -4098,7 +4411,7 @@
   number: 17
   enhancement: ~
   name: Developer Security Architecture and Design
-  references: ISO/IEC 15408; NIST Special Publication 800-160.
+  references: '[ISO 15408-2]; [ISO 15408-3]; [SP 800-160 v1].'
 - control: SA-17(1)
   family: SA
   number: 17
@@ -4141,60 +4454,24 @@
   enhancement: 7
   name: Structure for Least Privilege
   references: ~
-- control: SA-18
+- control: SA-17(8)
   family: SA
-  number: 18
-  enhancement: ~
-  name: Tamper Resistance and Detection
-  references: None.
-- control: SA-18(1)
-  family: SA
-  number: 18
-  enhancement: 1
-  name: Multiple Phases of System Development Life Cycle
+  number: 17
+  enhancement: 8
+  name: Orchestration
   references: ~
-- control: SA-18(2)
+- control: SA-17(9)
   family: SA
-  number: 18
-  enhancement: 2
-  name: Inspection of Systems or Components
-  references: ~
-- control: SA-19
-  family: SA
-  number: 19
-  enhancement: ~
-  name: Component Authenticity
-  references: None.
-- control: SA-19(1)
-  family: SA
-  number: 19
-  enhancement: 1
-  name: Anti-Counterfeit Training
-  references: ~
-- control: SA-19(2)
-  family: SA
-  number: 19
-  enhancement: 2
-  name: Configuration Control for Component Service and Repair
-  references: ~
-- control: SA-19(3)
-  family: SA
-  number: 19
-  enhancement: 3
-  name: Component Disposal
-  references: ~
-- control: SA-19(4)
-  family: SA
-  number: 19
-  enhancement: 4
-  name: Anti-Counterfeit Scanning
+  number: 17
+  enhancement: 9
+  name: Design Diversity
   references: ~
 - control: SA-20
   family: SA
   number: 20
   enhancement: ~
   name: Customized Development of Critical Components
-  references: None.
+  references: '[SP 800-160 v1].'
 - control: SA-21
   family: SA
   number: 21
@@ -4206,52 +4483,36 @@
   number: 22
   enhancement: ~
   name: Unsupported System Components
-  references: |2
-        None.
-
-
-
-
-
-
-
-                    DEVELOPMENT OF SYSTEMS, COMPONENTS, AND SERVICES
-    With a renewed nation-wide emphasis on the use of trustworthy systems and supply chain
-    security, it is essential that organizations can express their security and privacy requirements
-    with clarity and specificity to engage industry and obtain the systems, components, and services
-    necessary for mission/business success. Accordingly, this publication provides a comprehensive
-    set of controls in the System and Services Acquisition (SA) family that address requirements for
-    the development of systems, components, and system services. To that end, many of the
-    controls in the SA family are directed at developers of those systems, components, and services.
-    It is important for organizations to recognize that the scope of the controls in that family includes
-    system, component, and service development and the developers associated with such
-    development whether the development is conducted either internally or externally by industry
-    partners (i.e., manufacturers, vendors, integrators) through the contracting and acquisition
-    processes. The affected controls in the control catalog include SA-8, SA-10, SA-11, SA-15, SA-16,
-    SA-17, SA-20, and SA-21.
-- control: SA-22(1)
+  references: None.
+- control: SA-23
   family: SA
-  number: 22
-  enhancement: 1
-  name: Alternative Sources for Continued Support
-  references: ~
+  number: 23
+  enhancement: ~
+  name: Specialization
+  references: '[SP 800-160 v1]; [SP 800-160 v2].'
 - control: SC-1
   family: SC
   number: 1
   enhancement: ~
-  name: System and Communications Protection Policy and Procedures
-  references: '[SP 800-12], 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-100].'
 - control: SC-2
   family: SC
   number: 2
   enhancement: ~
-  name: Application Partitioning
+  name: Separation of System and User Functionality
   references: None.
 - control: SC-2(1)
   family: SC
   number: 2
   enhancement: 1
   name: Interfaces for Non-Privileged Users
+  references: ~
+- control: SC-2(2)
+  family: SC
+  number: 2
+  enhancement: 2
+  name: Disassociability
   references: ~
 - control: SC-3
   family: SC
@@ -4306,12 +4567,12 @@
   number: 5
   enhancement: ~
   name: Denial of Service Protection
-  references: None.
+  references: '[SP 800-189].'
 - control: SC-5(1)
   family: SC
   number: 5
   enhancement: 1
-  name: Restrict Internal Users
+  name: Restrict Ability to Attack Other Systems
   references: ~
 - control: SC-5(2)
   family: SC
@@ -4330,13 +4591,14 @@
   number: 6
   enhancement: ~
   name: Resource Availability
-  references: None.
+  references: '[OMB M-08-05]; [DHS TIC].'
 - control: SC-7
   family: SC
   number: 7
   enhancement: ~
   name: Boundary Protection
-  references: FIPS Publication 199; [SP 800-41], 800-77.
+  references: '[OMB A-130]; [FIPS 199]; [SP 800-37]; [SP 800-41]; [SP 800-77]; [SP
+    800-189].'
 - control: SC-7(3)
   family: SC
   number: 7
@@ -4401,13 +4663,13 @@
   family: SC
   number: 7
   enhancement: 14
-  name: Protects Against Unauthorized Physical Connections
+  name: Protect Against Unauthorized Physical Connections
   references: ~
 - control: SC-7(15)
   family: SC
   number: 7
   enhancement: 15
-  name: Route Privileged Network Accesses
+  name: Networked Privileged Accesses
   references: ~
 - control: SC-7(16)
   family: SC
@@ -4463,14 +4725,44 @@
   enhancement: 24
   name: Personally Identifiable Information
   references: ~
+- control: SC-7(25)
+  family: SC
+  number: 7
+  enhancement: 25
+  name: Unclassified National Security Connections
+  references: ~
+- control: SC-7(26)
+  family: SC
+  number: 7
+  enhancement: 26
+  name: Classified National Security System Connections
+  references: ~
+- control: SC-7(27)
+  family: SC
+  number: 7
+  enhancement: 27
+  name: Unclassified Non-National Security System Connections
+  references: ~
+- control: SC-7(28)
+  family: SC
+  number: 7
+  enhancement: 28
+  name: Connections to Public Networks
+  references: ~
+- control: SC-7(29)
+  family: SC
+  number: 7
+  enhancement: 29
+  name: Separate Subnets to Isolate Functions
+  references: ~
 - control: SC-8
   family: SC
   number: 8
   enhancement: ~
   name: Transmission Confidentiality and Integrity
   references: |
-    [FIPS 140-2], 197; [SP 800-52], 800-77, 800-81,
-    800-113, 800-177; NIST Interagency Report 8023.
+    [FIPS 140-3]; [FIPS 197]; [SP 800-52]; [SP 800-77]; [SP 800-81-2]; [SP 800-113]; [SP
+    800-177]; [IR 8023].
 - control: SC-8(1)
   family: SC
   number: 8
@@ -4495,6 +4787,12 @@
   enhancement: 4
   name: Conceal or Randomize Communications
   references: ~
+- control: SC-8(5)
+  family: SC
+  number: 8
+  enhancement: 5
+  name: Protected Distribution System
+  references: ~
 - control: SC-10
   family: SC
   number: 10
@@ -4506,12 +4804,12 @@
   number: 11
   enhancement: ~
   name: Trusted Path
-  references: None.
+  references: '[OMB A-130].'
 - control: SC-11(1)
   family: SC
   number: 11
   enhancement: 1
-  name: Logical Isolation
+  name: Irrefutable Communications Path
   references: ~
 - control: SC-12
   family: SC
@@ -4519,8 +4817,8 @@
   enhancement: ~
   name: Cryptographic Key Establishment and Management
   references: |
-    [SP 800-56A], 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
-    3, 95663; [IR 7956], 7966.
+    [FIPS 140-3]; [SP 800-56A]; [SP 800-56B]; [SP 800-56C]; [SP 800-57-1]; [SP 800-57-2];
+    [SP 800-57-3]; [SP 800-63-3]; [IR 7956]; [IR 7966].
 - control: SC-12(1)
   family: SC
   number: 12
@@ -4539,12 +4837,18 @@
   enhancement: 3
   name: Asymmetric Keys
   references: ~
+- control: SC-12(6)
+  family: SC
+  number: 12
+  enhancement: 6
+  name: Physical Control of Keys
+  references: ~
 - control: SC-13
   family: SC
   number: 13
   enhancement: ~
   name: Cryptographic Protection
-  references: FIPS Publication 140-2.
+  references: '[FIPS 140-3].'
 - control: SC-15
   family: SC
   number: 15
@@ -4555,7 +4859,7 @@
   family: SC
   number: 15
   enhancement: 1
-  name: Physical Disconnect
+  name: Physical or Logical Disconnect
   references: ~
 - control: SC-15(3)
   family: SC
@@ -4574,25 +4878,31 @@
   number: 16
   enhancement: ~
   name: Transmission of Security and Privacy Attributes
-  references: None.
+  references: '[OMB A-130].'
 - control: SC-16(1)
   family: SC
   number: 16
   enhancement: 1
-  name: Integrity Validation
+  name: Integrity Verification
+  references: ~
+- control: SC-16(2)
+  family: SC
+  number: 16
+  enhancement: 2
+  name: Anti-Spoofing Mechanisms
   references: ~
 - control: SC-17
   family: SC
   number: 17
   enhancement: ~
   name: Public Key Infrastructure Certificates
-  references: '[SP 800-32], 800-57-1, 800-57-2, 800-57-3, 800-63.'
+  references: '[SP 800-32]; [SP 800-57-1]; [SP 800-57-2]; [SP 800-57-3]; [SP 800-63-3].'
 - control: SC-18
   family: SC
   number: 18
   enhancement: ~
   name: Mobile Code
-  references: NIST Special Publication 800-28.
+  references: '[SP 800-28].'
 - control: SC-18(1)
   family: SC
   number: 18
@@ -4623,18 +4933,12 @@
   enhancement: 5
   name: Allow Execution Only in Confined Environments
   references: ~
-- control: SC-19
-  family: SC
-  number: 19
-  enhancement: ~
-  name: Voice Over Internet Protocol
-  references: NIST Special Publication 800-58.
 - control: SC-20
   family: SC
   number: 20
   enhancement: ~
-  name: Secure Name/Address Resolution Service (Authoritative Source)
-  references: '[FIPS 140-2], 186-4; NIST Special Publication 800-81.'
+  name: Secure Name/Address Resolution Service
+  references: '[FIPS 140-3]; [FIPS 186-4]; [SP 800-81-2].'
 - control: SC-20(2)
   family: SC
   number: 20
@@ -4645,20 +4949,20 @@
   family: SC
   number: 21
   enhancement: ~
-  name: Secure Name/Address Resolution Service (Recursive or Caching Resolver)
-  references: NIST Special Publication 800-81.
+  name: Secure Name/Address Resolution Service
+  references: '[SP 800-81-2].'
 - control: SC-22
   family: SC
   number: 22
   enhancement: ~
-  name: Architecture and Provisioning for Name/Address Resolution Service
-  references: NIST Special Publication 800-81.
+  name: Architecture and Provisioning for
+  references: '[SP 800-81-2].'
 - control: SC-23
   family: SC
   number: 23
   enhancement: ~
   name: Session Authenticity
-  references: '[SP 800-52], 800-77, 800-95, 800-113.'
+  references: '[SP 800-52]; [SP 800-77]; [SP 800-95]; [SP 800-113].'
 - control: SC-23(1)
   family: SC
   number: 23
@@ -4669,7 +4973,7 @@
   family: SC
   number: 23
   enhancement: 3
-  name: Unique Session Identifiers With Randomization
+  name: Unique System-Generated Session Identifiers
   references: ~
 - control: SC-23(5)
   family: SC
@@ -4693,7 +4997,7 @@
   family: SC
   number: 26
   enhancement: ~
-  name: Honeypots
+  name: Decoys
   references: None.
 - control: SC-27
   family: SC
@@ -4707,8 +5011,8 @@
   enhancement: ~
   name: Protection of Information at Rest
   references: |
-    [SP 800-56A], 800-56B, 800-56C, 800-57-1, 800-57-2, 800-57-
-    3, 800-111, 800-124.
+    [OMB A-130]; [SP 800-56A]; [SP 800-56B]; [SP 800-56C]; [SP 800-57-1]; [SP 800-57-
+    2]; [SP 800-57-3]; [SP 800-111]; [SP 800-124].
 - control: SC-28(1)
   family: SC
   number: 28
@@ -4720,6 +5024,12 @@
   number: 28
   enhancement: 2
   name: Off-Line Storage
+  references: ~
+- control: SC-28(3)
+  family: SC
+  number: 28
+  enhancement: 3
+  name: Cryptographic Keys
   references: ~
 - control: SC-29
   family: SC
@@ -4792,7 +5102,13 @@
   number: 32
   enhancement: ~
   name: System Partitioning
-  references: FIPS Publication 199.
+  references: '[FIPS 199]; [IR 8179].'
+- control: SC-32(1)
+  family: SC
+  number: 32
+  enhancement: 1
+  name: Separate Physical Domains for Privileged Functions
+  references: ~
 - control: SC-34
   family: SC
   number: 34
@@ -4821,26 +5137,32 @@
   family: SC
   number: 35
   enhancement: ~
-  name: Honeyclients
+  name: External Malicious Code Identification
   references: None.
 - control: SC-36
   family: SC
   number: 36
   enhancement: ~
   name: Distributed Processing and Storage
-  references: None.
+  references: '[SP 800-160 v2].'
 - control: SC-36(1)
   family: SC
   number: 36
   enhancement: 1
   name: Polling Techniques
   references: ~
+- control: SC-36(2)
+  family: SC
+  number: 36
+  enhancement: 2
+  name: Synchronization
+  references: ~
 - control: SC-37
   family: SC
   number: 37
   enhancement: ~
   name: Out-of-Band Channels
-  references: NIST Special Publication 800-57-1, 800-57-2, 800-57-3.
+  references: '[SP 800-57-1]; [SP 800-57-2]; [SP 800-57-3].'
 - control: SC-37(1)
   family: SC
   number: 37
@@ -4858,7 +5180,7 @@
   number: 39
   enhancement: ~
   name: Process Isolation
-  references: None.
+  references: '[SP 800-160 v1].'
 - control: SC-39(1)
   family: SC
   number: 39
@@ -4869,7 +5191,7 @@
   family: SC
   number: 39
   enhancement: 2
-  name: Thread Isolation
+  name: Separate Execution Domain Per Thread
   references: ~
 - control: SC-40
   family: SC
@@ -4912,7 +5234,7 @@
   number: 42
   enhancement: ~
   name: Sensor Capability and Data
-  references: NIST Special Publication 800-124.
+  references: '[OMB A-130]; [SP 800-124].'
 - control: SC-42(1)
   family: SC
   number: 42
@@ -4948,27 +5270,74 @@
   number: 43
   enhancement: ~
   name: Usage Restrictions
-  references: NIST Special Publication 800-124.
+  references: '[OMB A-130]; [SP 800-124].'
 - control: SC-44
   family: SC
   number: 44
   enhancement: ~
   name: Detonation Chambers
-  references: NIST Special Publication 800-177.
+  references: '[SP 800-177].'
+- control: SC-45
+  family: SC
+  number: 45
+  enhancement: ~
+  name: System Time Synchronization
+  references: None.
+- control: SC-46
+  family: SC
+  number: 46
+  enhancement: ~
+  name: Cross Domain Policy Enforcement
+  references: '[SP 800-160 v1].'
+- control: SC-47
+  family: SC
+  number: 47
+  enhancement: ~
+  name: Communications Path Diversity
+  references: '[SP 800-34]; [SP 800-61]; [SP 800-160 v2].'
+- control: SC-48
+  family: SC
+  number: 48
+  enhancement: ~
+  name: Sensor Relocation
+  references: '[SP 800-160 v2].'
+- control: SC-48(1)
+  family: SC
+  number: 48
+  enhancement: 1
+  name: Dynamic Relocation of Sensors or Monitoring Capabilities
+  references: ~
+- control: SC-49
+  family: SC
+  number: 49
+  enhancement: ~
+  name: Hardware-Enforced Separation and Policy Enforcement
+  references: '[SP 800-160 v1].'
+- control: SC-50
+  family: SC
+  number: 50
+  enhancement: ~
+  name: Software-Enforced Separation and Policy Enforcement
+  references: '[SP 800-160 v1].'
+- control: SC-51
+  family: SC
+  number: 51
+  enhancement: ~
+  name: Operational and Internet-Based Technologies
+  references: '[SP 800-160 v1].'
 - control: SI-1
   family: SI
   number: 1
   enhancement: ~
-  name: System and Information Integrity Policy and Procedures
-  references: '[SP 800-12], 800-100.'
+  name: Policy and Procedures
+  references: '[OMB A-130]; [SP 800-12]; [SP 800-100].'
 - control: SI-2
   family: SI
   number: 2
   enhancement: ~
   name: Flaw Remediation
-  references: |
-    [FIPS 140-2], 186-4; [SP 800-40], 800-128; NIST
-    Interagency Report 7788.
+  references: '[OMB A-130]; [FIPS 140-3]; [FIPS 186-4]; [SP 800-40]; [SP 800-128];
+    [IR 7788].'
 - control: SI-2(1)
   family: SI
   number: 2
@@ -4987,6 +5356,12 @@
   enhancement: 3
   name: Time to Remediate Flaws and Benchmarks for Corrective Actions
   references: ~
+- control: SI-2(4)
+  family: SI
+  number: 2
+  enhancement: 4
+  name: Automated Patch Management Tools
+  references: ~
 - control: SI-2(5)
   family: SI
   number: 2
@@ -4999,18 +5374,12 @@
   enhancement: 6
   name: Removal of Previous Versions of Software and Firmware
   references: ~
-- control: SI-2(7)
-  family: SI
-  number: 2
-  enhancement: 7
-  name: Personally Identifiable Information
-  references: ~
 - control: SI-3
   family: SI
   number: 3
   enhancement: ~
   name: Malicious Code Protection
-  references: NIST Special Publication 800-83, 800-125B, 800-177.
+  references: '[SP 800-83]; [SP 800-125B]; [SP 800-177].'
 - control: SI-3(1)
   family: SI
   number: 3
@@ -5052,7 +5421,8 @@
   number: 4
   enhancement: ~
   name: System Monitoring
-  references: '[SP 800-61], 800-83, 800-92, 800-94, 800-137.'
+  references: '[OMB A-130]; [SP 800-61]; [SP 800-83]; [SP 800-92]; [SP 800-94]; [SP
+    800-137].'
 - control: SI-4(1)
   family: SI
   number: 4
@@ -5153,7 +5523,7 @@
   family: SI
   number: 4
   enhancement: 19
-  name: Individuals Posing Greater Risk
+  name: Risk for Individuals
   references: ~
 - control: SI-4(20)
   family: SI
@@ -5189,14 +5559,14 @@
   family: SI
   number: 4
   enhancement: 25
-  name: Personally Identifiable Information Monitoring
+  name: Optimize Network Traffic Analysis
   references: ~
 - control: SI-5
   family: SI
   number: 5
   enhancement: ~
   name: Security Alerts, Advisories, and Directives
-  references: NIST Special Publication 800-40.
+  references: '[SP 800-40].'
 - control: SI-5(1)
   family: SI
   number: 5
@@ -5208,7 +5578,7 @@
   number: 6
   enhancement: ~
   name: Security and Privacy Function Verification
-  references: None.
+  references: '[OMB A-130].'
 - control: SI-6(2)
   family: SI
   number: 6
@@ -5227,8 +5597,8 @@
   enhancement: ~
   name: Software, Firmware, and Information Integrity
   references: |
-    [FIPS 140-2], 180-4, 186-4, 202; [SP 800-70], 800-
-    147.
+    [OMB A-130]; [FIPS 140-3]; [FIPS 180-4]; [FIPS 186-4]; [FIPS 202]; [SP 800-70]; [SP
+    800-147].
 - control: SI-7(1)
   family: SI
   number: 7
@@ -5283,29 +5653,11 @@
   enhancement: 10
   name: Protection of Boot Firmware
   references: ~
-- control: SI-7(11)
-  family: SI
-  number: 7
-  enhancement: 11
-  name: Confined Environments With Limited Privileges
-  references: ~
 - control: SI-7(12)
   family: SI
   number: 7
   enhancement: 12
   name: Integrity Verification
-  references: ~
-- control: SI-7(13)
-  family: SI
-  number: 7
-  enhancement: 13
-  name: Code Execution in Protected Environments
-  references: ~
-- control: SI-7(14)
-  family: SI
-  number: 7
-  enhancement: 14
-  name: Binary or Machine Executable Code
   references: ~
 - control: SI-7(15)
   family: SI
@@ -5319,12 +5671,18 @@
   enhancement: 16
   name: Time Limit on Process Execution Without Supervision
   references: ~
+- control: SI-7(17)
+  family: SI
+  number: 7
+  enhancement: 17
+  name: Runtime Application Self-Protection
+  references: ~
 - control: SI-8
   family: SI
   number: 8
   enhancement: ~
   name: Spam Protection
-  references: '[SP 800-45], 800-177.'
+  references: '[SP 800-45]; [SP 800-177].'
 - control: SI-8(1)
   family: SI
   number: 8
@@ -5348,7 +5706,7 @@
   number: 10
   enhancement: ~
   name: Information Input Validation
-  references: NIST Special Publication 800-167.
+  references: '[OMB A-130, Appendix II].'
 - control: SI-10(1)
   family: SI
   number: 10
@@ -5379,6 +5737,12 @@
   enhancement: 5
   name: Restrict Inputs to Trusted Sources and Approved Formats
   references: ~
+- control: SI-10(6)
+  family: SI
+  number: 10
+  enhancement: 6
+  name: Injection Prevention
+  references: ~
 - control: SI-11
   family: SI
   number: 11
@@ -5390,19 +5754,24 @@
   number: 12
   enhancement: ~
   name: Information Management and Retention
-  references: NIST SP 800-188.
+  references: '[OMB A-130, Appendix II].'
 - control: SI-12(1)
   family: SI
   number: 12
   enhancement: 1
-  name: Limit Personally Identifiable Information Elements in Testing, Training, and
-    Research
+  name: Limit Personally Identifiable Information Elements
   references: ~
 - control: SI-12(2)
   family: SI
   number: 12
   enhancement: 2
-  name: Minimize Personally Identifiable Information
+  name: Minimize Personally Identifiable Information in Testing, Training, and Research
+  references: ~
+- control: SI-12(3)
+  family: SI
+  number: 12
+  enhancement: 3
+  name: Information Disposal
   references: ~
 - control: SI-13
   family: SI
@@ -5446,18 +5815,24 @@
   enhancement: 1
   name: Refresh From Trusted Sources
   references: ~
+- control: SI-14(2)
+  family: SI
+  number: 14
+  enhancement: 2
+  name: Non-Persistent Information
+  references: ~
+- control: SI-14(3)
+  family: SI
+  number: 14
+  enhancement: 3
+  name: Non-Persistent Connectivity
+  references: ~
 - control: SI-15
   family: SI
   number: 15
   enhancement: ~
   name: Information Output Filtering
   references: None.
-- control: SI-15(1)
-  family: SI
-  number: 15
-  enhancement: 1
-  name: Limit Personally Identifiable Information Dissemination
-  references: ~
 - control: SI-16
   family: SI
   number: 16
@@ -5474,83 +5849,265 @@
   family: SI
   number: 18
   enhancement: ~
-  name: Information Disposal
-  references: None.
+  name: Personally Identifiable Information Quality Operations
+  references: '[SP 800-188].'
+- control: SI-18(1)
+  family: SI
+  number: 18
+  enhancement: 1
+  name: Automation
+  references: ~
+- control: SI-18(2)
+  family: SI
+  number: 18
+  enhancement: 2
+  name: Data Tags
+  references: ~
+- control: SI-18(3)
+  family: SI
+  number: 18
+  enhancement: 3
+  name: Collection
+  references: ~
+- control: SI-18(4)
+  family: SI
+  number: 18
+  enhancement: 4
+  name: Individual Requests
+  references: ~
+- control: SI-18(5)
+  family: SI
+  number: 18
+  enhancement: 5
+  name: Notice of Collection or Deletion
+  references: ~
 - control: SI-19
   family: SI
   number: 19
   enhancement: ~
-  name: Data Quality Operations
-  references: NIST Special Publication 800-188.
+  name: De-Identification
+  references: '[OMB A-130, Appendix II]; [SP 800-188].'
 - control: SI-19(1)
   family: SI
   number: 19
   enhancement: 1
-  name: Updating and Correcting Personally Identifiable Information
+  name: Collection
   references: ~
 - control: SI-19(2)
   family: SI
   number: 19
   enhancement: 2
-  name: Data Tags
+  name: Archiving
   references: ~
 - control: SI-19(3)
   family: SI
   number: 19
   enhancement: 3
-  name: Personally Identifiable Information Collection
+  name: Release
+  references: ~
+- control: SI-19(4)
+  family: SI
+  number: 19
+  enhancement: 4
+  name: Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers
+  references: ~
+- control: SI-19(5)
+  family: SI
+  number: 19
+  enhancement: 5
+  name: Statistical Disclosure Control
+  references: ~
+- control: SI-19(6)
+  family: SI
+  number: 19
+  enhancement: 6
+  name: Differential Privacy
+  references: ~
+- control: SI-19(7)
+  family: SI
+  number: 19
+  enhancement: 7
+  name: Validated Software
+  references: ~
+- control: SI-19(8)
+  family: SI
+  number: 19
+  enhancement: 8
+  name: Motivated Intruder
   references: ~
 - control: SI-20
   family: SI
   number: 20
   enhancement: ~
-  name: De-Identification
-  references: NIST Special Publication 800-188.
-- control: SI-20(1)
+  name: Tainting
+  references: '[OMB A-130, Appendix II]; [SP 800-160 v2].'
+- control: SI-21
   family: SI
-  number: 20
+  number: 21
+  enhancement: ~
+  name: Information Refresh
+  references: '[OMB A-130]; [SP 800-160 v2].'
+- control: SI-22
+  family: SI
+  number: 22
+  enhancement: ~
+  name: Information Diversity
+  references: '[SP 800-160 v2].'
+- control: SI-23
+  family: SI
+  number: 23
+  enhancement: ~
+  name: Information Fragmentation
+  references: '[SP 800-160 v2].'
+- control: SR-1
+  family: SR
+  number: 1
+  enhancement: ~
+  name: Policy and Procedures
+  references: '[SP 800-12]; [SP 800-30]; [SP 800-39]; [SP 800-100]; [SP 800-161].'
+- control: SR-2
+  family: SR
+  number: 2
+  enhancement: ~
+  name: Supply Chain Risk Management Plan
+  references: '[SP 800-30]; [SP 800-39]; [SP-800-160 v1]; [SP 800-161]; [IR 7622].'
+- control: SR-2(1)
+  family: SR
+  number: 2
   enhancement: 1
-  name: Collection
+  name: Establish Scrm Team
   references: ~
-- control: SI-20(2)
-  family: SI
-  number: 20
+- control: SR-3
+  family: SR
+  number: 3
+  enhancement: ~
+  name: Supply Chain Controls and Processes
+  references: '[SP 800-30]; [SP 800-161]; [IR 7622].'
+- control: SR-3(1)
+  family: SR
+  number: 3
+  enhancement: 1
+  name: Diverse Supply Base
+  references: ~
+- control: SR-3(2)
+  family: SR
+  number: 3
   enhancement: 2
-  name: Archiving
+  name: Limitation of Harm
   references: ~
-- control: SI-20(3)
-  family: SI
-  number: 20
+- control: SR-4
+  family: SR
+  number: 4
+  enhancement: ~
+  name: Provenance
+  references: '[SP 800-161]; [IR 7622].'
+- control: SR-4(1)
+  family: SR
+  number: 4
+  enhancement: 1
+  name: Identity
+  references: ~
+- control: SR-4(2)
+  family: SR
+  number: 4
+  enhancement: 2
+  name: Track and Trace
+  references: ~
+- control: SR-4(3)
+  family: SR
+  number: 4
   enhancement: 3
-  name: Release
+  name: Validate As Genuine and Not Altered
   references: ~
-- control: SI-20(4)
-  family: SI
-  number: 20
+- control: SR-5
+  family: SR
+  number: 5
+  enhancement: ~
+  name: Acquisition Strategies, Tools, and Methods
+  references: '[SP 800-30]; [SP 800-161]; [IR 7622].'
+- control: SR-5(1)
+  family: SR
+  number: 5
+  enhancement: 1
+  name: Adequate Supply
+  references: ~
+- control: SR-5(2)
+  family: SR
+  number: 5
+  enhancement: 2
+  name: Assessments Prior to Selection, Acceptance, Modification, or Update
+  references: ~
+- control: SR-6
+  family: SR
+  number: 6
+  enhancement: ~
+  name: Supplier Reviews
+  references: |
+    [FIPS 140-3]; [FIPS 180-4]; [FIPS 186-4]; [FIPS 202]; [SP 800-30]; [SP 800-161]; [IR
+    7622].
+- control: SR-6(1)
+  family: SR
+  number: 6
+  enhancement: 1
+  name: Penetration Testing and Analysis
+  references: ~
+- control: SR-7
+  family: SR
+  number: 7
+  enhancement: ~
+  name: Supply Chain Operations Security
+  references: '[SP 800-30]; [SP 800-161]; [IR 7622].'
+- control: SR-8
+  family: SR
+  number: 8
+  enhancement: ~
+  name: Notification Agreements
+  references: '[SP 800-30]; [SP 800-161]; [IR 7622].'
+- control: SR-9
+  family: SR
+  number: 9
+  enhancement: ~
+  name: Tamper Resistance and Detection
+  references: None.
+- control: SR-9(1)
+  family: SR
+  number: 9
+  enhancement: 1
+  name: Multiple Stages of System Development Life Cycle
+  references: ~
+- control: SR-10
+  family: SR
+  number: 10
+  enhancement: ~
+  name: Inspection of Systems or Components
+  references: None.
+- control: SR-11
+  family: SR
+  number: 11
+  enhancement: ~
+  name: Component Authenticity
+  references: None.
+- control: SR-11(1)
+  family: SR
+  number: 11
+  enhancement: 1
+  name: Anti-Counterfeit Training
+  references: ~
+- control: SR-11(2)
+  family: SR
+  number: 11
+  enhancement: 2
+  name: Configuration Control for Component Service and Repair
+  references: ~
+- control: SR-11(3)
+  family: SR
+  number: 11
+  enhancement: 3
+  name: Component Disposal
+  references: ~
+- control: SR-11(4)
+  family: SR
+  number: 11
   enhancement: 4
-  name: Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers
-  references: ~
-- control: SI-20(5)
-  family: SI
-  number: 20
-  enhancement: 5
-  name: Statistical Disclosure Control
-  references: ~
-- control: SI-20(6)
-  family: SI
-  number: 20
-  enhancement: 6
-  name: Differential Privacy
-  references: ~
-- control: SI-20(7)
-  family: SI
-  number: 20
-  enhancement: 7
-  name: Validated Software
-  references: ~
-- control: SI-20(8)
-  family: SI
-  number: 20
-  enhancement: 8
-  name: Motivated Intruder
+  name: Anti-Counterfeit Scanning
   references: ~
